@@ -43,7 +43,6 @@ PLATFORMS
 DEPENDENCIES
   coveralls
   rspec
-  simplecov
 
 BUNDLED WITH
    2.1.4
