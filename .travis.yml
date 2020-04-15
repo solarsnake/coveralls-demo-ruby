@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.6.3
+
+branches:
+  only:
+  - travis
+  except:
+  - master
+
+script:
+  - bundle exec rspec
+
+notifications:
+  email: false
