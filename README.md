@@ -26,8 +26,7 @@ You've gotten this far. Given that, we can assume:
   <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>, <a href="https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls">here</a>, and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI service / branch</a>.</dd>
 </dl>
 
-# Travis CI & 
-Coveralls
+# Travis CI & Coveralls
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). 
 
