@@ -46,3 +46,7 @@ WIP
 ## 4. Add a `.coveralls.yml`
 
 WIP
+
+# To Do:
+* Add Travis logo
+* Add Coveralls logo
