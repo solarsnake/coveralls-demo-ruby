@@ -32,9 +32,9 @@ We'll set up this project to do exactly that, with these five (5) steps:
 4. Configure this project to use Coveralls
 5. Verify expected code coverage with Coveralls
 
-Before we start sending coverage results to [Coveralls](http://coveralls.io), let's first understand the nature the test coverage in this demo project.
-
 ## 1. Understand test coverage in this project
+
+Before we start sending coverage results to [Coveralls](http://coveralls.io), let's first understand the nature the test coverage in this demo project.
 
 This is the totality of the code in this project:
 
