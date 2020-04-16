@@ -1,11 +1,14 @@
 # coveralls-ruby-demo
 
-[Coveralls](http://coveralls.io) demo project, using:
+Coveralls demo project, using:
 
-* Language: [Ruby](https://www.ruby-lang.org/) 
-* Test Suite(s): [Rspec](https://rspec.info/) 
-* Code Coverage Library: [Simplecov](https://github.com/colszowka/simplecov)
-* SCM Service: [GitHub](https://github.com/)
+* [Ruby](https://www.ruby-lang.org/) - Language
+* [Rspec](https://rspec.info/) - Testing Library
+* [Simplecov](https://github.com/colszowka/simplecov) - Code Coverage Library
+
+And:
+
+* [GitHub](https://github.com/) - SCM Service
 
 ### How to run it:
 
