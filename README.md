@@ -135,3 +135,17 @@ And now, if we click on `lib/class_one.rb` we see:
 ![100% Coverage - File View](../media/media/coverage_100_percent_file.png?raw=true)
 
 Five (5) out of five (5) relevant lines are now covered, resulting in 100% coverage for the file, which means 100% coverage for our one-file project.
+
+## Next steps
+
+Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send coverage results to [Coveralls](http://coveralls.io).
+
+Once we're sending those results, we'll be able to test our first expectation, test coverage at 80%, and then after a second commit, uncommenting our second test, we can test our next expectation, test coverage 100%.
+
+So let's configure out project to send to [Coveralls](http://coveralls.io):
+
+## Configuring this project for Coveralls
+
+WIP
+
+
