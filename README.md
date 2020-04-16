@@ -13,7 +13,7 @@ bundle install
 bundle exec rspec
 ```
 
-### Test coverage
+## Test coverage
 
 [Coveralls](http://coveralls.io) is a web service that sends code coverage reports to a shared workspace so you and your team members can track your projects' code coverage over time. It is language- and CI-agnostic, but it lets you control whether your builds pass or fail based on code coverage metrics that you set.
 
@@ -62,7 +62,7 @@ end
 
 Notice that right now, only one of the methods in `ClassOne` are being tested.
 
-### Running tests for the first time
+## Running tests for the first time
 
 Let's run the test suite for the first time and see what the results are:
 
@@ -86,7 +86,7 @@ Where you'll notice covered lines in green, and uncovered lines in red.
 
 One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage. In our case, 4/5 lines are covered, indicating 80% coverage.
 
-### Add tests and see coverage change
+## Add tests and see coverage change
 
 Now let's add more tests and see how coverage changes. 
 
