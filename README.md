@@ -20,7 +20,7 @@ You've gotten this far. Given that, we can assume:
 
 2. You've chosen Travis CI as your CI Service. 
 
-   ###### If not, head back to the [master README](https://github.com/afinetooth/coveralls-demo-ruby), [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and [choose a different CI service / branch](https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use).
+   ###### If not, head back to the [master README](https://github.com/afinetooth/coveralls-demo-ruby), [here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and [choose a different CI service / branch](https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use).
 
 # Coveralls & Travis CI
 
