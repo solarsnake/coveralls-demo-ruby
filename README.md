@@ -8,6 +8,9 @@ Coveralls demo project, using:
 * Test Suite(s): [Rspec](https://rspec.info/) 
 * Code Coverage Library: [Simplecov](https://github.com/colszowka/simplecov)
 * SCM Service: [GitHub](https://github.com/)
+
+And new elements:
+
 * CI Service: [Travis CI](https://travis-ci.com/)
 * Test Coverage Service: [Coveralls](https://coveralls.io/)
 
