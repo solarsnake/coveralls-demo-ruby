@@ -90,7 +90,7 @@ One might expect the coverage results here to be 50%, given that `ClassOne` has 
 
 Now let's add more tests and see how coverage changes. 
 
-To "add tests," we'll simply un-comment the test of the second method in `ClassOne` (`uncovered`):
+To "add" tests, we'll simply un-comment the test of the second method in `ClassOne`:
 
 ```ruby
 require 'spec_helper'
