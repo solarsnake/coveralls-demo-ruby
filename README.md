@@ -76,7 +76,7 @@ The first results should look like this:
 
 ![80% Coverage - Index View](../media/media/coverage_80_percent_index.png)
 
-Where coverage stands at 80% for one file, `lib/class_one.rb`.
+Where coverage stands at 80% for the entire project.
 
 Clicking on `lib/class_one.rb` brings up results for the file:
 
@@ -84,13 +84,13 @@ Clicking on `lib/class_one.rb` brings up results for the file:
 
 Where you'll notice covered lines in green, and uncovered lines in red.
 
-One might expect the coverage results here to be 50%, since `ClassOne` has two (2) methods, where one method is covered by tests (`covered`) and the other method (`uncovered`) is not. However, that's not how it works. Instead, Simplecov counts relevant lines in each file and compares the number of covered to uncovered lines to determine it's coverage percentage. In our case, 4/5 lines are covered, indicating 80% coverage.
+One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage. In our case, 4/5 lines are covered, indicating 80% coverage.
 
 ### Add tests and see coverage change
 
-Now let's add some tests and see how coverage changes. 
+Now let's add more tests and see how coverage changes. 
 
-To add tests, we're simply going to un-comment the test of the second method in `spec/class_one_spec.rb`:
+To "add tests," we'll simply un-comment the test of the second method in `ClassOne` (`uncovered`):
 
 ```ruby
 require 'spec_helper'
@@ -113,22 +113,22 @@ describe ClassOne do
 end
 ```
 
-Then we'll run the test suite again:
+Then run the test suite again:
 
 ```
 bundle exec rspec
 ```
 
-Then, let's open up the HTML-based results at `coverage/index.html`.
+And open the new results at `coverage/index.html`.
 
-Here's how they look now:
+Here's how things look now:
 
 ![100% Coverage - Index View](../media/media/coverage_100_percent_index.png?raw=true)
 
 Notice coverage has increased from 80% to 100% (and turned green).
 
-And now, if we click on `lib/class_one.rb` we'll see:
+And now, if we click on `lib/class_one.rb` we see:
 
 ![100% Coverage - File View](../media/media/coverage_100_percent_file.png?raw=true)
 
-Five (5) out of five (5) relvant lines are now covered, resulting in 100% coverage for the file, and 100% coverage for our one-file project.
+Five (5) out of five (5) relevant lines are now covered, resulting in 100% coverage for the file, which means 100% coverage for our one-file project.
