@@ -7,10 +7,10 @@ Coveralls demo project, using:
 * [Ruby](https://www.ruby-lang.org/) - Language
 * [Rspec](https://rspec.info/) - Test Suite
 * [Simplecov](https://github.com/colszowka/simplecov) - Code Coverage Library
+
+And:
+
 * [GitHub](https://github.com/) - SCM Service
-
-And new elements:
-
 * [Travis CI](https://travis-ci.com/) - CI Service
 * [Coveralls](https://coveralls.io/) - Test Coverage Service
 
