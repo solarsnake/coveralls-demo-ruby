@@ -26,7 +26,7 @@ You've gotten this far. Given that, we can assume:
 
 This project is configured to send test coverage results to Coveralls through Travis CI. 
 
-Here's how it was done:
+Here's how it's done:
 
 ## Travis config steps
 
