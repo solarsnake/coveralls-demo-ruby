@@ -138,7 +138,7 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 
 ## 3. Add tests and see coverage change
 
-Now let's add more tests and see how coverage changes. 
+Now, let's add more tests and see how coverage changes. 
 
 To "add" tests, simply un-comment the test of the second method in `ClassOne`:
 
@@ -185,13 +185,13 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ## 4. Configure this project to use Coveralls
 
+Finally, let's configure this project to user [Coveralls](http://coveralls.io).
+
 Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
 
 ###### Technically speaking, there are other ways to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos [here](https://coveralls.io/api/docs), and about posting coverage results to those repos [here](https://docs.coveralls.io/api-reference).
 
-### Which CI Service will you use?
-
-Procedures for configuring each CI Service are different enough that it makes sense to start branching this project. 
+### Which CI Service will you use? 
 
 Follow the branch for your CI service and we'll pick up the conversation there:
 
