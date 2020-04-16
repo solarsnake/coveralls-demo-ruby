@@ -184,9 +184,7 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send coverage results to [Coveralls](http://coveralls.io).
 
-Once we do that, we'll be able to verify our same expectations, but this time through Coveralls: first, 80% coverage, then 100% coverage.
-
-(We'll get a cool badge and everything; it'll be great.)
+Once we do that, we'll be able to verify our same expectations, but this time through Coveralls: first, 80% coverage, then 100% coverage. (We'll get a cool badge and everything; it'll be great.)
  
 Now's a good time to understand the next factor that affects how you'll want to configure your project: __CI Service__
 
