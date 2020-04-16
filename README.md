@@ -42,7 +42,9 @@ We'll set up this project to do exactly that, with these five (5) steps:
 ## 1. Understand test coverage in this project
 
 <details>
-  <summary>Before we start sending coverage results to <a href="http://coveralls.io">Coveralls</a>, let's first understand the nature the test coverage in this demo project.</summary>
+  <summary>Before we start sending coverage results to <a href="http://coveralls.io">Coveralls</a>, let's first understand the nature the test coverage in this demo project.
+  
+  </summary>
 
 
 This is the totality of the code in this project:
