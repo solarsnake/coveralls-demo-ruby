@@ -41,13 +41,13 @@ The command `bundle exec rspec` runs the [Rspec](https://rspec.info/) test suite
 
 The first results should look like this:
 
-![alt text](../media/coverage_80_percent_index.png?raw=true)
+![80% Coverage - Index View](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/coverage_80_percent_index.png)
 
 Where coverage stands at 80% for one file, `lib/class_one.rb`.
 
 Clicking on `lib/class_one.rb` brings up results for the file:
 
-![alt text](../media/coverage_80_percent_file.png?raw=true)
+![80% Coverage - File View](../media/coverage_80_percent_file.png?raw=true)
 
 Where you'll notice covered lines in green, and uncovered lines in red.
 
@@ -73,12 +73,12 @@ Then, let's open up the HTML-based results at `coverage/index.html`.
 
 Here's how they look now:
 
-![alt text](../media/coverage_100_percent_index.png?raw=true)
+![100% Coverage - Index View](../media/coverage_100_percent_index.png?raw=true)
 
 Notice coverage has increased from 80% to 100% (and turned green).
 
 And now, if we click on `lib/class_one.rb` we'll see:
 
-![alt text](../media/coverage_100_percent_file.png?raw=true)
+![100% Coverage - File View](../media/coverage_100_percent_file.png?raw=true)
 
 Five (5) out of five (5) relvant lines are now covered, resulting in 100% coverage for the file, and 100% coverage for our one-file project.
