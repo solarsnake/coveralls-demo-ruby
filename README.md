@@ -137,7 +137,7 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 
 Now let's add more tests and see how coverage changes. 
 
-To "add" tests, we'll simply un-comment the test of the second method in `ClassOne`:
+To "add" tests, simply un-comment the test of the second method in `ClassOne`:
 
 ```ruby
 require 'spec_helper'
@@ -182,9 +182,9 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ## 4. Configure this project to use Coveralls
 
-Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send test coverage results to [Coveralls](http://coveralls.io).
+Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send coverage results to [Coveralls](http://coveralls.io).
 
-Once we do that, we'll be able to verify our same expectations, but this time through Coveralls; first, 80% coverage, and then, 100% coverage.
+Once we do that, we'll be able to verify our same expectations, but this time through Coveralls: first, 80% coverage, then 100% coverage.
  
 Now's a good time to understand the next factor that affects how you'll want to configure your project: __CI Service__
 
