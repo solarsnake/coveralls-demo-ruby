@@ -23,14 +23,41 @@ Before we send coverage results to [Coveralls](http://coveralls.io), let's first
 
 This is the totality of the code in this project:
 
-```
-Code here.
+```ruby
+class ClassOne
+
+  def self.covered
+    "covered"
+  end
+
+  def self.uncovered
+    "uncovered"
+  end
+
+end
 ```
 
 And these are the tests:
 
-```
-Code here.
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  # describe "uncovered" do
+  #   it "returns 'uncovered'" do
+  #     expect(ClassOne.uncovered).to eql("uncovered")
+  #   end
+  # end
+end
 ```
 
 Notice that right now, only one of the methods in `ClassOne` are being tested.
@@ -65,8 +92,25 @@ Now let's add some tests and see how coverage changes.
 
 To add tests, we're simply going to un-comment the test of the second method in `spec/class_one_spec.rb`:
 
-```
-Code here.
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  describe "uncovered" do
+    it "returns 'uncovered'" do
+      expect(ClassOne.uncovered).to eql("uncovered")
+    end
+  end
+end
 ```
 
 Then we'll run the test suite again:
