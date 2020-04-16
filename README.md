@@ -41,9 +41,11 @@ We'll set up this project to do exactly that, with these four (4) steps:
 ## 1. Understand test coverage in this project
 
 <details>
-  <summary>Before we start sending coverage results to <a href="http://coveralls.io">Coveralls</a>, let's first understand the nature the test coverage in this demo project.</summary>
+  <summary>Do it:</summary>
 
 ---
+
+Before we start sending coverage results to <a href="http://coveralls.io">Coveralls</a>, let's first understand the nature the test coverage in this demo project.
 
 This is the totality of the code in this project:
 
@@ -90,9 +92,11 @@ Notice that right now, only one of the two methods in `ClassOne` is being tested
 ## 2. Run tests for the first time
 
 <details>
-  <summary>Let's run the test suite for the first time and see what the results are.</summary>
+  <summary>Do it:</summary>
 
 ---
+
+Let's run the test suite for the first time and see what the results are.
 
 If you haven't already, go ahead and clone the project down to your local machine:
 
@@ -146,9 +150,11 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 ## 3. Add tests and see coverage change
 
 <details>
-  <summary>Now, let's add more tests and see how coverage changes.</summary>
+  <summary>Do it:</summary>
 
 ---
+
+Now, let's add more tests and see how coverage changes.
 
 To "add" tests, simply un-comment the test of the second method in `ClassOne`:
 
@@ -197,9 +203,11 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 ## 4. Configure this project to use Coveralls
 
 <details>
-  <summary>Now that we understand how code coverage works in this project, let's configure it to use <a href="http://coveralls.io">Coveralls</a>.</summary>
+  <summary>Do it:</summary>
 
 ---
+
+Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).
 
 Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
 
