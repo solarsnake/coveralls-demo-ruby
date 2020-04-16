@@ -185,26 +185,19 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ## 4. Configure this project to use Coveralls
 
-Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send coverage results to [Coveralls](http://coveralls.io).
+Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
 
-Once we do that, we'll be able to verify our same expectations, but this time through Coveralls: first, 80% coverage, then 100% coverage. (We'll get a cool badge and everything; it'll be great.)
- 
-Now's a good time to understand the next factor that affects how you'll want to configure your project: __CI Service__
+###### Technically speaking, there are other way to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, directly through their API. That's not the subject of this README, but to find out more about that, see the [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos at Coveralls [here](https://coveralls.io/api/docs), and find out how to post new coverage results to those repos [here](https://docs.coveralls.io/api-reference).
 
 ### Which CI Service will you use?
 
 [Explain CI & CI Services for beginners]
 
-Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
+Procedures for configuring each CI Service are different enough that it makes sense to start branching this project. 
 
-Technically speaking, there are other way to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, directly through their API. That's not the subject of this README, but to find out more about that, see the [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos at Coveralls [here](https://coveralls.io/api/docs), and find out how to post new coverage results to those repos [here](https://docs.coveralls.io/api-reference).
-
-Procedures for configuring each CI Service are different enough that it makes sense to start branching this project. Each new branch will contain a different configuration for a different CI Service, and sometimes for different scenarios at each service.
-
-If you already know your CI Service, or once you've chosen one, simply follow the branch for that service and we'll pick up the conversation there:
+Follow the branch for your CI service and we'll pick up the conversation there:
 
 1. [Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)
 2. Circle CI
 3. ...
-
 
