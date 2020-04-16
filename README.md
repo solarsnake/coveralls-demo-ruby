@@ -4,15 +4,15 @@
 
 Coveralls demo project, using:
 
-* Language: [Ruby](https://www.ruby-lang.org/) 
-* Test Suite(s): [Rspec](https://rspec.info/) 
-* Code Coverage Library: [Simplecov](https://github.com/colszowka/simplecov)
-* SCM Service: [GitHub](https://github.com/)
+* [Ruby](https://www.ruby-lang.org/) (Language)
+* [Rspec](https://rspec.info/) (Test Suite(s))
+* [Simplecov](https://github.com/colszowka/simplecov) (Code Coverage Library)
+* [GitHub](https://github.com/) (SCM Service)
 
 And new elements:
 
-* CI Service: [Travis CI](https://travis-ci.com/)
-* Test Coverage Service: [Coveralls](https://coveralls.io/)
+* [Travis CI](https://travis-ci.com/) (CI Service)
+* [Coveralls](https://coveralls.io/) (Test Coverage Service)
 
 # Welcome
 
