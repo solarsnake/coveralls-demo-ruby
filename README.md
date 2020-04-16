@@ -12,38 +12,38 @@ Coveralls demo project, using:
 
 # Welcome
 
-Great. You've gotten this far. Given that, we can assume:
+You've gotten this far. Given that, we can assume:
 
 1. You understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project). (If not, start back at the [README in the master branch](https://github.com/afinetooth/coveralls-demo-ruby).)
 
-2. You've chosen Travis CI as your CI Service of choice. (If it's not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.)
+2. You've chosen Travis CI as your CI Service. (If it's not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.)
 
-## Coveralls & Travis CI
+# Coveralls & Travis CI
 
 This project is configured to send test coverage results to Coveralls through Travis CI. 
 
-We'll show you how.
+Here's how it was done:
 
 ## Travis config steps
 
-1. Sign up for Travis CI
-2. Add a `.travis.yml`
-3. Sign up for Coveralls
-4. Add a `.coveralls.yml`
+1. Add repo to Travis CI
+2. Add `.travis.yml` to repo
+3. Add repo to Coveralls
+4. Add `.coveralls.yml` to repo
 
-### 1. Sign up for Travis CI
-
-WIP
-
-### 2. Add a `.travis.yml`
+### 1. Add repo to Travis CI
 
 WIP
 
-### 3. Sign up for Coveralls
+### 2. Add `.travis.yml` to repo
 
 WIP
 
-### 4. Add a `.coveralls.yml`
+### 3. Add repo to Coveralls
+
+WIP
+
+### 4. Add `.coveralls.yml` to repo
 
 WIP
 
