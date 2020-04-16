@@ -12,9 +12,7 @@ Coveralls demo project, using:
 
 # Welcome
 
-Great. You've gotten this far.
-
-Given that, we can assume:
+Great. You've gotten this far. Given that, we can assume:
 
 1. You understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project). (If not, start back at the [README in the master branch](https://github.com/afinetooth/coveralls-demo-ruby).)
 
