@@ -45,8 +45,6 @@ We'll set up this project to do exactly that, with these four (4) steps:
 
 ---
 
-Before we start sending coverage results to <a href="http://coveralls.io">Coveralls</a>, let's first understand the nature the test coverage in this demo project.
-
 This is the totality of the code in this project:
 
 ```ruby
@@ -154,8 +152,6 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 
 ---
 
-Now, let's add more tests and see how coverage changes.
-
 To "add" tests, simply un-comment the test of the second method in `ClassOne`:
 
 ```ruby
@@ -207,12 +203,10 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ---
 
-Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).
-
-Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
+Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), you'll need to add a CI service, and how you configure your project depends on how you configure your that service.
 
 ###### Technically speaking, there are other ways to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos [here](https://coveralls.io/api/docs), and about posting coverage results to those repos [here](https://docs.coveralls.io/api-reference).
-</details>
+
 
 ### Which CI Service will you use? 
 
@@ -221,4 +215,4 @@ Follow the branch for your CI service and we'll pick up the conversation there:
 1. [Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)
 2. Circle CI
 3. ...
-
+</details>
