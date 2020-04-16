@@ -90,7 +90,10 @@ Notice that right now, only one of the two methods in `ClassOne` is being tested
 
 ## 2. Run tests for the first time
 
-Let's run the test suite for the first time and see what the results are.
+<details>
+  <summary>Let's run the test suite for the first time and see what the results are.</summary>
+
+---
 
 If you haven't already, go ahead and clone the project down to your local machine:
 
@@ -139,10 +142,14 @@ Where you'll notice covered lines in green, and uncovered lines in red.
 One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage. 
 
 In our case, 4/5 lines are covered, indicating 80% coverage.
+</details>
 
 ## 3. Add tests and see coverage change
 
-Now, let's add more tests and see how coverage changes. 
+<details>
+  <summary>Now, let's add more tests and see how coverage changes.</summary>
+
+---
 
 To "add" tests, simply un-comment the test of the second method in `ClassOne`:
 
@@ -186,14 +193,19 @@ And now, if we click on `lib/class_one.rb` we see:
 ![100% Coverage - File View](../media/media/coverage_100_percent_file.png?raw=true)
 
 Five (5) out of five (5) relevant lines are now covered, resulting in 100% coverage for the file, which means 100% coverage for our one-file project.
+</details>
 
 ## 4. Configure this project to use Coveralls
 
-Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).
+<details>
+  <summary>Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).</summary>
+
+---
 
 Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
 
 ###### Technically speaking, there are other ways to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos [here](https://coveralls.io/api/docs), and about posting coverage results to those repos [here](https://docs.coveralls.io/api-reference).
+</details>
 
 ### Which CI Service will you use? 
 
