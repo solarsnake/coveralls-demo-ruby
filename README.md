@@ -31,7 +31,7 @@ Before your project gets to [Coveralls](http://coveralls.io), it must already be
 
 We'll set up this project to do exactly that, with these four (4) steps:
 
-## Next Steps
+## Get Started
 
 1. Understand test coverage in this project
 2. Run tests for the first time
@@ -41,7 +41,7 @@ We'll set up this project to do exactly that, with these four (4) steps:
 ## 1. Understand test coverage in this project
 
 <details>
-  <summary>Do it:</summary>
+  <summary>Do it.</summary>
 
 ---
 
@@ -90,7 +90,7 @@ Notice that right now, only one of the two methods in `ClassOne` is being tested
 ## 2. Run tests for the first time
 
 <details>
-  <summary>Do it:</summary>
+  <summary>Do it.</summary>
 
 ---
 
@@ -148,7 +148,7 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 ## 3. Add tests and see coverage change
 
 <details>
-  <summary>Do it:</summary>
+  <summary>Do it.</summary>
 
 ---
 
@@ -199,7 +199,7 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 ## 4. Configure this project to use Coveralls
 
 <details>
-  <summary>Do it:</summary>
+  <summary>Do it.</summary>
 
 ---
 
