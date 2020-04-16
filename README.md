@@ -4,8 +4,8 @@
 
 [Coveralls](https://coveralls.io/) demo project, using:
 
-* [Ruby](https://www.ruby-lang.org/) - *Language*
-* [Rspec](https://rspec.info/) - *Testing Library*
+* [Ruby](https://www.ruby-lang.org/) &mdash *Language*
+* [Rspec](https://rspec.info/) – *Testing Library*
 * [Simplecov](https://github.com/colszowka/simplecov) - *Code Coverage Library*
 
 And:
