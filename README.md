@@ -60,7 +60,7 @@ describe ClassOne do
 end
 ```
 
-Notice that right now, only one of the methods in `ClassOne` are being tested.
+Notice that right now, only one of the two methods in `ClassOne` is being tested.
 
 ## Running tests for the first time
 
