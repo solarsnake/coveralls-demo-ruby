@@ -214,7 +214,7 @@ Since your CI Service will be sending code coverage results to [Coveralls](http:
 <small>Technically speaking, there are other ways to send your test coverage results to <a href="http://coveralls.io">Coveralls</a> without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see <a href="https://docs.coveralls.io/api-introduction">Coveralls API Docs</a>. You can find out about creating new repos <a href="https://coveralls.io/api/docs">here</a>, and about posting coverage results to those repos <a href="https://docs.coveralls.io/api-reference">here</a>.</small>
 </details>
 
-Configuring your project depends on configuring your CI service, so follow the branch for your CI service and we'll pick up the conversation there:
+Follow the branch for your CI service and we'll pick up the conversation there:
 
 1. [Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)
 2. Circle CI
