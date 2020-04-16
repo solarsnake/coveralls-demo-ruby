@@ -22,6 +22,10 @@ bundle exec rspec
 
 Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results (in this project, that's [Simplecov](https://github.com/colszowka/simplecov)). Your CI will run your tests, and your code coverage library, then post the results to [Coveralls](http://coveralls.io).
 
+```
+<how it works diagram>
+```
+
 We'll set up this project to do exactly that, with these five (5) steps:
 
 ## Next Steps
