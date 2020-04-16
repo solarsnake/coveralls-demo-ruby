@@ -23,11 +23,11 @@ You've gotten this far. Given that, we can assume:
    ###### If not, head back to the [master README](https://github.com/afinetooth/coveralls-demo-ruby), [here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and [choose a different CI service / branch](https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use).
    
 <dl>
-  <dt>You understand [how test coverage works in this project]</dt>
-  <dd>If not, start back at the [master README](https://github.com/afinetooth/coveralls-demo-ruby).</dd>
+  <dt>You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
+  <dd>If not, start back at the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>.</dd>
 
   <dt>You've chosen Travis CI as your CI Service.</dt>
-  <dd>If not, head back to the [master README](https://github.com/afinetooth/coveralls-demo-ruby), [here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and [choose a different CI service / branch](https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use).</dd>
+  <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>, <a href="https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls">here</a>, and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI service / branch</a>.</dd>
 </dl>
 
 # Coveralls & Travis CI
