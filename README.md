@@ -14,9 +14,11 @@ Coveralls demo project, using:
 
 Great. You've gotten this far.
 
-We can assume you understand how test coverage works in this project. (If not, start back at the [README in the master branch](https://github.com/afinetooth/coveralls-demo-ruby).)
+Given that, we can assume the following:
 
-And apparently, you've chosen this branch because Travic CI is your CI Service of choice. (If it's not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.)
+1. You understand how test coverage works in this project. (If not, start back at the [README in the master branch](https://github.com/afinetooth/coveralls-demo-ruby).)
+
+2. You've chosen Travis CI as your CI Service of choice. (If it's not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.)
 
 ## How to configure this project for Coveralls through Travis CI
 
