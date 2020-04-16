@@ -6,7 +6,7 @@
 * [Rspec](https://rspec.info/) — *Testing Library*
 * [Simplecov](https://github.com/colszowka/simplecov) — *Code Coverage Library*
 
-And:
+And, of course:
 
 * [GitHub](https://github.com/) — *SCM Service*
 
