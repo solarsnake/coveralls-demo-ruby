@@ -29,15 +29,14 @@ Before your project gets to [Coveralls](http://coveralls.io), it must already be
 <how it works diagram>
 ```
 
-We'll set up this project to do exactly that, with these five (5) steps:
+We'll set up this project to do exactly that, with these four (4) steps:
 
 ## Next Steps
 
 1. Understand test coverage in this project
 2. Run tests for the first time
 3. Add tests and see coverage change
-4. Configure this project to use Coveralls
-5. Verify expected code coverage with Coveralls
+4. Configure this project to use [Coveralls](http://coveralls.io)
 
 ## 1. Understand test coverage in this project
 
@@ -198,7 +197,7 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 ## 4. Configure this project to use Coveralls
 
 <details>
-  <summary>Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).</summary>
+  <summary>Now that we understand how code coverage works in this project, let's configure it to use <a href="http://coveralls.io">Coveralls</a>.</summary>
 
 ---
 
