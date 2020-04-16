@@ -20,32 +20,32 @@ Given that, we can assume:
 
 2. You've chosen Travis CI as your CI Service of choice. (If it's not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.)
 
-## How to configure this project for Coveralls through Travis CI
+## Coveralls & Travis CI
 
-Here's a secret: This project is already configured to work with Travis CI, by virtue of changes that exist between this branch and the master branch for this project. You can check those out. Pay special notice to the new (or different) files above.
+This project is configured to send test coverage results to Coveralls through Travis CI. 
 
-Or don't. We'll step through each of those now.
+We'll show you how.
 
-# Travis Config Steps
+## Travis config steps
 
 1. Sign up for Travis CI
 2. Add a `.travis.yml`
 3. Sign up for Coveralls
 4. Add a `.coveralls.yml`
 
-## 1. Sign up for Travis CI
+### 1. Sign up for Travis CI
 
 WIP
 
-## 2. Add a `.travis.yml`
+### 2. Add a `.travis.yml`
 
 WIP
 
-## 3. Sign up for Coveralls
+### 3. Sign up for Coveralls
 
 WIP
 
-## 4. Add a `.coveralls.yml`
+### 4. Add a `.coveralls.yml`
 
 WIP
 
