@@ -14,15 +14,23 @@ bundle install
 bundle exec rspec
 ```
 
-## Coveralls
+## About Coveralls
 
 [Coveralls](http://coveralls.io) is a web service that sends code coverage reports to a shared workspace so you and your team can track your projects' code coverage over time. [Coveralls](http://coveralls.io) is language- and CI-agnostic, but it lets you control whether your builds pass or fail based on code coverage metrics that you set.
 
 Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results (in this project, that's [Simplecov](https://github.com/colszowka/simplecov)). Your CI will run your tests, and your code coverage library, then post the results to [Coveralls](http://coveralls.io).
 
+We'll set up this project to do exactly that, with these four steps:
+
+1. Understand test coverage in this project
+2. Run tests for the first time
+3. Add tests and see coverage change
+4. Configure this project to use Coveralls
+5. Verify expected code coverage with Coveralls
+
 Before we start sending coverage results to [Coveralls](http://coveralls.io), let's first understand the nature the test coverage in this demo project.
 
-## Test coverage in this project
+## 1. Understand test coverage in this project
 
 This is the totality of the code in this project:
 
@@ -65,15 +73,41 @@ end
 
 Notice that right now, only one of the two methods in `ClassOne` is being tested.
 
-## Running tests for the first time
+## 2. Run tests for the first time
 
-Let's run the test suite for the first time and see what the results are:
+Let's run the test suite for the first time and see what the results are.
+
+If you haven't already, go ahead and clone the project down to your local machine:
+
+```
+git clone git@github.com:afinetooth/coveralls-demo-ruby.git
+```
+
+Now, `cd` into `coveralls-demo-ruby` and run this command to install the dependencies:
+
+```
+bundle install
+```
+
+Finally, run the test suite, [Rspec](https://rspec.info/).
 
 ```
 bundle exec rspec
 ```
 
-The command `bundle exec rspec` runs the [Rspec](https://rspec.info/) test suite, upon which [Simplecov](https://github.com/colszowka/simplecov) generates HTML-based code coverage results, which you can see by opening the newly created file at `/coverage/index.html` in your browser.
+You'll notice test results on the screen, which should look like this:
+
+```ruby
+<test results>
+```
+
+In additional to the test results themselves, we have the added benefit of test _coverage_ results, from using our test coverage library, [Simplecov](https://github.com/colszowka/simplecov). 
+
+Every time we run our test suite, [Simplecov](https://github.com/colszowka/simplecov), in the background, generates HTML-based code coverage results, which you can see by opening the newly created file at `/coverage/index.html` in your browser, or by issuing this command in your terminal:
+
+```
+open coverage/index.html
+```
 
 The first results should look like this:
 
@@ -91,7 +125,7 @@ One might expect the coverage results here to be 50%, given that `ClassOne` has 
 
 In our case, 4/5 lines are covered, indicating 80% coverage.
 
-## Add tests and see coverage change
+## 3. Add tests and see coverage change
 
 Now let's add more tests and see how coverage changes. 
 
@@ -118,7 +152,7 @@ describe ClassOne do
 end
 ```
 
-Then run the test suite again:
+Now run the test suite again:
 
 ```
 bundle exec rspec
@@ -138,15 +172,17 @@ And now, if we click on `lib/class_one.rb` we see:
 
 Five (5) out of five (5) relevant lines are now covered, resulting in 100% coverage for the file, which means 100% coverage for our one-file project.
 
-## Next steps
+## 4. Configure this project to use Coveralls
 
-Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send coverage results to [Coveralls](http://coveralls.io).
+Now that you understand how code coverage works in this project, we're in a good place to take the next step, configuring the project to send test coverage results to [Coveralls](http://coveralls.io).
 
-Once we're sending those results, we'll be able to test our first expectation, test coverage at 80%, and then after a second commit, uncommenting our second test, we can test our next expectation, test coverage 100%.
+Once we do that, we'll be able to verify our same expectations, but this time through Coveralls; first, 80% coverage, and then, 100% coverage.
+ 
+Now's a good time to understand the next factor that affects how you'll want to configure your project: __CI Service__
 
-So let's configure out project to send to [Coveralls](http://coveralls.io):
+### Which CI Service will you use?
 
-## Configuring this project for Coveralls
+[Explain CI & CI Services for beginners]
 
 WIP
 
