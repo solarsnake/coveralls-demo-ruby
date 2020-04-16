@@ -22,7 +22,7 @@ You've gotten this far. Given that, we can assume:
   <dt>1. You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
   <dd>If not, start back at the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>.</dd>
 
-  <dt>2. You've chosen [Travis CI](https://travis-ci.com/) as your CI Service.</dt>
+  <dt>2. You've chosen <a href="https://travis-ci.com/">Travis CI</a> as your CI Service.</dt>
   <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>, <a href="https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls">here</a>, and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI service / branch</a>.</dd>
 </dl>
 
