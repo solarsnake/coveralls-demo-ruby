@@ -185,7 +185,7 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ## 4. Configure this project to use Coveralls
 
-Finally, let's configure this project to user [Coveralls](http://coveralls.io).
+Now that we understand how code coverage works in this project, let's configure it to use [Coveralls](http://coveralls.io).
 
 Since your CI Service will be sending test coverage results to [Coveralls](http://coveralls.io), how you configure your project depends largely on how you configure your CI Service.
 
