@@ -1,6 +1,6 @@
 # coveralls-ruby-demo
 
-Coveralls demo project, using:
+[Coveralls](http://coveralls.io) demo project, using:
 
 * Language: [Ruby](https://www.ruby-lang.org/) 
 * Test Suite(s): [Rspec](https://rspec.info/) 
@@ -14,6 +14,12 @@ bundle exec rspec
 ```
 
 ### Test coverage
+
+[Coveralls](http://coveralls.io) is a web service that sends code coverage reports to a shared workspace so you and your team members can track your projects' code coverage over time. It is language- and CI-agnostic, but it lets you control whether your builds pass or fail based on code coverage metrics that you set.
+
+Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library (in this project, that's [Simplecov](https://github.com/colszowka/simplecov)) to generate coverage results. Your CI will run your tests, and your code coverage, then post them to [Coveralls](http://coveralls.io).
+
+Before we send coverage results to [Coveralls](http://coveralls.io), let's first understand the coverage in our demo project.
 
 This is the totality of the code in this project:
 
