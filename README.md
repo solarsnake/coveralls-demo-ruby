@@ -203,14 +203,18 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ---
 
-Since your CI Service will be sending code coverage results to [Coveralls](http://coveralls.io), you'll need to choose a CI service and add this repo to it. How you configure your project depends on how you configure your CI service.
+Now that you understand how test coverage works in this project, you'll soon be able to verify your expectations through [Coveralls](http://coveralls.io).
+
+### Which CI Service will you use? 
+
+Since your CI Service will be sending code coverage results to [Coveralls](http://coveralls.io)<sup>*</sup>, you'll need to choose a CI service and add this repo to it. 
+
+Configuring your project depends on configuring your CI service.
 
 <details>
   <summary></small>* other scenarios</small></summary>
 <small>Technically speaking, there are other ways to send your test coverage results to <a href="http://coveralls.io">Coveralls</a> without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see <a href="https://docs.coveralls.io/api-introduction">Coveralls API Docs</a>. You can find out about creating new repos <a href="https://coveralls.io/api/docs">here</a>, and about posting coverage results to those repos <a href="https://docs.coveralls.io/api-reference">here</a>.</small>
 </details>
-
-### Which CI Service will you use? 
 
 Follow the branch for your CI service and we'll pick up the conversation there:
 
