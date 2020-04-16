@@ -207,7 +207,7 @@ Since your CI Service will be sending code coverage results to [Coveralls](http:
 
 <details>
   <summary></small>* other scenarios</small></summary>
-###### Technically speaking, there are other ways to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos [here](https://coveralls.io/api/docs), and about posting coverage results to those repos [here](https://docs.coveralls.io/api-reference).
+<xsmall>Technically speaking, there are other ways to send your test coverage results to [Coveralls](http://coveralls.io) without a CI Service; namely, through their API. That's not the subject of this README, so to find out more see [Coveralls API Docs](https://docs.coveralls.io/api-introduction). You can find out about creating new repos [here](https://coveralls.io/api/docs), and about posting coverage results to those repos [here](https://docs.coveralls.io/api-reference).</xsmall>
 </details>
 
 ### Which CI Service will you use? 
