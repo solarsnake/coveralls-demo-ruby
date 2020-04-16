@@ -2,7 +2,7 @@
 
 # coveralls-ruby-demo for Travis CI
 
-Coveralls demo project, using:
+[Coveralls](https://coveralls.io/) demo project, using:
 
 * [Ruby](https://www.ruby-lang.org/) - *Language*
 * [Rspec](https://rspec.info/) - *Testing Library*
