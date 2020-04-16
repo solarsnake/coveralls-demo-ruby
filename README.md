@@ -16,11 +16,11 @@ You've gotten this far. Given that, we can assume:
 
 1. You understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project). 
 
-   If not, start back at the [README in the master branch](https://github.com/afinetooth/coveralls-demo-ruby).
+   ###### If not, start back at the [master README](https://github.com/afinetooth/coveralls-demo-ruby).
 
 2. You've chosen Travis CI as your CI Service. 
 
-   If not, head back to the [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and choose a different service / branch.
+   ###### If not, head back to the [master README](https://github.com/afinetooth/coveralls-demo-ruby), [README here](https://github.com/afinetooth/coveralls-demo-ruby#4-configure-this-project-to-use-coveralls), and [choose a different CI service / branch](https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use).
 
 # Coveralls & Travis CI
 
