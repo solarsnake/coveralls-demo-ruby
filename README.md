@@ -61,6 +61,9 @@ If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sy
 ---
 
    [http://travis-ci.org/](http://travis-ci.org/) is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join [http://travis-ci.com/](http://travis-ci.com/).
+   
+---
+
 </details>
 
 To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle control next to your repo:
@@ -121,6 +124,9 @@ notifications:
 If your project is in a different language, no worries. Travis CI provides a large set of [language-specific guides for forming your `.travis.yml`](https://docs.travis-ci.com/user/language-specific/), [here](https://docs.travis-ci.com/user/language-specific/). 
 
 For instance, here's the guide for [Javascript with Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).
+
+---
+
 </details>
 
 ### 3. Add repo to Coveralls
