@@ -83,7 +83,43 @@ As described there, our next step is to add a `travis.yml` config file to our re
 
 ### 2. Add `.travis.yml` to repo
 
-WIP
+According to the instructions, we need to:
+
+> Add a `.travis.yml` file to your repository to tell Travis CI what to do. 
+
+And luckily for us, the example is for Ruby and applies well to our project:
+
+> The following example specifies a Ruby project that should be built with Ruby 2.2 and the latest versions of JRuby.
+
+[Travis CI - Example `.travis.yml` file]
+
+With the exception that we're not using `jruby`. Instead, we're using "regular ruby", or the MRI (or "Matz") version of Ruby. So our `.travis.yml` looks like this:
+
+```yaml
+language: ruby
+rvm:
+- 2.6.3
+
+branches:
+  only:
+  - travis
+  except:
+  - master
+
+script:
+  - bundle exec rspec
+
+notifications:
+  email: false
+```
+
+<details>
+   <summary><sup>*</sup> Your project not in Ruby?</summary>
+   
+---
+
+If your project is in a different language, no worries. Travis CI provides a large set of [language-specific guides for forming your `.travis.yml`](https://docs.travis-ci.com/user/language-specific/), [here](https://docs.travis-ci.com/user/language-specific/).
+</details>
 
 ### 3. Add repo to Coveralls
 
