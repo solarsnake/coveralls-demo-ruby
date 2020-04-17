@@ -94,13 +94,12 @@ Just click <strong><a target="_blank" href="https://travis-ci.org/signup">Sign u
 ---
 </details>
 
-Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to:
-
+Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to:<br />
 [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
-If Travis doesn't already list all your public repos, click the __Sync account__ button to refresh the list.<sup>*</sup>
+If Travis doesn't already list all your *public repos*, click the __Sync account__ button to refresh the list.<sup>*</sup>
 
 <details>
    <summary>* <em>What about private repos?</em></summary>
