@@ -57,8 +57,10 @@ If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sy
 
 <details>
    <summary><sup>*</sup>Looking to sync your private repos?</summary>
-   
-   [travis-ci.org](http://travis-ci.org/) is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join [travis-ci.com](http://travis-ci.com/).
+
+---
+
+   [http://travis-ci.org/](http://travis-ci.org/) is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join [http://travis-ci.com/](http://travis-ci.com/).
 </details>
 
 To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle control next to your repo:
