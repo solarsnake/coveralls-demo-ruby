@@ -49,7 +49,7 @@ This guide will walk you through that configuration process.
 
 ## How to use this guide
 
-Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to *it*.<sup>*</sup> 
+Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to it.<sup>*</sup> 
 
 Then use *this branch* to verify the changes you'll make. (Consider it your cheatsheet.)
 
