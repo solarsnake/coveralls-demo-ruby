@@ -187,7 +187,7 @@ That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project..
 
 </details>
 
-Our `.travis.yml` will look like this:
+Our `.travis.yml` looks like this:
 
 ```yaml
 language: ruby
