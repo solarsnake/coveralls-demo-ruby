@@ -39,6 +39,8 @@ Here's how it's done:
 3. Add repo to [Coveralls](https://coveralls.io/)
 4. Add `.coveralls.yml` to repo
 
+Advice: Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make.
+
 ### 1. Add repo to Travis CI
 
 To add a public repo to Travis CI, you'll first need to sign up for the free version of the service, which you can do by going to [http://travis-ci.org/](http://travis-ci.org/) and singing up with your GitHub login:
@@ -128,6 +130,44 @@ For instance, here's the guide for [Javascript with Node](https://docs.travis-ci
 ---
 
 </details>
+
+Now that we've composed our `.travis.yml`, the next step is to add it to our project with a new commit:
+
+```
+git push
+```
+
+If you're committing to a branch on your project, you might want to change the push command to something like:
+
+```
+git push -u origin <my-new-branch>
+```
+
+But the point is the same, we're adding a new file, `.travis.yml` to our project.
+
+And guess what?
+
+That's all that's required to get Travis Ci to start creating builds of your project.
+
+According to the Travis CI docs:
+
+> *Travis only runs builds on the commits you push after you’ve added a .travis.yml file.*
+
+But, glory is ours now.
+
+Simply go back to [Travis CI (dot org)](https://travis-ci.org/) to see the first build on your project.
+
+For us, that meant going [here](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby). Specifically [https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby), where the format of your URL will be:
+
+```
+https://travis-ci.org/github/<your-github-username>/<your-github-repo>
+```
+
+Your first build will look soemthing like this:
+
+[Travis CI - `coveralls-demo-ruby`]
+
+Simply stated, a successful build; albeit, with not a lot going on.
 
 ### 3. Add repo to Coveralls
 
