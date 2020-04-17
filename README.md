@@ -144,7 +144,9 @@ In our case, 4/5 lines are covered, indicating 80% coverage.
 
 <details>
   <summary>Why isn't coverage 50%?</summary>
-  ---
+  
+---
+
 One might expect the coverage results here to be 50%, given that `ClassOne` has two (2) methods (`covered` and `uncovered`) and we're only testing one of them. However, that's not how it works. Instead, Simplecov counts *relevant lines* in each file and compares the number of covered lines to uncovered lines to determine the file's coverage percentage. 
 </details>
 
