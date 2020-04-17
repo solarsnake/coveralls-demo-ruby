@@ -199,9 +199,9 @@ For us, that meant going [here](https://travis-ci.org/github/afinetooth/coverall
 https://travis-ci.org/github/<your-github-username>/<your-github-repo>
 ```
 
-Your first build will look soemthing like this:
+Your first build will look something like this:
 
-[Travis CI - `coveralls-demo-ruby`]
+![travis-ci-repo-build-1.png](../media/media/travis-ci-repo-build-1.png)
 
 Simply stated, a successful build; albeit, with not a lot going on.
 
