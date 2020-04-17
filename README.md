@@ -40,7 +40,7 @@ The changes are few and easy, and they're listed below.
 
 So let's walk through each step:
 
-## Travis config steps
+## Config steps
 
 1. Add repo to [Travis CI](https://travis-ci.com/)
 2. Add `.travis.yml` to repo
