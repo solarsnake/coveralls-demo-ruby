@@ -162,7 +162,7 @@ As described in the documentation, our next step is to add a `travis.yml` config
 
 The free version of Travis CI doesn't offer as much hand-holding as the paid version. Clicking on <strong>Documentation</strong> in the footer even takes us to docs for the paid version of the service, which aren't 100% applicable for the free service.
 
-No matter, though. For us, the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions still apply (after the first three (3) steps aboout adding your repo to Travis CI):
+No matter, though. For us, the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions still apply&emdash;<em>after the first three (3) steps aboout adding your repo to travis-ci.com</em>:
 
 ![travis-ci-docs-getting-started-with-github.png](../media/media/travis-ci-docs-getting-started-with-github.png)
 
