@@ -153,28 +153,24 @@ __Great! [Travis](http://travis-ci.org/) is tracking your repo.__
    
 ---
 
-As described in the documentation, our next step is to add a `travis.yml` config file to our repo.<sup>*</sup>
+As described in the documentation,<sup>*</sup> our next step is to add a `travis.yml` config file to our repo.
 
 <details>
-   <summary>* Where's that documentation?</summary>
+   <summary>* <em>Where's that documentation?</em></summary>
 
 ---
 
-The free version of Travis CI doesn't offer as much hand-holding as the paid version. Clicking on <strong>Documentation</strong> in the footer even takes us to docs for the paid version of the service, which aren't 100% applicable for the free service.
+<em>The free version of Travis CI doesn't offer as much hand-holding as the paid version. Clicking on <strong>Documentation</strong> in the footer even takes us to docs for the paid version of the service, which aren't 100% applicable for the free service.</em>
 
-No matter, though. For us, the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions still apply&emdash;<em>after the first three (3) steps aboout adding your repo to travis-ci.com</em>:
+No matter, though. For us, the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions still apply&mdash;<em>after the first three (3) steps aboout adding your repo to travis-ci.com</em>:
 
 ![travis-ci-docs-getting-started-with-github.png](../media/media/travis-ci-docs-getting-started-with-github.png)
 
-According to the instructions, we need to:
-
-<quote> Add a `.travis.yml` file to your repository to tell Travis CI what to do.</quote>
-
-And luckily for us, the example is for Ruby and applies well enough to our project:
+That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project...
 
 ![travis-ci-docs-getting-started-with-github-sample-travis-yml.png](../media/media/travis-ci-docs-getting-started-with-github-sample-travis-yml.png)
 
-With the exception that we're not using `jruby`. Instead, we're using "regular ruby", or the MRI (or "Matz") version of Ruby. So our `.travis.yml` looks a little different from the example.
+...with the exception that we're not using `jruby`. Instead, we're using "regular old ruby", or the MRI (or "Matz") version of Ruby. So our `.travis.yml` looks a little different from the example.
 
 <details>
    <summary>* <em>What if my project's not in Ruby?</em></summary>
@@ -183,7 +179,7 @@ With the exception that we're not using `jruby`. Instead, we're using "regular r
 
 <em>If your project is in a different language, no worries. Travis CI provides a large set of [language-specific guides for forming your `.travis.yml`](https://docs.travis-ci.com/user/language-specific/), [here](https://docs.travis-ci.com/user/language-specific/). For instance, here's the guide for [Javascript with Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).</em>
 
----
+<em>For this project we're using Ruby, so go with the Ruby config for now.</em>
 
 </details>
 
