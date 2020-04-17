@@ -78,7 +78,7 @@ Then use *this branch* to verify the changes you'll make. (Consider it your chea
    
 ---
    
-To add a public repo to [Travis CI](http://travis-ci.org/), __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
+To add a public repo to Travis, __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
 
 ![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
 
