@@ -94,7 +94,8 @@ Easy enough, just click <strong><a target="_blank" href="https://travis-ci.org/s
 ---
 </details>
 
-Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
+Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to:
+[https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
