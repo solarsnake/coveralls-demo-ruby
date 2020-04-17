@@ -31,7 +31,7 @@ Before your project gets to [Coveralls](http://coveralls.io), it must already be
 
 We'll set up this project to do exactly that, with these four (4) steps:
 
-## How To Start
+## Get Started
 
 1. Understand test coverage in this project
 2. Run tests for the first time
