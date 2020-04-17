@@ -43,6 +43,11 @@ Advice: Fork the master branch of this project and make your changes to it. Use 
 
 ### 1. Add repo to Travis CI
 
+<details>
+   <summary>Do it.</summary>
+   
+---
+   
 To add a public repo to Travis CI, you'll first need to sign up for the free version of the service, which you can do by going to [http://travis-ci.org/](http://travis-ci.org/) and singing up with your GitHub login:
 
 [Travis CI - Sign Up]
@@ -86,7 +91,17 @@ Nevertheless, for us the [Getting started with GitHub](https://docs.travis-ci.co
 
 As described there, our next step is to add a `travis.yml` config file to our repo.
 
+---
+
+</details>
+
 ### 2. Add `.travis.yml` to repo
+
+<details>
+   <summary>Do it.</summary>
+   
+---
+   
 
 According to the instructions, we need to:
 
@@ -172,6 +187,11 @@ Simply stated, a successful build; albeit, with not a lot going on.
 So we're building at our CI.
 
 Now, let's tell our CI to send its test results to Coveralls.
+
+
+---
+
+</details>
 
 ### 3. Add repo to Coveralls
 
