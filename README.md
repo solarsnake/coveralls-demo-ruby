@@ -49,14 +49,14 @@ Alternately, if you're already a member, just sign in with your GitHub login:
 
 [Travis CI - Sign In]
 
-Once signed in, you add a repo by clicking on [Settings](https://travis-ci.org/account/repositories) or going to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
+Once signed in, click on [Settings](https://travis-ci.org/account/repositories) or go to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
 [Travis CI - Settings - Repositories]
 
-If Travis isn't already showing all your repos, click the __Sync account__ button to list all your public repositories.*
+If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sync account__ button to refresh the list.
 
 <details>
-   <summary>Looking to sync your private repos?</summary>
+   <summary><sup>*</sup>Looking to sync your private repos?</summary>
    
    [travis-ci.org](http://travis-ci.org/) is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join [travis-ci.com](http://travis-ci.com/).
 </details>
