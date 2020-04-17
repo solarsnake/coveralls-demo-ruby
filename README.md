@@ -41,6 +41,30 @@ Here's how it's done:
 
 ### 1. Add repo to Travis CI
 
+To add a public repo to Travis CI, you'll first need to sign up for the free version of the service, which you can do by going to [http://travis-ci.org/](http://travis-ci.org/) and singing up with your GitHub login:
+
+[Travis CI - Sign Up]
+
+Alternately, if you're already a member, just sign in with your GitHub login:
+
+[Travis CI - Sign In]
+
+Once signed in, you add a repo by clicking on [Settings](https://travis-ci.org/account/repositories) or going to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
+
+[Travis CI - Settings - Repositories]
+
+If Travis isn't already showing all your repos, click the __Sync account__ button to list all your public repositories.*
+
+<details>
+   <summary>Looking to sync your private repos?</summary>
+   
+   [travis-ci.org](http://travis-ci.org/) is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join [travis-ci.com](http://travis-ci.com/).
+</details>
+
+To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle control next to your repo:
+
+[Travis Ci - Settings - Repositories - Add `coveralls-ruby-demo`]
+
 WIP
 
 ### 2. Add `.travis.yml` to repo
