@@ -32,9 +32,11 @@ This project is configured to send test coverage results to [Coveralls](https://
 
 ## How to use this guide
 
-Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make.
+Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make. (Consider it your cheatsheet.)
 
-Those changes are listed below. We'll walk you through each step.
+We're configuring the base project to use Travis and push coverage to Coveralls. The changes are few and easy, and they're listed below. 
+
+Now, let's walk through each step:
 
 ## Travis config steps
 
