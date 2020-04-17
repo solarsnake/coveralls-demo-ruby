@@ -30,8 +30,6 @@ If you've gotten this far, we can assume:
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
 
-This guide will walk you through that configuration process.
-
 <details>
    <summary>* <em>How do we know?</em></summary>
 
@@ -46,6 +44,8 @@ That tells us we're configured correctly and successfully receiving coverage rep
 ---
 
 </details>
+
+This guide will walk you through that configuration process.
 
 ## How to use this guide
 
