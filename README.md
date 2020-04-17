@@ -16,7 +16,7 @@ And:
 
 # Welcome
 
-You've gotten this far. Given that, we can assume:
+If you've gotten this far, we can assume:
    
 <dl>
   <dt>1. You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
