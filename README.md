@@ -99,6 +99,11 @@ Once you're signed in, click on your profile image on the uppper right and choos
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
+<details>
+   <summary><em>Wait! I don't see my repo!</em></summary>
+   
+---
+
 If Travis doesn't already list all of your *public repos*, click the __Sync account__ button to refresh the list.<sup>*</sup>
 
 <details>
@@ -109,6 +114,8 @@ If Travis doesn't already list all of your *public repos*, click the __Sync acco
 <em><a href="http://travis-ci.org/">http://travis-ci.org/</a> is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join the paid service at <a href="http://travis-ci.com/">http://travis-ci.com/</a>.</em>
    
 ---
+
+</details>
 
 </details>
 
