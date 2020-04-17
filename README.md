@@ -94,7 +94,7 @@ To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle c
 
 [Travis Ci - Settings - Repositories - Add `coveralls-ruby-demo`]
 
-You can click on Settings next to your repo to see some basic configuration options for your repo, but for now let's leave everything as-is there:
+You can click on Settings next to your repo to see some basic configuration options for your repo, but for now let's leave everything there as-is:
 
 [Travis CI - Settings - Repositories - `coevralls-demo-ruby` - Settings]
 
