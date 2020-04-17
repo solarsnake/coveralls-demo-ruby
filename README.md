@@ -44,7 +44,7 @@ That tells us we're configured correctly and successfully receiving coverage rep
 
 </details>
 
-This guide will walk you through that configuration process.
+This guide will walk you through the configuration process.
 
 ## How to use this guide
 
