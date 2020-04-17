@@ -169,6 +169,10 @@ Your first build will look soemthing like this:
 
 Simply stated, a successful build; albeit, with not a lot going on.
 
+So we're building at our CI.
+
+Now, let's tell our CI to send its test results to Coveralls.
+
 ### 3. Add repo to Coveralls
 
 WIP
