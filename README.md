@@ -153,10 +153,10 @@ __Great! [Travis](http://travis-ci.org/) is tracking your repo.__
    
 ---
 
-As described in the documentation,<sup>*</sup> our next step is to add a `travis.yml` config file to our repo.
+As described in the documentation<sup>*</sup>, our next step is to add a `travis.yml` config file to our repo.
 
 <details>
-   <summary>* <em>Where's that documentation?</em></summary>
+   <summary>* <em>Where'd you find that documentation?</em></summary>
 
 ---
 
@@ -170,14 +170,14 @@ That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project..
 
 ![travis-ci-docs-getting-started-with-github-sample-travis-yml.png](../media/media/travis-ci-docs-getting-started-with-github-sample-travis-yml.png)
 
-...with the exception that we're not using `jruby`. Instead, we're using "regular old ruby", or the MRI (or "Matz") version of Ruby. So our `.travis.yml` looks a little different from the example.
+...with the exception that we're not using `jruby`. Instead, we're using "regular old ruby", or the MRI (or "Matz") version of Ruby, so our `.travis.yml` looks a little different from the example.
 
 <details>
    <summary>* <em>What if my project's not in Ruby?</em></summary>
    
 ---
 
-<em>If your project is in a different language, no worries. Travis CI provides a large set of [language-specific guides for forming your `.travis.yml`](https://docs.travis-ci.com/user/language-specific/), [here](https://docs.travis-ci.com/user/language-specific/). For instance, here's the guide for [Javascript with Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).</em>
+<em>If your project is in a different language, no worries. Travis CI provides a set of [language-specific guides](https://docs.travis-ci.com/user/language-specific/) for forming your `.travis.yml`. For instance, here's the guide for [Javascript with Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).</em>
 
 <em>For this project we're using Ruby, so go with the Ruby config for now.</em>
 
@@ -208,58 +208,77 @@ notifications:
 ```
 
 <details>
-   <summary><em>What's all that mean?</em></summary>
+   <summary><em>What do those settings mean?</em></summary>
 
 ---
 
-<em>Break down the config. WIP.</em>
+<em>Break down the config settings. WIP.</em>
 
 ---
 
 </details>
 
-Now that we've composed our `.travis.yml`, the next step is to add it to our project with a new commit:
+Here's the version you'll want to use for your project:
 
-```
-git push
+```yaml
+language: ruby
+rvm:
+- 2.6.3
+
+script:
+  - bundle exec rspec
+
+notifications:
+  email: false
 ```
 
-If you're committing to a branch on your project, you might want to change the push command to something like:
+<details>
+   <summary><em>Why the difference?</em></summary>
+
+---
+
+<em>Explain why the differences in config settings. WIP.</em>
+
+---
+
+</details>
+
+Just paste that into a new, empty file in your IDE named `.travis.yml`.
+
+Now, the last step is to add that file to your repo by committing it.
+
+Maybe something like:
 
 ```
 git push -u origin <my-new-branch>
 ```
 
-But the point is the same, we're adding a new file, `.travis.yml` to our project.
+And guess what? 
 
-And guess what?
+__That's it!__
 
-That's all that's required to get Travis Ci to start creating builds of your project.
+That's all that's required to get Travis CI to start building your project in its virtual environments.
 
-According to the Travis CI docs:
+To prove it to yourself, go back to [Travis](https://travis-ci.org/) to see the first build on your project.
 
-> *Travis only runs builds on the commits you push after you’ve added a .travis.yml file.*
+For us, that meant going here:<br />
+[https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby) 
 
-But, glory is ours now.
-
-Simply go back to [Travis CI (dot org)](https://travis-ci.org/) to see the first build on your project.
-
-For us, that meant going [here](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby). Specifically [https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby), where the format of your URL will be:
+Your URL will be:
 
 ```
 https://travis-ci.org/github/<your-github-username>/<your-github-repo>
 ```
 
-Your first build will look something like this:
+And your first build will look something like this:
 
 ![travis-ci-repo-build-1.png](../media/media/travis-ci-repo-build-1.png)
 
-Simply stated, a successful build; albeit, with not a lot going on.
+Simply stated, a successful build; albeit, without a lot going on.
 
-So we're building at our CI.
+__We're building at our CI!__
 
 Now, let's tell our CI to send its test results to Coveralls.
-
 
 ---
 
