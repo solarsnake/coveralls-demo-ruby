@@ -72,11 +72,11 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
 ### 1. Add repo to Travis CI
 
 <details>
-   <summary><em>How?</em></summary>
+   <summary><em>Do it.</em></summary>
    
 ---
    
-To add a public repo to [Travis CI](http://travis-ci.org/), sign in<sup>*</sup> at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login:
+To add a public repo to [Travis CI](http://travis-ci.org/), [sign in](https://travis-ci.org/signin?target=_blank)<sup>*</sup> at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login:
 
 ![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
 
@@ -85,7 +85,7 @@ To add a public repo to [Travis CI](http://travis-ci.org/), sign in<sup>*</sup> 
 
 ---
 
-Easy enough, just click <strong>Sign up</strong> and use your GitHub login:
+Easy enough, just click <strong><a target="_blank" href="https://travis-ci.org/signup">Sign up</a></strong> and use your GitHub login:
 
 ![travis-ci-sign-up.png](../media/media/travis-ci-sign-up.png)
 
