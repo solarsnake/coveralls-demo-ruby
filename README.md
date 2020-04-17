@@ -51,8 +51,6 @@ This guide will walk you through that configuration process.
 
 Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to it.<sup>*</sup> 
 
-Then use *this branch* to verify the changes you'll make. (Consider it your cheatsheet.)
-
 <details>
    <summary>* <em>How do I do that?</em></summary>
    
@@ -63,6 +61,8 @@ Then use *this branch* to verify the changes you'll make. (Consider it your chea
 ---
 
 </details>
+
+Then use this branch to verify the changes you've made. (Consider it your cheatsheet.)
 
 ## Config steps
 
