@@ -78,7 +78,7 @@ Once signed in, click on [Settings](https://travis-ci.org/account/repositories) 
 If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sync account__ button to refresh the list.
 
 <details>
-   <summary><sup>*</sup> Looking to sync your private repos?</summary>
+   <summary><sup>*</sup> What about private repos?</summary>
 
 ---
 
@@ -228,7 +228,7 @@ WIP
    
 ---
    
-WIP
+WIPn
 
 ---
 
