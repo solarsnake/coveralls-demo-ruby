@@ -219,6 +219,10 @@ WIP
 
 </details>
 
+---
+
+```
 # To Do:
-* Add Travis logo
-* Add Coveralls logo
+- [ ] Add Travis logo
+- [ ] Add Coveralls logo
+```
