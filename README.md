@@ -6,10 +6,6 @@
 * [Rspec](https://rspec.info/) — *Testing Library*
 * [Simplecov](https://github.com/colszowka/simplecov) — *Code Coverage Library*
 
-And, of course:
-
-* [GitHub](https://github.com/) — *SCM Service*
-
 ### How to run it:
 
 ```
