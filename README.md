@@ -45,6 +45,8 @@ How-to (WIP).
 
 </details>
 
+### What we're doing
+
 We're configuring the [base project](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). Those changes are few and easy, and they're listed below. (And the final results are shown in the code above.)
 
 So let's walk through each step:
