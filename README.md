@@ -30,7 +30,11 @@ You've gotten this far. Given that, we can assume:
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). 
 
-Here's how it's done:
+## How to use this guide
+
+Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make.
+
+Those changes are listed below. We'll walk you through each step.
 
 ## Travis config steps
 
@@ -38,8 +42,6 @@ Here's how it's done:
 2. Add `.travis.yml` to repo
 3. Add repo to [Coveralls](https://coveralls.io/)
 4. Add `.coveralls.yml` to repo
-
-Advice: Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make.
 
 ### 1. Add repo to Travis CI
 
