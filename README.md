@@ -57,3 +57,7 @@ Coveralls demo project, using:
 [travis-ci-docs-getting-started-with-github-sample-travis-yml.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-docs-getting-started-with-github-sample-travis-yml.png)
 
 ![travis-ci-docs-getting-started-with-github-sample-travis-yml.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-docs-getting-started-with-github-sample-travis-yml.png)
+
+[travis-ci-repo-build-1.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-repo-build-1.png)
+
+![travis-ci-repo-build-1.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-repo-build-1.png)
