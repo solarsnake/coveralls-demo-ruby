@@ -112,10 +112,10 @@ If Travis doesn't already list all of your *public repos*, click the __Sync acco
 ---
 
 <em><a href="http://travis-ci.org/">http://travis-ci.org/</a> is the free version of the Travis CI service that's always free for public repos. To manage private repos, you'll want to join the paid service at <a href="http://travis-ci.com/">http://travis-ci.com/</a>.</em>
-   
----
 
 </details>
+
+---
 
 </details>
 
