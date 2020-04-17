@@ -76,7 +76,7 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
    
 ---
    
-To add a public repo to [Travis CI](http://travis-ci.org/), [sign in](https://travis-ci.org/signin?target=_blank)<sup>*</sup> at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login:
+To add a public repo to [Travis CI](http://travis-ci.org/), __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
 
 ![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
 
@@ -92,11 +92,11 @@ Easy enough, just click <strong><a target="_blank" href="https://travis-ci.org/s
 ---
 </details>
 
-Once signed in, click on your profile on the uppper right and choose <strong>Settings</strong>, or go to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
+Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
-If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sync account__ button to refresh the list.
+If Travis doesn't already list all your public repos, click the __Sync account__ button to refresh the list.<sup>*</sup>
 
 <details>
    <summary>* <em>What about private repos?</em></summary>
