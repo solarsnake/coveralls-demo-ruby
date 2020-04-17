@@ -32,7 +32,18 @@ This project is configured to send test coverage results to [Coveralls](https://
 
 ## How to use this guide
 
-Fork the master branch of this project and make your changes to it. Use this branch to verify the changes you'll make. (Consider it your cheatsheet.)
+Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project<sup>*</sup> and make your changes to it. Use this branch to verify the changes you'll make. (Consider it your cheatsheet.)
+
+<details>
+   <summary><sup>*</sup> How to fork this repo</summary>
+   
+---
+
+How-to (WIP).
+
+---
+
+</details>
 
 We're configuring the [base project](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). 
 
