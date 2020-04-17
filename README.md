@@ -140,7 +140,7 @@ To add your repo to Travis, simply click the toggle control next to your repo, s
 
 __Great! [Travis](http://travis-ci.org/) is tracking your repo.__ 
 
-*Next step!*
+*Next step...*
 
 ---
 
@@ -149,7 +149,7 @@ __Great! [Travis](http://travis-ci.org/) is tracking your repo.__
 ### 2. Add `.travis.yml` to repo
 
 <details>
-   <summary><em>How?</em></summary>
+   <summary><em>Do it.</em></summary>
    
 ---
 
