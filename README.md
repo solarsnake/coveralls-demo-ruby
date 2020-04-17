@@ -44,7 +44,7 @@ Advice: Fork the master branch of this project and make your changes to it. Use 
 ### 1. Add repo to Travis CI
 
 <details>
-   <summary>Do it.</summary>
+   <summary>Do it. (WIP)</summary>
    
 ---
    
@@ -98,7 +98,7 @@ As described there, our next step is to add a `travis.yml` config file to our re
 ### 2. Add `.travis.yml` to repo
 
 <details>
-   <summary>Do it.</summary>
+   <summary>Do it. (WIP)</summary>
    
 ---
    
@@ -195,11 +195,29 @@ Now, let's tell our CI to send its test results to Coveralls.
 
 ### 3. Add repo to Coveralls
 
+<details>
+   <summary>Do it.</summary>
+   
+---
+   
 WIP
+
+---
+
+</details>
 
 ### 4. Add `.coveralls.yml` to repo
 
+<details>
+   <summary>Do it.</summary>
+   
+---
+   
 WIP
+
+---
+
+</details>
 
 # To Do:
 * Add Travis logo
