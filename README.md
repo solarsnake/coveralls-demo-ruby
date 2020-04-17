@@ -99,7 +99,7 @@ Once you're signed in, click on your profile image on the uppper right and choos
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
-If Travis doesn't already list all your *public repos*, click the __Sync account__ button to refresh the list.<sup>*</sup>
+If Travis doesn't already list all of your *public repos*, click the __Sync account__ button to refresh the list.<sup>*</sup>
 
 <details>
    <summary>* <em>What about private repos?</em></summary>
