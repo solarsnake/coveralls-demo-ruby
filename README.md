@@ -67,7 +67,19 @@ To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle c
 
 [Travis Ci - Settings - Repositories - Add `coveralls-ruby-demo`]
 
-WIP
+You can click on Settings next to your repo to see some basic configuration options for your repo, but for now let's leave everything as-is there:
+
+[Travis CI - Settings - Repositories - `coevralls-demo-ruby` - Settings]
+
+Now, the free version of Travis CI doesn't offer as much hand-holding as the paid version. Clicking on Documentation in the footer even takes you to docs for the paid version of the service, which aren't 100% applicable for the free version.
+
+[Travis CI Documentation]
+
+Nevertheless, for us the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions apply for us, after the first three (3) steps aboout adding your repo to Travis CI:
+
+[Travis CI - Documentation - Getting started with GitHub screenshot - Marked up]
+
+As described there, our next step is to add a `travis.yml` config file to our repo.
 
 ### 2. Add `.travis.yml` to repo
 
