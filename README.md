@@ -102,7 +102,7 @@ Now, the free version of Travis CI doesn't offer as much hand-holding as the pai
 
 [Travis CI Documentation]
 
-Nevertheless, for us the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions apply for us, after the first three (3) steps aboout adding your repo to Travis CI:
+Nevertheless, for us the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions apply (after the first three (3) steps aboout adding your repo to Travis CI):
 
 [Travis CI - Documentation - Getting started with GitHub screenshot - Marked up]
 
