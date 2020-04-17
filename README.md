@@ -28,11 +28,24 @@ You've gotten this far. Given that, we can assume:
 
 # Travis CI & Coveralls
 
-This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). 
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
 
-Notice the Coveralls badge at the top of this page ([![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)), which indicates we're successfully receiving coverage reports from Coveralls.
+<details>
+   <summary><sup>*</sup> How do we know?</summary>
 
-This doc will guide you through the configuration process.
+---
+
+Notice the Coveralls badge at the top of this page:
+
+[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+
+That tells us we're successfully receiving coverage reports from [Coveralls](https://coveralls.io/).
+
+---
+
+</details>
+
+This guide will walk you through that configuration process.
 
 ## How to use this guide
 
