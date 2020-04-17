@@ -71,15 +71,15 @@ So let's walk through each step:
    
 To add a public repo to Travis CI, you'll first need to sign up for the free version of the service, which you can do by going to [http://travis-ci.org/](http://travis-ci.org/) and singing up with your GitHub login:
 
-[Travis CI - Sign Up]
+![travis-ci-sign-up.png](../media/media/travis-ci-sign-up.png)
 
 Alternately, if you're already a member, just sign in with your GitHub login:
 
-[Travis CI - Sign In]
+![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
 
 Once signed in, click on [Settings](https://travis-ci.org/account/repositories) or go to [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
-[Travis CI - Settings - Repositories]
+![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
 
 If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sync account__ button to refresh the list.
 
@@ -96,19 +96,19 @@ If Travis doesn't already list all your public repos<sup>*</sup>, click the __Sy
 
 To add a repo to [Travis CI]((http://travis-ci.org/)), simply click the toggle control next to your repo:
 
-[Travis Ci - Settings - Repositories - Add `coveralls-ruby-demo`]
+![travis-ci-settings-repos-coveralls-demo-ruby.png](../media/media/travis-ci-settings-repos-coveralls-demo-ruby.png)
 
 You can click on Settings next to your repo to see some basic configuration options for your repo, but for now let's leave everything there as-is:
 
-[Travis CI - Settings - Repositories - `coevralls-demo-ruby` - Settings]
+![travis-ci-settings-repos-coveralls-demo-ruby-settings.png](../media/media/travis-ci-settings-repos-coveralls-demo-ruby-settings.png)
 
 Now, the free version of Travis CI doesn't offer as much hand-holding as the paid version. Clicking on Documentation in the footer even takes you to docs for the paid version of the service, which aren't 100% applicable for the free version.
 
-[Travis CI Documentation]
+![travis-ci-docs.png](../media/media/travis-ci-docs.png)
 
 Nevertheless, for us the [Getting started with GitHub](https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github) instructions still apply (after the first three (3) steps aboout adding your repo to Travis CI):
 
-[Travis CI - Documentation - Getting started with GitHub screenshot - Marked up]
+![travis-ci-docs-getting-started-with-github.png](../media/media/travis-ci-docs-getting-started-with-github.png)
 
 As described there, our next step is to add a `travis.yml` config file to our repo.
 
@@ -132,7 +132,7 @@ And luckily for us, the example is for Ruby and applies well to our project:
 
 > The following example specifies a Ruby project that should be built with Ruby 2.2 and the latest versions of JRuby.
 
-[Travis CI - Example `.travis.yml` file]
+![travis-ci-docs-getting-started-with-github-sample-travis-yml.png](../media/media/travis-ci-docs-getting-started-with-github-sample-travis-yml.png)
 
 With the exception that we're not using `jruby`. Instead, we're using "regular ruby", or the MRI (or "Matz") version of Ruby. So our `.travis.yml` looks like this:
 
