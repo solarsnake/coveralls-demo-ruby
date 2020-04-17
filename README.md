@@ -87,7 +87,7 @@ To add a public repo to Travis, __[Sign in](https://travis-ci.org/signin)__ at [
 
 ---
 
-Easy enough, just click <strong><a target="_blank" href="https://travis-ci.org/signup">Sign up</a></strong> and use your GitHub login:
+Just click <strong><a target="_blank" href="https://travis-ci.org/signup">Sign up</a></strong> and use your GitHub login:
 
 ![travis-ci-sign-up.png](../media/media/travis-ci-sign-up.png)
 
@@ -95,6 +95,7 @@ Easy enough, just click <strong><a target="_blank" href="https://travis-ci.org/s
 </details>
 
 Once you're signed in, click on your profile image on the uppper right and choose <strong>Settings</strong>, or go directly to:
+
 [https://travis-ci.org/account/repositories](https://travis-ci.org/account/repositories):
 
 ![travis-ci-settings-repos.png](../media/media/travis-ci-settings-repos.png)
