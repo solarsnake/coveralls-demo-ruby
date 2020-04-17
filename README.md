@@ -203,7 +203,7 @@ Five (5) out of five (5) relevant lines are now covered, resulting in 100% cover
 
 ---
 
-Now that you understand how test coverage works in this project, you'll soon be able to verify your expectations through [Coveralls](http://coveralls.io).
+Now that you understand how test coverage works in this project, you'll soon be able to verify the same results through [Coveralls](http://coveralls.io).
 
 ### Which CI Service will you use? 
 
