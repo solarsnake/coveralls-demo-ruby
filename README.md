@@ -31,7 +31,7 @@ If you've gotten this far, we can assume:
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
 
 <details>
-   <summary><sup>*</sup> How do we know?</summary>
+   <summary><sup>*</sup> <em>How do we know?</em></summary>
 
 ---
 
@@ -52,7 +52,7 @@ This guide will walk you through the configuration process.
 Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project<sup>*</sup> and make your changes to it. Then use *[this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)* to verify the changes you'll make. (Consider it your cheatsheet.)
 
 <details>
-   <summary><sup>*</sup> How to fork this repo</summary>
+   <summary><sup>*</sup> <em>How do I do that?</em></summary>
    
 ---
 
@@ -61,12 +61,6 @@ How-to (WIP).
 ---
 
 </details>
-
-### What we're doing
-
-We're configuring the [base project](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). Those changes are few and easy, and they're listed below. (And the final results are shown in the code above.)
-
-So let's walk through each step:
 
 ## Config steps
 
