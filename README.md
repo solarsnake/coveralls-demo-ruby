@@ -33,7 +33,7 @@ This project is configured to send test coverage results to [Coveralls](https://
 This guide will walk you through that configuration process.
 
 <details>
-   <summary><sup>*</sup> <em>How do we know?</em></summary>
+   <summary>* <em>How do we know?</em></summary>
 
 ---
 
