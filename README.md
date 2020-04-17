@@ -124,7 +124,7 @@ To add your repo to Travis, simply click the toggle control next to your repo, s
 ![travis-ci-settings-repos-coveralls-demo-ruby.png](../media/media/travis-ci-settings-repos-coveralls-demo-ruby.png)
 
 <details>
-   <summary><em>What about those settings?</em></summary
+   <summary><em>What about those settings?</em></summary>
 
 ---
 
@@ -138,7 +138,7 @@ To add your repo to Travis, simply click the toggle control next to your repo, s
 
 </details>
 
-__Great! [Travis CI](http://travis-ci.org/) is tracking your repo!__ 
+__Great! [Travis](http://travis-ci.org/) is tracking your repo.__ 
 
 *Next step!*
 
