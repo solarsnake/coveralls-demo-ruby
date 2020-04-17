@@ -207,7 +207,7 @@ Now that you understand how test coverage works in this project, you'll soon be 
 
 ### Which CI Service will you use? 
 
-Since your CI Service will be sending code coverage results to [Coveralls](http://coveralls.io)<sup>*</sup>, you'll need to choose a CI service and add this repo to it. 
+Since your CI Service will be sending code coverage results to [Coveralls](http://coveralls.io), you'll need to choose a CI service and add this repo to it.<sup>*</sup>
 
 Follow the branch for your CI service and we'll pick up the conversation there:
 
