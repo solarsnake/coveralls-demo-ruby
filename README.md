@@ -30,9 +30,13 @@ You've gotten this far. Given that, we can assume:
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.com/). 
 
+Notice the Coveralls badge at the top of this page ([![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)), which indicates we're successfully receiving coverage reports from Coveralls.
+
+This doc will guide you through the configuration process.
+
 ## How to use this guide
 
-Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project<sup>*</sup> and make your changes to it. Then use this branch to verify the changes you'll make. (Consider it your cheatsheet.)
+Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project<sup>*</sup> and make your changes to it. Then use *[this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)* to verify the changes you'll make. (Consider it your cheatsheet.)
 
 <details>
    <summary><sup>*</sup> How to fork this repo</summary>
