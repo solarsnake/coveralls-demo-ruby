@@ -73,7 +73,7 @@ Now, clone the project down to your local machine:
 
 ## Clone the project
 
-Click the __Clone or download__ button, then choose a method&mdash;__SSH__ or __HTTPS__&mdash;and click the clipboard icon to copy the URL:
+Click the __Clone or download__ button, then click the __Clipboard icon__ to copy the URL:
 
 ![clone-this-project.png](../media/media/clone-this-project.png)
 
