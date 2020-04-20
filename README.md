@@ -400,15 +400,19 @@ WIPn
 - [ ] Add Coveralls logo
 ```
 
+---
+
 Test of indented code block:
 
     a simple
       indented code block
-      
+
+---
+
 <style
   type="text/css">
 h1 {color:red;}
 
 p {color:blue;}
 </style>
-<p>okay</p>
+okay
