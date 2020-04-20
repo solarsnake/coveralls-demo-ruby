@@ -519,7 +519,7 @@ To access them, just click __Details__ next to your repo name:
 
 And follow the steps presented:
 
-[IMAGE: Coveralls - New Repo - Instructions]
+[IMAGE: Coveralls - New Repo - Setup]
    
 Our first step is technically optional, but in the interest of good form let's add a new file called `.coveralls.yml` to our repo with the following contents:
 
