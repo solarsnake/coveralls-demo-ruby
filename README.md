@@ -73,13 +73,11 @@ Now, clone the project down to your local machine:
 
 ## Clone the project
 
-Click the __Clone or download__ button:
+Click the __Clone or download__ button, then choose a method&mdash;__SSH__ or __HTTPS__&mdash;and click the clipboard icon to copy the URL:
 
 ![clone-this-project.png](../media/media/clone-this-project.png)
 
-Choose a method, __SSH__ or __HTTPS__, and click the clipboard icon to copy the URL.
-
-Now go to your terminals and enter the clone command:
+Now go to your terminal and enter the clone command:
 
 ```
 git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
