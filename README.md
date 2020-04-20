@@ -162,7 +162,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-To add a public repo to Travis, __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
+To add a new public repo to Travis, __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
 
 ![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
 
@@ -203,7 +203,7 @@ If Travis doesn't already list all of your *public repos*, click the __Sync acco
 
 </details>
 
-To add your repo to Travis, simply click the toggle control next to your repo, setting it to __ON__:
+To add your repo to Travis, simply click the toggle control next to your __repo name__, setting it to __ON__:
 
 ![travis-ci-settings-repos-coveralls-demo-ruby.png](../media/media/travis-ci-settings-repos-coveralls-demo-ruby.png)
 
@@ -222,7 +222,7 @@ To add your repo to Travis, simply click the toggle control next to your repo, s
 
 </details>
 
-Great! [Travis](http://travis-ci.org/) is tracking your repo.
+__Great! [Travis](http://travis-ci.org/) is now tracking your repo.__
 
 ---
 
