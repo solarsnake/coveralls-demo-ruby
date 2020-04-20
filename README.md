@@ -498,28 +498,45 @@ In that case, click on the __Sync Repos button__ in the upper right:
 
 </details>
 
-[Coveralls](https://coveralls.io/) is now tracking your repo.
-
-Click __Details__ next to your repo name:
-
-[IMAGE: Coveralls - Add Repo - Details]
-
-Let's follow the instructions Coveralls provides for all new repos:
-
-[IMAGE: Coveralls - New Repo - Instructions]
+Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 ---
 
 </details>
 
-### 4. Add `.coveralls.yml` to repo
+### 4. Finish `coveralls` setup
 
 <details>
    <summary>Do it.</summary>
    
 ---
+
+Click __Details__ next to your repo name:
+
+[IMAGE: Coveralls - Add Repo - Details]
+
+[Coveralls](https://coveralls.io/) provides easy-to-follow setup instructions for each new repo:
+
+[IMAGE: Coveralls - New Repo - Instructions]
    
-WIP
+Our first step is technically optional, but in the interest of good form, let's add a new file to our repo called `.coveralls.yml` with the following contents:
+
+```yaml
+service-name: travis-ci
+```
+
+<details>
+   <summary><em>Why is this optional?</em></summary>
+   
+---
+
+Adding a `.coveralls.yml` is technically optional for [Coveralls](https://coveralls.io/) because [Travis CI](http://travis-ci.org/) is Coveralls' default CI service. Coveralls was originally created for use with [Travis CI (dot org)](http://travis-ci.org/) and has since grown to support more Ci services.
+
+---
+
+</details>
+
+More here...
 
 ---
 
