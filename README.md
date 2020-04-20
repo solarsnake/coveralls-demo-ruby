@@ -142,7 +142,7 @@ After forking the project, keep this window open and refer back to the code in t
    
 ---
    
-If you haven't done so already, [fork this project](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#fork-the-project) and clone it down to your local machine so you have a local copy that belongs to you:
+If you haven't done so already, [fork this project](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#how-to-use-this-guide) and clone it down to your local machine so you have a local copy that belongs to you:
 
 The rest of these steps apply to *your* project, not this one.
 
