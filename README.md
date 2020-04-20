@@ -464,7 +464,37 @@ Now, let's tell Travis to start sending its test results to Coveralls.
    
 ---
    
-WIP
+To add your repo to [Coveralls](https://coveralls.io/sign-in), go to [http://coveralls.io/sign-in](https://coveralls.io/sign-in) and __Sign In__ with GitHub:
+
+[IMAGE: Coveralls - Sign In]
+
+Upon first sign-in, you won't have any active repos, so go to [Add Repos](https://coveralls.io/repos/new) and find a list of your public repos:
+
+[IMAGE: Coveralls - Add Repo]
+
+<details>
+   <summary><em>Wait, I don't see my repo.</em></summary>
+   
+---
+
+In that case, click on the __Sync Repos button__ in the upper right of the page:
+
+[IMAGE: Add Repos - Sync Repos]
+
+<details>
+   <summary><em>What about my private repos?/em></summary>
+   
+---
+
+[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coevralls.io/sign-up). 
+
+---
+
+</details>
+
+---
+
+</details>
 
 ---
 
@@ -477,7 +507,7 @@ WIP
    
 ---
    
-WIPn
+WIP
 
 ---
 
