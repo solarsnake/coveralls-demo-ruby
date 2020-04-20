@@ -57,6 +57,11 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
 
 ## Fork the project:
 
+<details>
+   <summary><em>Do it.</em></summary>
+
+---
+
 Click the __Fork__ button:
 
 ![fork-this-project.png](../media/media/fork-this-project.png)
@@ -69,9 +74,19 @@ When it's done, you'll see a new repo that looks just like the original, called 
 
 ![you-forked-this-project.png](../media/media/you-forked-this-project.png)
 
-Now, clone the project down to your local machine:
+Now, clone the project down to your local machine...
+
+---
+
+</details>
 
 ## Clone the project
+
+<details>
+   <summary><em>Do it.</em></summary>
+
+---
+
 
 Click the __Clone or download__ button, then click the __Clipboard icon__ to copy the URL:
 
@@ -98,9 +113,18 @@ Resolving deltas: 100% (335/335), done.
 
 Great. Now you have a working copy of the project on your local machine.
 
-Now let's create a new working branch to make your changes:
+Now let's create a new working branch to make your changes...
+
+---
+
+</details>
 
 ## Create a new working branch
+
+<details>
+   <summary><em>Do it.</em></summary>
+
+---
 
 Change directories into the project directory:
 
@@ -119,6 +143,10 @@ git checkout -b travis-ci
 Great. Now you're in a working branch where you can make changes to your own copy of this repo.
 
 You're ready to continue with this guide.
+
+---
+
+</details>
 
 ---
 
