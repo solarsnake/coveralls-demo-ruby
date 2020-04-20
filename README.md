@@ -397,31 +397,31 @@ Then add the file to your repo by pushing it up to GitHub:
 git push -u origin <my-new-branch>
 ```
 
-*<small>Where <my-new-branch> is `travis-ci` is you went with my suggestion</small>.*
+*Where `<my-new-branch>` is `travis-ci` if you went with my suggestion.*
 
 And guess what? 
 
 __That's it!__
 
-That's all that's required to get Travis CI to start building your project in its remote, virtual CI environments.
-
-In fact, Travis created your first build the moment you pushed your commit:
-
-```
-git push -u origin <my-new-branch>
-```
+That's all that's required to get Travis to start building your project in a remote, virtual CI environment.
 
 <details>
    <summary><em>Prove it!</em></summary> 
    
 ---
 
-To prove that to yourself, just visit [Travis](https://travis-ci.org/) to see the first build on your project.
+Travis started your first build the moment you pushed your last commit:
+
+```
+git push -u origin <my-new-branch>
+```
+
+To prove that to yourself, just visit [Travis](https://travis-ci.org/) to see your first build.
 
 For us, that meant going here:<br />
 [https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby) 
 
-Your URL will be differnt, but follow this format:
+Your URL will be different, but should follow this format:
 
 ```
 https://travis-ci.org/github/<your-github-username>/<your-github-repo>
