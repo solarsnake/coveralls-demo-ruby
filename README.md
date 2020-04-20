@@ -222,9 +222,7 @@ To add your repo to Travis, simply click the toggle control next to your repo, s
 
 </details>
 
-__Great! [Travis](http://travis-ci.org/) is tracking your repo.__ 
-
-*Next step...*
+Great! [Travis](http://travis-ci.org/) is tracking your repo.
 
 ---
 
