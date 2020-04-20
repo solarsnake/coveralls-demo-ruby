@@ -425,7 +425,7 @@ Your URL will be different, but should follow this format:
 https://travis-ci.org/github/<your-github-username>/<your-github-repo>
 ```
 
-And your first build will look something like this:
+Your first build should look something like this:
 
 ![travis-ci-repo-build-1.png](../media/media/travis-ci-repo-build-1.png)
 
