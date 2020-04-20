@@ -8,7 +8,7 @@
 * [Rspec](https://rspec.info/) — *Testing Library*
 * [Simplecov](https://github.com/colszowka/simplecov) — *Code Coverage Library*
 
-And the services:
+And these services:
 
 * [Travis CI](https://travis-ci.org/) — *CI Service*
 * [Coveralls](https://coveralls.io/) — *Test Coverage Service*
