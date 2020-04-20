@@ -110,9 +110,9 @@ Change directories into the project directory:
 cd coveralls-demo-ruby/
 ```
 
-And create a new working branch:
+And create the new working branch:
 
-**(Call the new branch whatever you wish. One suggestion is: `travis-ci`.)**
+*(Call the new branch whatever you wish. One suggestion is: `travis-ci`.)*
 
 ```
 git checkout -b travis-ci
@@ -126,7 +126,7 @@ All is well and you're ready to continue with this guide.
 
 </details>
 
-After forking the project, refer back to [this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis) to verify the changes you've made. (Consider it your cheatsheet.)
+After forking the project, keep this window open and refer back to the code in this branch to verify the changes you've made. (Consider it your cheatsheet.)
 
 ## Config steps
 
