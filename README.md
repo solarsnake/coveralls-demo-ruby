@@ -269,6 +269,27 @@ That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project..
 
 </details>
 
+Here's the version you'll want to use for your project:
+
+```yaml
+language: ruby
+rvm:
+- 2.6.3
+
+script:
+  - bundle exec rspec
+
+notifications:
+  email: false
+```
+
+<details>
+   <summary><em>Why is that different from the version in this branch?</em></summary>
+
+---
+
+Your version is just a little different from the one we're using in this branch of our repo.
+
 Our `.travis.yml` looks like this:
 
 ```yaml
@@ -298,55 +319,72 @@ notifications:
 
 ---
 
-</details>
-
-Here's the version you'll want to use for your project:
+With the difference being this section:
 
 ```yaml
-language: ruby
-rvm:
-- 2.6.3
-
-script:
-  - bundle exec rspec
-
-notifications:
-  email: false
+branches:
+  only:
+  - travis
+  except:
+  - master
 ```
 
-<details>
-   <summary><em>Why the difference?</em></summary>
+That `branches:` section of our config just means we're doing something a little more fancy than you need to do in your repo.
 
----
+Specifically, we only want to run CI builds upon pushes and PRs to our `travis` branch, which, in our project, is the branch configured to work with Travis CI.
 
-<em>Explain why the differences in config settings. WIP.</em>
+Therefore, we use the `only:` declaration and specify `travis`, for the `travis` branch.
+
+For good measure, we've also added the `except:` declaration&mdash;not strictly necessary, but informative in that we never want to to run builds on commits to our `master` branch, as our master branch is meant to remain a pristine are of unconfigured demo code. (Code that will run nowhere, except on our local machine.)
+
+On the other hand, your Travis CI configuration will be more "plain vanilla", allowing CI builds on any branches you create on your project. Thus, no need to declare anything under `branches:`.
+
+</details>
 
 ---
 
 </details>
 
-Just paste that into a new, empty file in your IDE named `.travis.yml`.
+Paste those contents into a new, empty file in your IDE titled `.travis.yml`.
 
-Now, the last step is to add that file to your repo by committing it.
+Commit it:
 
-Maybe something like:
+```
+git add .
+git commit -m "Add .travis.yml."
+```
+
+Then add it to your repo by pushing it up to GitHub:
 
 ```
 git push -u origin <my-new-branch>
 ```
 
+*<small>Where <my-new-branch> is `travis-ci` is you went with my suggestion</small>.*
+
 And guess what? 
 
 __That's it!__
 
-That's all that's required to get Travis CI to start building your project in its virtual environments.
+That's all that's required to get Travis CI to start building your project in its remote, virtual CI environments.
 
-To prove it to yourself, go back to [Travis](https://travis-ci.org/) to see the first build on your project.
+In fact, Travis created your first build the moment you pushed your commit:
+
+```
+git push -u origin <my-new-branch>
+```
+
+<details>
+   <summary><em>Prove it!</em></summary> 
+   
+---
+
+To prove that to yourself, just visit [Travis](https://travis-ci.org/) to see the first build on your project.
 
 For us, that meant going here:<br />
 [https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby) 
 
-Your URL will be:
+Your URL will be differnt, but follow this format:
 
 ```
 https://travis-ci.org/github/<your-github-username>/<your-github-repo>
@@ -356,11 +394,13 @@ And your first build will look something like this:
 
 ![travis-ci-repo-build-1.png](../media/media/travis-ci-repo-build-1.png)
 
-Simply stated, a successful build; albeit, without a lot going on.
+Simply stated, a successful build&mdash;albeit, without much going on.
 
-__We're building at our CI!__
+__We're building at our CI! Woohoo!__
 
 Now, let's tell our CI to send its test results to Coveralls.
+
+</details>
 
 ---
 
