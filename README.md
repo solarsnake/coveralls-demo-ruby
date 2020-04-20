@@ -55,10 +55,8 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
    
 ---
 
-## Fork the project:
-
 <details>
-   <summary><em>Do it.</em></summary>
+   <summary><strong>Fork the project</strong></summary>
 
 ---
 
@@ -80,10 +78,8 @@ Now, clone the project down to your local machine...
 
 </details>
 
-## Clone the project
-
 <details>
-   <summary><em>Do it.</em></summary>
+   <summary><strong>Clone the project</strong></summary>
 
 ---
 
@@ -119,10 +115,8 @@ Now let's create a new working branch to make your changes...
 
 </details>
 
-## Create a new working branch
-
 <details>
-   <summary><em>Do it.</em></summary>
+   <summary><strong>Create a new working branch</strong></summary>
 
 ---
 
