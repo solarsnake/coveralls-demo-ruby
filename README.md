@@ -421,3 +421,10 @@ okay
 
 <style>p{color:red;}</style>
 *foo*
+
+
+---
+
+1. <details><summary>one</summary>All about one.</details>
+2. <details><summary>two</summary>All about two.</details>
+3. <details><summary>three</summary>All about three.</details>
