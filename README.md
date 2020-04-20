@@ -59,15 +59,15 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
 
 Click the __Fork__ button:
 
-[IMAGE: Fork the project]
+![fork-this-project.png](../media/media/fork-this-project.png)
 
 GitHub will tell you it's working on your fork:
 
-[IMAGE: Forking the project...]
+![forking-this-project.png](../media/media/forking-this-project.png)
 
 When it's done, you'll see a new repo that looks just like the original, called `coveralls-demo-ruby`, only now you'll notice it belongs to you:
 
-[IMAGE: You forked this project]
+![you-forked-this-project.png](../media/media/you-forked-this-project.png)
 
 Now, clone the project down to your local machine:
 
@@ -75,7 +75,7 @@ Now, clone the project down to your local machine:
 
 Click the __Clone or download__ button:
 
-[IMAGE: Clone the project]
+![clone-this-project.png](../media/media/clone-this-project.png)
 
 Choose a method, __SSH__ or __HTTPS__, and click the clipboard icon to copy the URL.
 
