@@ -399,3 +399,8 @@ WIPn
 - [ ] Add Travis logo
 - [ ] Add Coveralls logo
 ```
+
+Test of indented code block:
+
+    a simple
+      indented code block
