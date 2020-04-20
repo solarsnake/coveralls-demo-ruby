@@ -284,11 +284,55 @@ notifications:
 ```
 
 <details>
-   <summary><em>Why is that different from the version in this branch?</em></summary>
+   <summary><em>What do those settings mean?</em></summary>
 
 ---
 
-Your version is just a little different from the one we're using in this branch of our repo.
+Pretty straighforward:
+
+```
+language: ruby
+rvm:
+- 2.6.3
+```
+
+Tells Travis that our project is in `ruby`, specifically, version `2.6.3`.
+
+(Moreover, we're using the default Ruby interpreter&mdash;MRI, or "Matz Ruby." If we were using a different interpreter, such as JRuby, then we'd need another line below `-2.6.3`, specifically `- jruby` (*same level of indentation*)).
+
+```
+script:
+  - bundle exec rspec
+```
+
+Is telling Travis how to run our project.
+
+In this case, we're asking Travis to run our test suite (RSpec).
+
+Finally:
+
+```
+notifications:
+  email: false
+```
+
+Tell Travis "don't send me an email every time I push a commit." Completely optional, just a suggestion to keep your first builds from being too noisy.
+
+If you'd like to see how those emails look, just replace `false` with your email, like:
+
+```
+notifications:
+  email: afinetooth@gmail.com
+```
+
+And that's it. Pretty simple, right?
+
+<details>
+   <summary><em>Hey, why is my `.travis.yml` different from the version in this branch?</em></summary>
+
+---
+
+Your version is simpler than ours for one reason.
 
 Our `.travis.yml` looks like this:
 
@@ -310,16 +354,7 @@ notifications:
   email: false
 ```
 
-<details>
-   <summary><em>What do those settings mean?</em></summary>
-
----
-
-<em>Break down the config settings. WIP.</em>
-
----
-
-With the difference being this section:
+Where the difference is this section:
 
 ```yaml
 branches:
@@ -329,15 +364,17 @@ branches:
   - master
 ```
 
-That `branches:` section of our config just means we're doing something a little more fancy than you need to do in your repo.
+That `branches:` section just means we're doing something a little fancier around our branches compared to your project.
 
-Specifically, we only want to run CI builds upon pushes and PRs to our `travis` branch, which, in our project, is the branch configured to work with Travis CI.
+Specifically, in our project we only want to run builds on pushes to our `travis` branch, which is the only branch we've configured to work with Travis CI. (Other branches work with other CI services.)
 
-Therefore, we use the `only:` declaration and specify `travis`, for the `travis` branch.
+Therefore, we use the `only:` declaration and specify `travis` (*for the `travis` branch*).
 
-For good measure, we've also added the `except:` declaration&mdash;not strictly necessary, but informative in that we never want to to run builds on commits to our `master` branch, as our master branch is meant to remain a pristine are of unconfigured demo code. (Code that will run nowhere, except on our local machine.)
+For good measure, we've also added the `except:` declaration&mdash;not strictly necessary, but informative in that we never want to to run builds on commits to our `master` branch. That's because our master branch is meant to remain a pristine area of unconfigured demo code. (Code that will run nowhere except on our local machine.)
 
-On the other hand, your Travis CI configuration will be more "plain vanilla", allowing CI builds on any branches you create on your project. Thus, no need to declare anything under `branches:`.
+By contrast, your first Travis config can be more "plain vanilla," permitting builds on any branch you might create on your project. 
+
+Thus, no need for you to declare anything under `branches:`.
 
 </details>
 
