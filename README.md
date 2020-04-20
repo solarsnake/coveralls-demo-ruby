@@ -87,6 +87,40 @@ Now, clone the project down to your local machine:
 
 [IMAGE: Clone the project]
 
+```
+git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
+```
+
+Results will look something like this:
+
+```
+Cloning into 'coveralls-demo-ruby'...
+Enter passphrase for key '/Users/jameskessler/.ssh/id_rsa': 
+remote: Enumerating objects: 66, done.
+remote: Counting objects: 100% (66/66), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 543 (delta 40), reused 0 (delta 0), pack-reused 477
+Receiving objects: 100% (543/543), 2.51 MiB | 3.05 MiB/s, done.
+Resolving deltas: 100% (335/335), done.
+```
+
+Great. Now you have a working copy of the project on your machine.
+
+Now, `cd` into the project directory:
+
+```
+cd coveralls-demo-ruby/
+```
+
+And create a new working branch, where you'll make your changes:
+
+(Call it what you wish. On suggestion is `travis-ci`:
+
+```
+git checkout -b travis-ci
+```
+
+
 
 ---
 
