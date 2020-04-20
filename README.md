@@ -77,6 +77,14 @@ After forking the project, refer back to [this branch](https://github.com/afinet
    
 ---
    
+If you haven't already, fork this project so that you have a local copy that belongs to you:
+
+[IMAGE: Fork the project]
+
+
+
+---
+
 To add a public repo to Travis, __[Sign in](https://travis-ci.org/signin)__ at [http://travis-ci.org/](http://travis-ci.org/) with your GitHub login<sup>*</sup>:
 
 ![travis-ci-sign-in.png](../media/media/travis-ci-sign-in.png)
