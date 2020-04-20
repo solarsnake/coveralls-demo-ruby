@@ -61,11 +61,11 @@ Click the __Fork__ button:
 
 [IMAGE: Fork the project]
 
-GitHub tells your it's working on your fork:
+GitHub will tell you it's working on your fork:
 
 [IMAGE: Forking the project...]
 
-When it's done you'll see a new repo that looks just like the old one, called `coveralls-demo-ruby`, only now you'll notice it belongs to you:
+When it's done, you'll see a new repo that looks just like the original, called `coveralls-demo-ruby`, only now you'll notice it belongs to you:
 
 [IMAGE: You forked this project]
 
@@ -79,7 +79,7 @@ Click the __Clone or download__ button:
 
 Choose a method, __SSH__ or __HTTPS__, and click the clipboard icon to copy the URL.
 
-Then enter the clone command in your terminal:
+Now go to your terminals and enter the clone command:
 
 ```
 git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
@@ -98,19 +98,21 @@ Receiving objects: 100% (543/543), 2.51 MiB | 3.05 MiB/s, done.
 Resolving deltas: 100% (335/335), done.
 ```
 
-Great. Now you have a working copy of the project on your machine.
+Great. Now you have a working copy of the project on your local machine.
 
-Now, `cd` into the project directory:
+Now let's create a new working branch to make your changes:
+
+## Create a new working branch
+
+Change directories into the project directory:
 
 ```
 cd coveralls-demo-ruby/
 ```
 
-And create a new working branch, where you'll make your changes:
+And create a new working branch:
 
 **(Call the new branch whatever you wish. One suggestion is: `travis-ci`.)**
-
-Enter this command to create the new branch:
 
 ```
 git checkout -b travis-ci
@@ -118,7 +120,7 @@ git checkout -b travis-ci
 
 Great. Now you're in a working branch where you can make changes to your own copy of this repo.
 
-All is well.
+All is well and you're ready to continue with this guide.
 
 ---
 
