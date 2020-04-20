@@ -472,29 +472,41 @@ Upon first sign-in, you won't have any active repos, so go to [Add Repos](https:
 
 [IMAGE: Coveralls - Add Repo]
 
+To add your repo, simply click the __Toggle control__ next to your __repo name__, switching it to __ON__:
+
+[IMAGE: Coveralls - Add Repo - Turn repo on]
+
 <details>
-   <summary><em>Wait, I don't see my repo.</em></summary>
+   <summary><em>Wait, I don't see my repo!</em></summary>
    
 ---
 
-In that case, click on the __Sync Repos button__ in the upper right of the page:
+In that case, click on the __Sync Repos button__ in the upper right:
 
 [IMAGE: Add Repos - Sync Repos]
 
 <details>
-   <summary><em>What about my private repos?/em></summary>
+   <summary><em>What about my private repos?</em></summary>
    
 ---
 
-[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coevralls.io/sign-up). 
-
----
+[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coveralls.io/sign-up). 
 
 </details>
 
 ---
 
 </details>
+
+[Coveralls](https://coveralls.io/) is now tracking your repo.
+
+Click __Details__ next to your repo name:
+
+[IMAGE: Coveralls - Add Repo - Details]
+
+Let's follow the instructions Coveralls provides for all new repos:
+
+[IMAGE: Coveralls - New Repo - Instructions]
 
 ---
 
