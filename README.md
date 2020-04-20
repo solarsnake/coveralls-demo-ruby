@@ -235,7 +235,7 @@ Great! [Travis](http://travis-ci.org/) is tracking your repo.
    
 ---
 
-As described in the <a href="https://docs.travis-ci.com/user/tutorial/">documentation</a><sup>*</sup>, our next step is to add a `travis.yml` config file to our repo.
+According to the <a href="https://docs.travis-ci.com/user/tutorial/">documentation</a><sup>*</sup>, our next step is to add a `travis.yml` config file to our repo.
 
 <details>
    <summary>* <em>Where'd you find that documentation?</em></summary>
