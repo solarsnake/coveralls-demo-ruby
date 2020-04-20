@@ -511,15 +511,17 @@ Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
    
 ---
 
-Click __Details__ next to your repo name:
+[Coveralls](https://coveralls.io/) provides easy-to-follow setup instructions for each new repo.
+
+To access them, just click __Details__ next to your repo name:
 
 [IMAGE: Coveralls - Add Repo - Details]
 
-[Coveralls](https://coveralls.io/) provides easy-to-follow setup instructions for each new repo:
+And follow the steps presented:
 
 [IMAGE: Coveralls - New Repo - Instructions]
    
-Our first step is technically optional, but in the interest of good form, let's add a new file to our repo called `.coveralls.yml` with the following contents:
+Our first step is technically optional, but in the interest of good form let's add a new file called `.coveralls.yml` to our repo with the following contents:
 
 ```yaml
 service-name: travis-ci
@@ -536,7 +538,60 @@ Adding a `.coveralls.yml` is technically optional for [Coveralls](https://covera
 
 </details>
 
-More here...
+*We don't need to add a `repo-token` to our `.coevralls.yml` file at this time, so we can skip that part.*
+
+Next step, add the `coveralls` gem to our Gemfile:
+
+```ruby
+gem 'coveralls', require: false
+```
+
+And for good measure, since there's currently a conflict between the `coveralls` gem and the latest version of `simplecov`, let's lock down the version of `simplecov` we'll use in our project. In your Gemfile, add this lone *above* the line, `gem 'coveralls', require: false`:
+
+```ruby
+gem 'simplecov', '0.16'
+```
+
+Last step, let's add a line of code that invokes the `coveralls` gem, to the very top of our test suite's helper file. For our test suite, [RSpec](http://rspec.info], that's `spec_helper.rb`:
+
+```ruby
+require 'coveralls'
+Coveralls.wear!
+
+# Your code here
+```
+
+And that's it.
+
+Commit your changes:
+
+```
+git add .
+git commit -m "Add coveralls gem and .coveralls.yml."
+```
+
+Push the up to GitHub:
+
+```
+git push
+```
+
+And that's it!
+
+Coverage for your next Travis build will now appear in place of these instructions on the details page for your repo.
+
+Our is here:<br />
+https://coveralls.io/github/afinetooth/coveralls-demo-ruby
+
+Yours URL will have the format:
+
+```
+https://coveralls.io/github/<your-github-username>/<your-github-repo-name>
+```
+
+Your first code coverage report will look something like this:
+
+[IMAGE: Coveralls - First build]
 
 ---
 
