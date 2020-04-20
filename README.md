@@ -403,7 +403,7 @@ And guess what?
 
 __That's it!__
 
-That's all that's required to get Travis to start building your project in a remote, virtual CI environment.
+Travis is building your project in a remote, virtual CI environment.
 
 <details>
    <summary><em>Prove it!</em></summary> 
@@ -433,11 +433,9 @@ And your first build will look something like this:
 
 Simply stated, a successful build&mdash;albeit, without much going on.
 
-__We're building at our CI! Woohoo!__
+</details>
 
 Now, let's tell our CI to send its test results to Coveralls.
-
-</details>
 
 ---
 
