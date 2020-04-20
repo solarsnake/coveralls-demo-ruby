@@ -345,16 +345,16 @@ On the other hand, your Travis CI configuration will be more "plain vanilla", al
 
 </details>
 
-Paste those contents into a new, empty file in your IDE titled `.travis.yml`.
+Just paste those contents into a new, empty file in your IDE titled `.travis.yml`.
 
-Commit it:
+Then commit it:
 
 ```
 git add .
 git commit -m "Add .travis.yml."
 ```
 
-Then add it to your repo by pushing it up to GitHub:
+Then add the file to your repo by pushing it up to GitHub:
 
 ```
 git push -u origin <my-new-branch>
