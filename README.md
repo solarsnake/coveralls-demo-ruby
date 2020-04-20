@@ -38,7 +38,7 @@ Notice the Coveralls badge at the top of the page:
 
 [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
 
-That tells us we're configured correctly and successfully receiving coverage reports from [Coveralls](https://coveralls.io/).
+That tells us we're configured correctly and successfully receiving coverage reports back from [Coveralls](https://coveralls.io/).
 
 ---
 
