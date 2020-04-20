@@ -401,9 +401,7 @@ git push -u origin <my-new-branch>
 
 And guess what? 
 
-__That's it!__
-
-Travis is building your project in a remote, virtual CI environment.
+__That's it! Travis is building your project in a remote, virtual CI environment.__
 
 <details>
    <summary><em>Prove it!</em></summary> 
