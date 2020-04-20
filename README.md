@@ -30,7 +30,7 @@ If you've gotten this far, we can assume:
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
 
 <details>
-   <summary>* <em>How do we know?</em></summary>
+   <summary>* <em>How do we know it's working?</em></summary>
 
 ---
 
