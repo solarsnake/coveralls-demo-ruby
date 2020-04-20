@@ -397,7 +397,7 @@ Then add the file to your repo by pushing it up to GitHub:
 git push -u origin <my-new-branch>
 ```
 
-*Where `<my-new-branch>` is `travis-ci` if you went with my suggestion.*
+*(Where `<my-new-branch>` is `travis-ci` if you went with my suggestion.)*
 
 And guess what? 
 
