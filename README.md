@@ -110,7 +110,7 @@ cd coveralls-demo-ruby/
 
 And create the new working branch:
 
-*(Call the new branch whatever you wish. One suggestion is: `travis-ci`.)*
+*(Call the new branch whatever you wish, for instance: `travis-ci`.)*
 
 ```
 git checkout -b travis-ci
@@ -118,7 +118,7 @@ git checkout -b travis-ci
 
 Great. Now you're in a working branch where you can make changes to your own copy of this repo.
 
-All is well and you're ready to continue with this guide.
+You're ready to continue with this guide.
 
 ---
 
