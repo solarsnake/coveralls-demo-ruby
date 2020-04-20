@@ -55,43 +55,37 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
    
 ---
 
-<em>How to fork this repo (WIP).</em>
-
----
-
-</details>
-
-After forking the project, refer back to [this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis) to verify the changes you've made. (Consider it your cheatsheet.)
-
-## Config steps
-
-1. Add repo to [Travis CI](https://travis-ci.org/)
-2. Add `.travis.yml` to repo
-3. Add repo to [Coveralls](https://coveralls.io/)
-4. Add `.coveralls.yml` to repo
-
-### 1. Add repo to Travis CI
-
-<details>
-   <summary><em>Do it.</em></summary>
-   
----
-   
-If you haven't already, fork this project and clone it down to your local machine so that you have a local copy that belongs to you:
-
 ## Fork the project:
+
+Click the __Fork__ button:
 
 [IMAGE: Fork the project]
 
+GitHub tells your it's working on your fork:
+
+[IMAGE: Forking the project...]
+
+When it's done you'll see a new repo that looks just like the old one, called `coveralls-demo-ruby`, only now you'll notice it belongs to you:
+
+[IMAGE: You forked this project]
+
 Now, clone the project down to your local machine:
 
+## Clone the project
+
+Click the __Clone or download__ button:
+
 [IMAGE: Clone the project]
+
+Choose a method, __SSH__ or __HTTPS__, and click the clipboard icon to copy the URL.
+
+Then enter the clone command in your terminal:
 
 ```
 git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
 ```
 
-Results will look something like this:
+You results should look something like this:
 
 ```
 Cloning into 'coveralls-demo-ruby'...
@@ -114,13 +108,41 @@ cd coveralls-demo-ruby/
 
 And create a new working branch, where you'll make your changes:
 
-(Call it what you wish. On suggestion is `travis-ci`:
+**(Call the new branch whatever you wish. One suggestion is: `travis-ci`.)**
+
+Enter this command to create the new branch:
 
 ```
 git checkout -b travis-ci
 ```
 
+Great. Now you're in a working branch where you can make changes to your own copy of this repo.
 
+All is well.
+
+---
+
+</details>
+
+After forking the project, refer back to [this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis) to verify the changes you've made. (Consider it your cheatsheet.)
+
+## Config steps
+
+1. Add repo to [Travis CI](https://travis-ci.org/)
+2. Add `.travis.yml` to repo
+3. Add repo to [Coveralls](https://coveralls.io/)
+4. Add `.coveralls.yml` to repo
+
+### 1. Add repo to Travis CI
+
+<details>
+   <summary><em>Do it.</em></summary>
+   
+---
+   
+If you haven't done so already, fork this project and clone it down to your local machine so that you have a local copy that belongs to you:
+
+[link to above section]
 
 ---
 
