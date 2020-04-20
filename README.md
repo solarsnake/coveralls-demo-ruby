@@ -72,8 +72,6 @@ When it's done, you'll see a new repo that looks just like the original, called 
 
 ![you-forked-this-project.png](../media/media/you-forked-this-project.png)
 
-Now, clone the project down to your local machine...
-
 ---
 
 </details>
@@ -109,8 +107,6 @@ Resolving deltas: 100% (335/335), done.
 
 Great. Now you have a working copy of the project on your local machine.
 
-Now let's create a new working branch to make your changes...
-
 ---
 
 </details>
@@ -137,8 +133,6 @@ git checkout -b travis-ci
 Great. Now you're in a working branch where you can make changes to your own copy of this repo.
 
 You're ready to continue with this guide.
-
----
 
 </details>
 
