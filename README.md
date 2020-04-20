@@ -61,7 +61,7 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
 
 </details>
 
-Then use this branch to verify the changes you've made. (Consider it your cheatsheet.)
+After forking the project, refer back to [this branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis) to verify the changes you've made. (Consider it your cheatsheet.)
 
 ## Config steps
 
