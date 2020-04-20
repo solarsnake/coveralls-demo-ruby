@@ -433,9 +433,27 @@ And your first build will look something like this:
 
 Simply stated, a successful build&mdash;albeit, without much going on.
 
+Notice those test results, which look the same as on our local machine:
+
+```
+$ bundle exec rspec
+
+ClassOne
+  covered
+    returns 'covered'
+    
+Finished in 0.00176 seconds (files took 0.13071 seconds to load)
+1 example, 0 failures
+
+Coverage report generated for RSpec to /home/travis/build/afinetooth/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
+The command "bundle exec rspec" exited with 0.
+```
+
+That means our tests passed and therefore our build succeeded.
+
 </details>
 
-Now, let's tell our CI to send its test results to Coveralls.
+Now, let's tell Travis to start sending its test results to Coveralls.
 
 ---
 
