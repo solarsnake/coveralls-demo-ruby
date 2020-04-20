@@ -55,7 +55,7 @@ Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/
    
 ---
 
-   <details>
+<details>
    <summary><strong>1. Fork the project</strong></summary>
 
 ---
@@ -76,7 +76,7 @@ When it's done, you'll see a new repo that looks just like the original, called 
 
 </details>
 
-   <details>
+<details>
    <summary><strong>2. Clone the project</strong></summary>
 
 ---
@@ -111,7 +111,7 @@ Great. Now you have a working copy of the project on your local machine.
 
 </details>
 
-   <details>
+<details>
    <summary><strong>3. Create a new working branch</strong></summary>
 
 ---
