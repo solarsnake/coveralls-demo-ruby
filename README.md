@@ -77,10 +77,15 @@ After forking the project, refer back to [this branch](https://github.com/afinet
    
 ---
    
-If you haven't already, fork this project so that you have a local copy that belongs to you:
+If you haven't already, fork this project and clone it down to your local machine so that you have a local copy that belongs to you:
+
+## Fork the project:
 
 [IMAGE: Fork the project]
 
+Now, clone the project down to your local machine:
+
+[IMAGE: Clone the project]
 
 
 ---
