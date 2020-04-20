@@ -83,7 +83,7 @@ Now go to your terminal and enter the clone command:
 git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
 ```
 
-You results should look something like this:
+Your results should look something like this:
 
 ```
 Cloning into 'coveralls-demo-ruby'...
