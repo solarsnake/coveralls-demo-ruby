@@ -427,7 +427,7 @@ https://travis-ci.org/github/<your-github-username>/<your-github-repo>
 
 Your first build should look something like this:
 
-![travis-ci-first_build.png](../media/media/travis-ci-first_build.png)
+![travis-ci-first-build.png](../media/media/travis-ci-first-build.png)
 
 Simply stated, a successful build&mdash;albeit, without much going on.
 
