@@ -552,6 +552,12 @@ And for good measure, since there's currently a conflict between the `coveralls`
 gem 'simplecov', '0.16'
 ```
 
+Since we changed the version of our original gem, we need to update the gems in our project with the command:
+
+```
+bundle install
+```
+
 Last step, let's add a line of code that invokes the `coveralls` gem, to the very top of our test suite's helper file. For our test suite, [RSpec](http://rspec.info], that's `spec_helper.rb`:
 
 ```ruby
