@@ -553,7 +553,7 @@ gem 'simplecov', '0.16'
 gem 'coveralls', require: false
 ```
 
-Since we're changed the version of our `simplecov` gem, we need to update the gems in our project with this command:
+Since we're changing the version of our `simplecov` gem, we need to update the gems in our project with this command:
 
 ```
 bundle install
