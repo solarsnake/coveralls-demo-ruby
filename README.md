@@ -10,8 +10,7 @@
 
 And these services:
 
-* [Travis CI](https://travis-ci.org/) — *CI Service*
-* [Coveralls](https://coveralls.io/) — *Test Coverage Service*
+add this lone* [Coveralls](https://coveralls.io/) — *Test Coverage Service*
 
 # Welcome
 
@@ -546,13 +545,14 @@ Next step, add the `coveralls` gem to our Gemfile:
 gem 'coveralls', require: false
 ```
 
-And for good measure, since there's currently a conflict between the `coveralls` gem and the latest version of `simplecov`, let's lock down the version of `simplecov` we'll use in our project. In your Gemfile, add this lone *above* the line, `gem 'coveralls', require: false`:
+And for good measure, since there's currently a conflict between the `coveralls` gem and the latest version of `simplecov`, let's lock down the version of `simplecov` we'll use in our project. In your Gemfile, add this line *above* the line, `gem 'coveralls', require: false` so the lest two lines of our Gemfile look like this:
 
 ```ruby
 gem 'simplecov', '0.16'
+gem 'coveralls', require: false
 ```
 
-Since we changed the version of our original gem, we need to update the gems in our project with the command:
+Since we're changed the version of our `simplecov` gem, we need to update the gems in our project with this command:
 
 ```
 bundle install
@@ -567,7 +567,7 @@ Coveralls.wear!
 # Your code here
 ```
 
-And that's it.
+Save the file.
 
 Commit your changes:
 
@@ -584,9 +584,9 @@ git push
 
 And that's it!
 
-Coverage for your next Travis build will now appear in place of these instructions on the details page for your repo.
+Coverage for your next Travis build will now appear on the details page for your repo, in place of the instructions we just followed.
 
-Your URL will have the format:
+Your URL for that page will have the format:
 
 ```
 https://coveralls.io/github/<your-github-username>/<your-github-repo-name>
@@ -596,8 +596,20 @@ Your first code coverage report will look something like this:
 
 [IMAGE: Coveralls - First build]
 
-![coveralls-first-coevrage-report.png](../media/media/coveralls-first-coevrage-report.png)
+![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
+
+Congratulations, you're sending code coverage results to [Coveralls](https://coveralls.io/).
+
+# To Do
+
+- [ ] Add your badge
+- [ ] Test your results by adding tests and seeing your badge change
 
 ---
 
 </details>
+
+# To Do
+
+- [ ] Add your badge
+- [ ] Test your results by adding tests and seeing your badge change
