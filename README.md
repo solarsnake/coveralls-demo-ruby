@@ -513,7 +513,7 @@ Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 [Coveralls](https://coveralls.io/) provides easy-to-follow setup instructions for each new repo.
 
-To access them, just click __Details__ next to your repo name:
+To access them, just click the __Details button__ next to your repo name:
 
 ![coveralls-add-repo-turn-on.png](../media/media/coveralls-add-repo-turn-on.png)
 
