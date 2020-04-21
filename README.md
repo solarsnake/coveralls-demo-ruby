@@ -519,8 +519,6 @@ To access them, just click __Details__ next to your repo name:
 
 And follow the steps presented:
 
-[IMAGE: Coveralls - New Repo - Setup]
-
 ![coveralls-new-repo-setup.png](../media/media/coveralls-new-repo-setup.png)
    
 Our first step is technically optional, but in the interest of good form let's add a new file called `.coveralls.yml` to our repo with the following contents:
@@ -572,7 +570,7 @@ git add .
 git commit -m "Add coveralls gem and .coveralls.yml."
 ```
 
-Push the up to GitHub:
+Push them up to GitHub:
 
 ```
 git push
@@ -582,10 +580,10 @@ And that's it!
 
 Coverage for your next Travis build will now appear in place of these instructions on the details page for your repo.
 
-Our is here:<br />
+Ours is here:<br />
 https://coveralls.io/github/afinetooth/coveralls-demo-ruby
 
-Yours URL will have the format:
+Your URL will have the format:
 
 ```
 https://coveralls.io/github/<your-github-username>/<your-github-repo-name>
