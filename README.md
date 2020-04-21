@@ -466,15 +466,15 @@ Now, let's tell Travis to start sending its test results to Coveralls.
    
 To add your repo to [Coveralls](https://coveralls.io/sign-in), go to [http://coveralls.io/sign-in](https://coveralls.io/sign-in) and __Sign In__ with GitHub:
 
-[IMAGE: Coveralls - Sign In]
+![coveralls-sign-in.png](../media/media/coveralls-sign-in.png)
 
 Upon first sign-in, you won't have any active repos, so go to [Add Repos](https://coveralls.io/repos/new) and find a list of your public repos:
 
-[IMAGE: Coveralls - Add Repo]
+![coveralls-add-repo.png](../media/media/coveralls-add-repo.png)
 
 To add your repo, simply click the __Toggle control__ next to your __repo name__, switching it to __ON__:
 
-[IMAGE: Coveralls - Add Repo - Turn repo on]
+![coveralls-add-repo-turn-on.png](../media/media/coveralls-add-repo-turn-on.png)
 
 <details>
    <summary><em>Wait, I don't see my repo!</em></summary>
@@ -483,7 +483,7 @@ To add your repo, simply click the __Toggle control__ next to your __repo name__
 
 In that case, click on the __Sync Repos button__ in the upper right:
 
-[IMAGE: Add Repos - Sync Repos]
+![coveralls-add-repo-sync-repos.png](../media/media/coveralls-add-repo-sync-repos.png)
 
 <details>
    <summary><em>What about my private repos?</em></summary>
@@ -515,11 +515,13 @@ Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 To access them, just click __Details__ next to your repo name:
 
-[IMAGE: Coveralls - Add Repo - Details]
+![coveralls-add-repo-turn-on.png](../media/media/coveralls-add-repo-turn-on.png)
 
 And follow the steps presented:
 
 [IMAGE: Coveralls - New Repo - Setup]
+
+![coveralls-new-repo-setup.png](../media/media/coveralls-new-repo-setup.png)
    
 Our first step is technically optional, but in the interest of good form let's add a new file called `.coveralls.yml` to our repo with the following contents:
 
