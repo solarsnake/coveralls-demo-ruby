@@ -559,7 +559,7 @@ Since we're changing the version of our `simplecov` gem, we need to update the g
 bundle install
 ```
 
-Last step, let's add a line of code that invokes `coveralls` to the very top of our test suite's helper file. For our test suite, [RSpec](http://rspec.info], that's `spec_helper.rb`:
+Last step, let's add a line of code that invokes `coveralls` to the very top of our test suite's helper file. For our test suite, [RSpec](http://rspec.info), that's `spec_helper.rb`:
 
 ```ruby
 require 'coveralls'
