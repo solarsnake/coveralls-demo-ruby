@@ -546,7 +546,7 @@ Next step, add the `coveralls` gem to our Gemfile:
 gem 'coveralls', require: false
 ```
 
-And for good measure, since there's currently a conflict between the `coveralls` gem and the latest version of `simplecov`, let's lock down the version of `simplecov` we'll use in our project. In your Gemfile, add this line *above* the line, `gem 'coveralls', require: false` so the lest two lines of our Gemfile look like this:
+And for good measure, since there's currently a conflict between the `coveralls` gem and the latest version of `simplecov`, let's lock down the version of `simplecov` we'll use in our project. In your Gemfile, add this line *above* the line, `gem 'coveralls', require: false` so the last two lines of our Gemfile look like this:
 
 ```ruby
 gem 'simplecov', '0.16'
