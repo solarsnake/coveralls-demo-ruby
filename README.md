@@ -10,7 +10,8 @@
 
 And these services:
 
-add this lone* [Coveralls](https://coveralls.io/) — *Test Coverage Service*
+* [Travis CI](http:://travis-ci.org) — *CI Service*
+* [Coveralls](https://coveralls.io/) — *Test Coverage Service*
 
 # Welcome
 
