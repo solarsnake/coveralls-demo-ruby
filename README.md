@@ -61,3 +61,9 @@ Coveralls demo project, using:
 [travis-ci-repo-build-1.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-repo-build-1.png)
 
 ![travis-ci-repo-build-1.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-repo-build-1.png)
+
+---
+
+[travis-ci-first-build.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-first-build.png)
+
+![travis-ci-first-build.png](https://github.com/afinetooth/coveralls-demo-ruby/blob/media/media/travis-ci-first-build.png)
