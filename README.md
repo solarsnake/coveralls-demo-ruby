@@ -594,8 +594,6 @@ https://coveralls.io/github/<your-github-username>/<your-github-repo-name>
 
 Your first code coverage report will look something like this:
 
-[IMAGE: Coveralls - First coverage report]
-
 ![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
 
 Congratulations, you're sending code coverage results to [Coveralls](https://coveralls.io/).
