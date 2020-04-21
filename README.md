@@ -580,9 +580,6 @@ And that's it!
 
 Coverage for your next Travis build will now appear in place of these instructions on the details page for your repo.
 
-Ours is here:<br />
-https://coveralls.io/github/afinetooth/coveralls-demo-ruby
-
 Your URL will have the format:
 
 ```
@@ -592,6 +589,8 @@ https://coveralls.io/github/<your-github-username>/<your-github-repo-name>
 Your first code coverage report will look something like this:
 
 [IMAGE: Coveralls - First build]
+
+![coveralls-first-coevrage-report.png](../media/media/coveralls-first-coevrage-report.png)
 
 ---
 
