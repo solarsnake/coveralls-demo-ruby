@@ -147,7 +147,7 @@ After forking the project, keep this window open and refer back to the code in t
 1. Add repo to [Travis CI](https://travis-ci.org/)
 2. Add `.travis.yml` to repo
 3. Add repo to [Coveralls](https://coveralls.io/)
-4. Add `.coveralls.yml` to repo
+4. Finish `coveralls` setup
 
 ### 1. Add repo to Travis CI
 
