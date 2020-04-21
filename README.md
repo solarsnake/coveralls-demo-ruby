@@ -538,7 +538,7 @@ Adding a `.coveralls.yml` is technically optional for [Coveralls](https://covera
 
 </details>
 
-*We don't need to add a `repo-token` to our `.coevralls.yml` file at this time, so we can skip that part.*
+*We don't need to add a `repo-token` to our `.coveralls.yml` file at this time, so we can skip that part.*
 
 Next step, add the `coveralls` gem to our Gemfile:
 
