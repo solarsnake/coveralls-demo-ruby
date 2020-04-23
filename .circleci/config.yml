@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: Which bundler?
-          command: bundle install
+          command: bundle install --path vendor/bundle
       - run:
           name: Run tests
           command: bundle exec rspec
