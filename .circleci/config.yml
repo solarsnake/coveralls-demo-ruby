@@ -12,8 +12,10 @@ jobs:
       - checkout
       - run:
           name: Which bundler?
-          command: bundle -v
-      - ruby/bundle-install
+          command: bundle install
+      - run:
+          name: Run tests
+          command: bundle exec rspec
 
 workflows:
   version: 2.1
