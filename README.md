@@ -30,7 +30,6 @@ If you've gotten this far, we can assume:
 ### Setup Notes / Steps
 - [x] Add [`simplecov-lcov`](https://github.com/fortissimo1997/simplecov-lcov) gem and convert test coverage report into lcov format to use coveralls orb
 - [x] Add [coveralls orb](https://circleci.com/orbs/registry/orb/coveralls/coveralls)
-- [x] Add `.coveralls.yml` with `REPO_TOKEN: <token>` (Where is this documented? [Here](https://docs.coveralls.io/supported-ci-services)? I had to find sample projects and copy their setup, [here](https://github.com/FarmBot/Farmbot-Web-App/blob/staging/.coveralls.yml) and [here](https://github.com/melbon/circleci-coveralls/blob/feat/add-square-tests/.coveralls.yml).)
-- [x] Remove the above (didn't work) in lieu of adding orb parameter for the `upload` command, `token`.
+- [x] Configure orb's upload command with parameters: path_to_lcov & token
 - [ ] Embed coverage badge (and probably circleci badge)
 - [ ] Write README
