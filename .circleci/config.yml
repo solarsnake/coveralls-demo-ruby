@@ -2,6 +2,7 @@ version: 2.1
 
 orbs:
   ruby: circleci/ruby@0.1.2
+  coveralls: coveralls/coveralls@1.0.4
 
 jobs:
   build:
@@ -19,6 +20,7 @@ jobs:
       - run:
           name: Run tests
           command: bundle exec rspec
+      - coveralls/upload
 
 workflows:
   version: 2.1
