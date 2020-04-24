@@ -14,7 +14,7 @@ And these services:
 # Welcome
 
 If you've gotten this far, we can assume:
-   
+
 <dl>
   <dt>1. You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
   <dd>If not, start back at the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>.</dd>
@@ -32,3 +32,5 @@ If you've gotten this far, we can assume:
 - [x] Add [coveralls orb](https://circleci.com/orbs/registry/orb/coveralls/coveralls)
 - [x] Add `.coveralls.yml` with `REPO_TOKEN: <token>` (Where is this documented? [Here](https://docs.coveralls.io/supported-ci-services)? I had to find sample projects and copy their setup, [here](https://github.com/FarmBot/Farmbot-Web-App/blob/staging/.coveralls.yml) and [here](https://github.com/melbon/circleci-coveralls/blob/feat/add-square-tests/.coveralls.yml).)
 - [x] Remove the above (didn't work) in lieu of adding orb parameter for the `upload` command, `token`.
+- [ ] Embed coverage badge (and probably circleci badge)
+- [ ] Write README
