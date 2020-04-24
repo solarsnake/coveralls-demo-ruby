@@ -22,8 +22,7 @@ jobs:
           command: bundle exec rspec
       - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
-          token: JArEBJgO5xO1QfBH1hBgZB4G9YKWQBEIU
-
+          
 workflows:
   version: 2.1
   build_and_test:
