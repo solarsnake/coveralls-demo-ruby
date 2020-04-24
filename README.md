@@ -26,3 +26,7 @@ If you've gotten this far, we can assume:
 # Coveralls & CircleCI
 
 [WIP]
+
+### Notes
+- [x] Add [`simplecov-lcov`](https://github.com/fortissimo1997/simplecov-lcov) gem and convert test coverage report into lcov format to use coveralls orb
+- [ ] Add [coveralls orb](https://circleci.com/orbs/registry/orb/coveralls/coveralls)
