@@ -20,7 +20,7 @@ jobs:
       - run:
           name: Run tests
           command: bundle exec rspec
-      - coveralls/upload
+      - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
 
 workflows:
