@@ -14,8 +14,8 @@ jobs:
           name: Install Bundler
           command: gem install bundler:2.1.4
       - run:
-          name: Which bundler?
-          command: bundle install --path vendor/bundle
+          name: Install dependencies with bundler
+          command: BUNDLE_PATH=vendor/bundle bundle install
       - run:
           name: Run tests
           command: bundle exec rspec
