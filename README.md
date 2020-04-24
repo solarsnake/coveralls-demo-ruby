@@ -602,7 +602,6 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 # To Do
 
 - [ ] Add your badge
-- [ ] Test your results by adding tests and seeing your badge change
 
 ---
 
@@ -610,5 +609,5 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 # To Do
 
-- [ ] Add your badge
-- [ ] Test your results by adding tests and seeing your badge change
+- [ ] Section: Verify test coverage results by adding tests and seeing your badge change
+- [ ] Section: Link to other TRavis scenarios (parallel builds, etc.)
