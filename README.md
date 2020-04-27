@@ -707,7 +707,7 @@ end
 Save the file, commit the change and push it to GitHub:
 
 ```
-git commit -m "Add tests to make coevrage 100%."
+git commit -m "Add tests to make coverage 100%."
 git push
 ```
 
