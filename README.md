@@ -601,10 +601,7 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 </details>
 
-# Get badged
-
-- [x] Section: Badge your repo (copy)
-- [ ] Section: Badge your repo (images)
+# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis) [IMAGE: COVERALLS BADGE - 80%]
 
 <details>
    <summary>Do it.</summary>
@@ -617,15 +614,15 @@ At the bottom of your Coveralls start page:
 
 You'll see a box like this instructing you to badge your repo:
 
-[IMAGE: BADGE YOUR REPO]
+![coveralls-badge-your-repo.png](../media/media/coveralls-badge-your-repo.png)
 
-Simply click on the __Embed button__ and choose the version of markup that applies for you:
+Click on the __Embed button__ and choose the version of markup that applies for you:
 
-[IMAGE: CHOOSE EMBED CODE]
+![coveralls-badge-your-repo-choose-embed-markup.png](../media/media/coveralls-badge-your-repo-choose-embed-markup.png)
 
 *(For a GitHub README, that's the __Markdown__ version.)*
 
-Now paste the markup into the top of your README and...
+Then paste the markup into the top of your README, and...
 
 __Voilà__:
 
@@ -637,10 +634,106 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage through Coveralls
+# Verify changes in test coverage via Coveralls [IMAGE: COVERALLS BADGE - 100%]
 
-- [ ] Section: Verify test coverage changes through Coveralls
+- [x] Section: Verify test coverage changes through Coveralls (copy)
+- [ ] Section: Verify test coverage changes through Coveralls (images)
+
+<details>
+   <summary>Do it. </summary>
+   
+---
+
+Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service. 
+
+If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
+
+[SCREENSHOT: COVERALLS FIRST BUILD - 80%]
+
+The badge on your repo reinforces that:
+
+[IMAGE: COVERALLS BADGE 80%]
+
+Now let's validate that [Coveralls](https://coveralls.io/) is tracking *changes in test coverage* on our project.
+
+To do that, let's add a test that lifts coverage to 100%.
+
+Open the test file, `/spec/class_one_spec.rb`, and uncomment the second test in the file, so that this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  # describe "uncovered" do
+  #   it "returns 'uncovered'" do
+  #     expect(ClassOne.uncovered).to eql("uncovered")
+  #   end
+  # end
+end
+```
+
+Becomes this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  describe "uncovered" do
+    it "returns 'uncovered'" do
+      expect(ClassOne.uncovered).to eql("uncovered")
+    end
+  end
+end
+```
+
+Save the file, commit the change and push it to GitHub:
+
+```
+git commit -m "Add tests."
+git push
+```
+
+That push will trigger a [new build at Travis CI](#):
+
+[SCREENSHOT: NEW TRAVIS BUILD]
+
+Which in turn triggers a [new build at Coveralls](#):
+
+[SCREENSHOT: NEW COVERALLS BUILD - 100%]
+
+Which now reads 100%:
+
+[IMAGE: CLOSE-UP OF 100%]
+
+Which is reinforced by your updated badge:
+
+[IMAGE: COVERALLS BADGE - 100%]
+
+__Bam. Automated test coverage updates, in real-time, from Coveralls.__
+
+---
+
+</details>
 
 # More
 
-- [ ] Section: Links to other Travis scenarios (parallel builds, etc.)
+- [ ] Section: PRs vs builds and how to read results.
+- [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
