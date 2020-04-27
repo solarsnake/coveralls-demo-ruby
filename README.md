@@ -607,7 +607,7 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 - [ ] Section: Verify test coverage results by adding tests and seeing your badge change
 
-# Verify changes in test coverage via Coveralls
+# Verify changes in test coverage through Coveralls
 
 - [ ] Section: Verify test coverage changes through Coveralls
 
