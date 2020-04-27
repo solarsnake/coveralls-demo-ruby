@@ -701,7 +701,7 @@ describe ClassOne do
 end
 ```
 
-Save the file, commit the change and push it to GitHub:
+Now, save the file, commit the change and push it to GitHub:
 
 ```
 git commit -m "Add tests to make coverage 100%."
