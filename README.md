@@ -726,7 +726,7 @@ Which is reinforced by your updated badge:
 
 ![coveralls-badge-100-percent.png](../media/media/coveralls-badge-100-percent.png)
 
-__Bam! Automated test coverage updates&mdash;*in real-time*&mdash;from [Coveralls](https://coveralls.io/).__
+__Bam! Automated test coverage updates&mdash;from [Coveralls](https://coveralls.io/).__
 
 ---
 
