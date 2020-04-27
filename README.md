@@ -634,7 +634,7 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png" width="99px" height="20px">
+# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png" width="106px" height="20px">
 
 <details>
    <summary>Do it. </summary>
