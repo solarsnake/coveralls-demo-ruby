@@ -601,7 +601,7 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 </details>
 
-# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis) [IMAGE: COEVRALLS BADGE - 100%]
 
 <details>
    <summary>Do it.</summary>
@@ -634,9 +634,102 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage via Coveralls
+# Verify changes in test coverage via Coveralls [IMAGE: COEVRALLS BADGE - 100%]
 
-- [ ] Section: Verify test coverage changes through Coveralls
+- [x] Section: Verify test coverage changes through Coveralls (copy)
+- [ ] Section: Verify test coverage changes through Coveralls (images)
+
+<details>
+   <summary>Do it. </summary>
+   
+---
+
+Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same change through the [Coveralls](https://coveralls.io/) service. 
+
+If you completed the steps above, and [Travis CI](https://travis-ci.org/) pushed your first build to [Coveralls](https://coveralls.io/), you'll note that coverage stands at 80%:
+
+[SCREENSHOT: COVERALLS FIRST BUILD - 80%]
+
+The badge on your repo reinforces that:
+
+[IMAGE: COVERALLS BADGE 80%]
+
+Let's add a test that lifts coverage to 100%.
+
+To do that, open the test file, `/spec/class_one_spec.rb`, and uncomment the second test in the file, so that this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  # describe "uncovered" do
+  #   it "returns 'uncovered'" do
+  #     expect(ClassOne.uncovered).to eql("uncovered")
+  #   end
+  # end
+end
+```
+
+Becomes this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  describe "uncovered" do
+    it "returns 'uncovered'" do
+      expect(ClassOne.uncovered).to eql("uncovered")
+    end
+  end
+end
+```
+
+Save the file, commit the change and push it to GitHub:
+
+```
+git commit -m "Add tests."
+git push
+```
+
+That push will trigger a [new build at Travis CI](#):
+
+[SCREENSHOT: NEW TRAVIS BUILD]
+
+Which in turn triggers a [new build at Coveralls](#):
+
+[SCREENSHOT: NEW COVERALLS BUILD - 100%]
+
+Which now reads 100%:
+
+[IMAGE: CLOSE-UP OF 100%]
+
+Which is reinforced by your updated badge:
+
+[IMAGE: BADGE - 100%]
+
+__Bam. Automated test coverage updates from Coveralls.__
+
+---
+
+</details>
 
 # More
 
