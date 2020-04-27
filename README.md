@@ -623,9 +623,11 @@ Simply click on the __Embed button__ and choose the version of markup that appli
 
 [IMAGE: CHOOSE EMBED CODE]
 
-*(For our GitHub README, that's the __Markdown__ version.)*
+*(For a GitHub README, that's the __Markdown__ version.)*
 
-Now paste the markup into the top of your README and, *voilà*:
+Now paste the markup into the top of your README and...
+
+*__Voilà__*:
 
 [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
 
