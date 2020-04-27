@@ -235,10 +235,10 @@ __Great! [Travis](http://travis-ci.org/) is now tracking your repo.__
    
 ---
 
-According to the <a href="https://docs.travis-ci.com/user/tutorial/">documentation</a><sup>*</sup>, our next step is to add a `.travis.yml` config file to our repo.
+According to the <a href="https://docs.travis-ci.com/user/tutorial/">documentation</a>,<sup>*</sup> our next step is to add a `.travis.yml` config file to our repo.
 
 <details>
-   <summary>* <em>Where'd you find that documentation?</em></summary>
+   <summary>* <em>Where's that documentation?</em></summary>
 
 ---
 
@@ -269,7 +269,7 @@ That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project..
 
 </details>
 
-Here's the version you'll want to use for your project:
+Here's the version to use for your project:
 
 ```yaml
 language: ruby
@@ -397,11 +397,9 @@ Then add the file to your repo by pushing it up to GitHub:
 git push -u origin <my-new-branch>
 ```
 
-*(Where `<my-new-branch>` is `travis-ci` if you went with my suggestion.)*
-
 And guess what? 
 
-__That's it! Travis is building your project in a remote, virtual CI environment.__
+__That's it! Travis is building your project in a remote CI environment.__
 
 <details>
    <summary><em>Prove it!</em></summary> 
