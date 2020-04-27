@@ -601,7 +601,7 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 </details>
 
-# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis) [IMAGE: COVERALLS BADGE - 80%] <img src="../media/media/coveralls-badge-80-percent.png">
+# Get badged <img src="../media/media/coveralls-badge-80-percent.png">
 
 <details>
    <summary>Do it.</summary>
@@ -634,7 +634,7 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage via Coveralls [IMAGE: COVERALLS BADGE - 100%]
+# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png">
 
 - [x] Section: Verify test coverage changes through Coveralls (copy)
 - [ ] Section: Verify test coverage changes through Coveralls (images)
