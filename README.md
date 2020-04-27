@@ -616,7 +616,7 @@ You'll see a box like this instructing you to badge your repo:
 
 ![coveralls-badge-your-repo.png](../media/media/coveralls-badge-your-repo.png)
 
-Click on the __Embed button__ and choose the version of markup that applies for you:
+Click the __Embed button__ and choose the version of markup that applies for you:
 
 ![coveralls-badge-your-repo-choose-embed-markup.png](../media/media/coveralls-badge-your-repo-choose-embed-markup.png)
 
