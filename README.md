@@ -617,11 +617,11 @@ At the bottom of your Coveralls start page:
 
 You'll see a box like this instructing you to badge your repo:
 
-[IMAGE: BADGE YOUR REPO]
+![coveralls-badge-your-repo.png](../media/media/coveralls-badge-your-repo.png)
 
 Simply click on the __Embed button__ and choose the version of markup that applies for you:
 
-[IMAGE: CHOOSE EMBED CODE]
+![coveralls-badge-your-repo-markdown.png](../media/media/coveralls-badge-your-repo-markdown.png)
 
 *(For a GitHub README, that's the __Markdown__ version.)*
 
