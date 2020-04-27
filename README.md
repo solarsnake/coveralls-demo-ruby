@@ -603,7 +603,13 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 # Get badged
 
-- [ ] Section: Verify test coverage results by adding tests and seeing your badge change
+- [x] Section: Badge your repo (copy)
+- [ ] Section: Badge your repo (images)
+
+<details>
+   <summary>Do it.</summary>
+   
+---
 
 At the bottom of your Coveralls start page:
 
@@ -624,6 +630,10 @@ Now paste the markup into the top of your README and, *voilà*:
 [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
 
 Your repo is badged!
+
+---
+
+</details>
 
 # Verify changes in test coverage through Coveralls
 
