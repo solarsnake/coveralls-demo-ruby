@@ -25,7 +25,7 @@ If you've gotten this far, we can assume:
   <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a> and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
 </dl>
 
-# Coveralls & Travis CI
+# Configuring this project for Coveralls & Travis CI
 
 This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [Travis CI](https://travis-ci.org/).<sup>*</sup>
 
@@ -599,15 +599,18 @@ Your first code coverage report will look something like this:
 
 Congratulations, you're sending code coverage results to [Coveralls](https://coveralls.io/).
 
-# To Do
-
-- [ ] Add your badge
-
 ---
 
 </details>
 
-# To Do
+# Get badged
 
 - [ ] Section: Verify test coverage results by adding tests and seeing your badge change
-- [ ] Section: Link to other TRavis scenarios (parallel builds, etc.)
+
+# Verify test coverage changes through Coveralls
+
+- [ ] Section: Verify test coverage changes through Coveralls
+
+# More
+
+- [ ] Section: Links to other Travis scenarios (parallel builds, etc.)
