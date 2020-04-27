@@ -727,7 +727,7 @@ Which is reinforced by your updated badge:
 
 [IMAGE: COVERALLS BADGE - 100%]
 
-__Bam. Automated test coverage updates from Coveralls.__
+__Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
 ---
 
