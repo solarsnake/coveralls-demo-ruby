@@ -648,15 +648,11 @@ Since you understand [how test coverage works in this project](https://github.co
 
 If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
 
-[SCREENSHOT: COVERALLS FIRST BUILD - 80%]
-
 ![coveralls-first-build-80-percent.png](../media/media/coveralls-first-build-80-percent.png)
 
 The badge on your repo reinforces that:
 
-[IMAGE: COVERALLS BADGE 80%]
-
-![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png])
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png)
 
 Now let's validate that [Coveralls](https://coveralls.io/) is tracking *changes in test coverage* on our project.
 
@@ -717,29 +713,23 @@ git push
 
 That push will trigger a [new build at Travis CI](#):
 
-[SCREENSHOT: NEW TRAVIS BUILD]
-
-![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png])
+![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
 
 [ADD EXPANDABLE SECTION ON ZOOMED OUTPUT]
 
 Which in turn triggers a [new build at Coveralls](#):
 
-[SCREENSHOT: NEW COVERALLS BUILD - 100%]
-
-![coveralls-new-build-100-percent.png](../media/media/coveralls-new-build-100-percent.png])
+![coveralls-new-build-100-percent.png](../media/media/coveralls-new-build-100-percent.png)
 
 Which now reads 100%:
 
-[IMAGE: CLOSE-UP OF 100%]
-
-![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png])
+![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png)
 
 Which is reinforced by your updated badge:
 
 [IMAGE: COVERALLS BADGE - 100%]
 
-![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png])
+![coveralls-badge-100-percent.png](../media/media/coveralls-badge-100-percent.png)
 
 __Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
