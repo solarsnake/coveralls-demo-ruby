@@ -735,4 +735,5 @@ __Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
 # More
 
+- [ ] Section: PRs vs builds and how to read results.
 - [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
