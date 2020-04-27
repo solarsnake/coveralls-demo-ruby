@@ -626,7 +626,7 @@ Then paste the markup into the top of your README, and...
 
 __Voilà__:
 
-[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png)
 
 __Your repo is badged!__
 
@@ -635,9 +635,6 @@ __Your repo is badged!__
 </details>
 
 # Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png">
-
-- [x] Section: Verify test coverage changes through Coveralls (copy)
-- [ ] Section: Verify test coverage changes through Coveralls (images)
 
 <details>
    <summary>Do it. </summary>
@@ -726,8 +723,6 @@ Which now reads 100%:
 ![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png)
 
 Which is reinforced by your updated badge:
-
-[IMAGE: COVERALLS BADGE - 100%]
 
 ![coveralls-badge-100-percent.png](../media/media/coveralls-badge-100-percent.png)
 
