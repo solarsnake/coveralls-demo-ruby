@@ -601,7 +601,7 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 </details>
 
-# Get badged <img src="../media/media/coveralls-badge-80-percent.png">
+# Get badged <img src="../media/media/coveralls-badge-80-percent.png" width="99px" height="20px">
 
 <details>
    <summary>Do it.</summary>
@@ -634,7 +634,7 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png">
+# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png" width="99px" height="20px">
 
 <details>
    <summary>Do it. </summary>
