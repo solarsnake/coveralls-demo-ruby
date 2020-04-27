@@ -654,7 +654,7 @@ The badge on your repo reinforces that:
 
 [IMAGE: COVERALLS BADGE 80%]
 
-Now let's validate that [Coveralls](https://coveralls.io/) is tracking changes in test coverage on our project.
+Now let's validate that [Coveralls](https://coveralls.io/) is tracking *changes* in test coverage on our project.
 
 To do that, let's add a test that lifts coverage to 100%.
 
