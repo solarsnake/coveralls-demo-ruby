@@ -621,7 +621,7 @@ You'll see a box like this instructing you to badge your repo:
 
 Simply click on the __Embed button__ and choose the version of markup that applies for you:
 
-![coveralls-badge-your-repo-markdown.png](../media/media/coveralls-badge-your-repo-markdown.png)
+![coveralls-badge-your-repo-choose-embed-markdown.png](../media/media/coveralls-badge-your-repo-choose-embed-markdown.png)
 
 *(For a GitHub README, that's the __Markdown__ version.)*
 
