@@ -627,11 +627,11 @@ Simply click on the __Embed button__ and choose the version of markup that appli
 
 Now paste the markup into the top of your README and...
 
-*__Voilà__*:
+__Voilà__:
 
 [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
 
-Your repo is badged!
+__Your repo is badged!__
 
 ---
 
