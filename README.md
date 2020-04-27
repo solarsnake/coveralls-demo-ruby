@@ -735,4 +735,4 @@ __Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
 # More
 
-- [ ] Section: Links to other Travis scenarios (parallel builds, etc.)
+- [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
