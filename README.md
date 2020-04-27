@@ -605,6 +605,26 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 - [ ] Section: Verify test coverage results by adding tests and seeing your badge change
 
+At the bottom of your Coveralls start page:
+
+![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
+
+You'll see a box like this instructing you to badge your repo:
+
+[IMAGE: BADGE YOUR REPO]
+
+Simply click on the __Embed button__ and choose the version of markup that applies for you:
+
+[IMAGE: CHOOSE EMBED CODE]
+
+*(For our GitHub README, that's the __Markdown__ version.)*
+
+Now paste the markup into the top of your README and, *voilà*:
+
+[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+
+Your repo is badged!
+
 # Verify changes in test coverage through Coveralls
 
 - [ ] Section: Verify test coverage changes through Coveralls
