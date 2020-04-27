@@ -654,9 +654,11 @@ The badge on your repo reinforces that:
 
 [IMAGE: COVERALLS BADGE 80%]
 
-Let's add a test that lifts coverage to 100%.
+Now let's validate that [Coveralls](https://coveralls.io/) is tracking changes in test coverage on our project.
 
-To do that, open the test file, `/spec/class_one_spec.rb`, and uncomment the second test in the file, so that this:
+To do that, let's add a test that lifts coverage to 100%.
+
+Open the test file, `/spec/class_one_spec.rb`, and uncomment the second test in the file, so that this:
 
 ```ruby
 require 'spec_helper'
