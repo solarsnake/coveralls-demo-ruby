@@ -16,7 +16,7 @@ And these services:
 # Welcome
 
 If you've gotten this far, we can assume:
-   
+
 <dl>
   <dt>1. You understand <a href="https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project">how test coverage works in this project</a>.</dt>
   <dd>If not, start back at the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a>.</dd>
@@ -48,11 +48,11 @@ This guide will walk you through the configuration process.
 
 ## How to use this guide
 
-Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to it.<sup>*</sup> 
+Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to it.<sup>*</sup>
 
 <details>
    <summary>* <em>How do I do that?</em></summary>
-   
+
 ---
 
 <details>
@@ -96,7 +96,7 @@ Your results should look something like this:
 
 ```
 Cloning into 'coveralls-demo-ruby'...
-Enter passphrase for key '/Users/jameskessler/.ssh/id_rsa': 
+Enter passphrase for key '/Users/jameskessler/.ssh/id_rsa':
 remote: Enumerating objects: 66, done.
 remote: Counting objects: 100% (66/66), done.
 remote: Compressing objects: 100% (66/66), done.
@@ -153,9 +153,9 @@ After forking the project, keep this window open and refer back to the code in t
 
 <details>
    <summary><em>Do it.</em></summary>
-   
+
 ---
-   
+
 *If you haven't done so already, [fork this project](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#how-to-use-this-guide) and clone it down to your local machine so you're working with a local copy that belongs to you.*
 
 *The rest of these steps apply to* <strong>your *project, not this one</strong>.*
@@ -185,7 +185,7 @@ Once you're signed in, click on your profile image on the uppper right and choos
 
 <details>
    <summary><em>Wait! I don't see my repo!</em></summary>
-   
+
 ---
 
 If Travis doesn't already list all of your *public repos*, click the __Sync account__ button to refresh the list.<sup>*</sup>
@@ -232,7 +232,7 @@ __Great! [Travis](http://travis-ci.org/) is now tracking your repo.__
 
 <details>
    <summary><em>Do it.</em></summary>
-   
+
 ---
 
 According to the <a href="https://docs.travis-ci.com/user/tutorial/">documentation</a>,<sup>*</sup> our next step is to add a `.travis.yml` config file to our repo.
@@ -256,7 +256,7 @@ That `.travis.yml` is for Ruby and applies well <em>enough</em> to our project..
 
 <details>
    <summary>* <em>What if my project's not in Ruby?</em></summary>
-   
+
 ---
 
 <em>If your project is in a different language, no worries. Travis CI provides a set of [language-specific guides](https://docs.travis-ci.com/user/language-specific/) for forming your `.travis.yml`. For instance, here's the guide for [Javascript with Node](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).</em>
@@ -372,7 +372,7 @@ Therefore, we use the `only:` declaration and specify `travis` (*for the `travis
 
 For good measure, we've also added the `except:` declaration&mdash;not strictly necessary, but informative in that we never want to to run builds on commits to our `master` branch. That's because our master branch is meant to remain a pristine area of unconfigured demo code. (Code that will run nowhere except on our local machine.)
 
-By contrast, your first Travis config can be more "plain vanilla," permitting builds on any branch you might create on your project. 
+By contrast, your first Travis config can be more "plain vanilla," permitting builds on any branch you might create on your project.
 
 Thus, no need for you to declare anything under `branches:`.
 
@@ -397,13 +397,13 @@ Then add the file to your repo by pushing it up to GitHub:
 git push -u origin <my-new-branch>
 ```
 
-And guess what? 
+And guess what?
 
 __That's it! Travis is building your project in a remote CI environment.__
 
 <details>
-   <summary><em>Prove it!</em></summary> 
-   
+   <summary><em>Prove it!</em></summary>
+
 ---
 
 Travis started your first build the moment you pushed your last commit:
@@ -415,7 +415,7 @@ git push -u origin <my-new-branch>
 To prove that to yourself, just visit [Travis](https://travis-ci.org/) to see your first build.
 
 For us, that meant going here:<br />
-[https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby) 
+[https://travis-ci.org/github/afinetooth/coveralls-demo-ruby](https://travis-ci.org/github/afinetooth/coveralls-demo-ruby)
 
 Your URL will be different, but should follow this format:
 
@@ -437,7 +437,7 @@ $ bundle exec rspec
 ClassOne
   covered
     returns 'covered'
-    
+
 Finished in 0.00176 seconds (files took 0.13071 seconds to load)
 1 example, 0 failures
 
@@ -459,9 +459,9 @@ Now, let's tell Travis to start sending its test results to Coveralls.
 
 <details>
    <summary>Do it.</summary>
-   
+
 ---
-   
+
 To add your repo to [Coveralls](https://coveralls.io/sign-in), go to [http://coveralls.io/sign-in](https://coveralls.io/sign-in) and __Sign In__ with GitHub:
 
 ![coveralls-sign-in.png](../media/media/coveralls-sign-in.png)
@@ -476,7 +476,7 @@ To add your repo, simply click the __Toggle control__ next to your __repo name__
 
 <details>
    <summary><em>Wait, I don't see my repo!</em></summary>
-   
+
 ---
 
 In that case, click on the __Sync Repos button__ in the upper right:
@@ -485,10 +485,10 @@ In that case, click on the __Sync Repos button__ in the upper right:
 
 <details>
    <summary><em>What about my private repos?</em></summary>
-   
+
 ---
 
-[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coveralls.io/sign-up). 
+[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coveralls.io/sign-up).
 
 </details>
 
@@ -506,7 +506,7 @@ Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 <details>
    <summary>Do it.</summary>
-   
+
 ---
 
 [Coveralls](https://coveralls.io/) provides easy-to-follow setup instructions for each new repo.
@@ -518,7 +518,7 @@ To access them, just click the __Details button__ next to your repo name:
 And follow the steps presented:
 
 ![coveralls-new-repo-setup.png](../media/media/coveralls-new-repo-setup.png)
-   
+
 Our first step is technically optional, but in the interest of good form let's add a new file called `.coveralls.yml` to our repo with the following contents:
 
 ```yaml
@@ -527,7 +527,7 @@ service-name: travis-ci
 
 <details>
    <summary><em>Why is this optional?</em></summary>
-   
+
 ---
 
 Adding a `.coveralls.yml` is technically optional for [Coveralls](https://coveralls.io/) because [Travis CI](http://travis-ci.org/) is Coveralls' default CI service. Coveralls was originally created for use with [Travis CI (dot org)](http://travis-ci.org/) and has since grown to support more Ci services.
@@ -601,11 +601,11 @@ Congratulations, you're sending code coverage results to [Coveralls](https://cov
 
 </details>
 
-# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis) [IMAGE: COVERALLS BADGE - 80%]
+# Get badged [![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis) [IMAGE: COVERALLS BADGE - 80%] <img src="../media/media/coveralls-badge-80-percent.png">
 
 <details>
    <summary>Do it.</summary>
-   
+
 ---
 
 At the bottom of your Coveralls start page:
@@ -641,18 +641,22 @@ __Your repo is badged!__
 
 <details>
    <summary>Do it. </summary>
-   
+
 ---
 
-Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service. 
+Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
 
 If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
 
 [SCREENSHOT: COVERALLS FIRST BUILD - 80%]
 
+![coveralls-first-build-80-percent.png](../media/media/coveralls-first-build-80-percent.png)
+
 The badge on your repo reinforces that:
 
 [IMAGE: COVERALLS BADGE 80%]
+
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png])
 
 Now let's validate that [Coveralls](https://coveralls.io/) is tracking *changes in test coverage* on our project.
 
@@ -715,17 +719,27 @@ That push will trigger a [new build at Travis CI](#):
 
 [SCREENSHOT: NEW TRAVIS BUILD]
 
+![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png])
+
+[ADD EXPANDABLE SECTION ON ZOOMED OUTPUT]
+
 Which in turn triggers a [new build at Coveralls](#):
 
 [SCREENSHOT: NEW COVERALLS BUILD - 100%]
+
+![coveralls-new-build-100-percent.png](../media/media/coveralls-new-build-100-percent.png])
 
 Which now reads 100%:
 
 [IMAGE: CLOSE-UP OF 100%]
 
+![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png])
+
 Which is reinforced by your updated badge:
 
 [IMAGE: COVERALLS BADGE - 100%]
+
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png])
 
 __Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
