@@ -726,7 +726,7 @@ Which is reinforced by your updated badge:
 
 ![coveralls-badge-100-percent.png](../media/media/coveralls-badge-100-percent.png)
 
-__Bam. Automated test coverage updates, in real-time, from Coveralls.__
+__Bam! Automated test coverage updates, in real-time, from [Coveralls](https://coveralls.io/).__
 
 ---
 
@@ -734,5 +734,5 @@ __Bam. Automated test coverage updates, in real-time, from Coveralls.__
 
 # More
 
-- [ ] Section: PRs vs builds and how to read results.
+- [ ] Section: About PRs vs builds, and how to read results.
 - [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
