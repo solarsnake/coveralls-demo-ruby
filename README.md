@@ -634,7 +634,7 @@ __Your repo is badged!__
 
 </details>
 
-# Verify changes in test coverage through Coveralls
+# Verify changes in test coverage via Coveralls
 
 - [ ] Section: Verify test coverage changes through Coveralls
 
