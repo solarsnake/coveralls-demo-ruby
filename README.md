@@ -644,7 +644,7 @@ __Your repo is badged!__
    
 ---
 
-Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same change through the [Coveralls](https://coveralls.io/) service. 
+Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service. 
 
 If you completed the steps above, and [Travis CI](https://travis-ci.org/) pushed your first build to [Coveralls](https://coveralls.io/), you'll note that coverage stands at 80%:
 
