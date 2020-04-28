@@ -23,7 +23,7 @@ If you've gotten this far, we can assume:
   <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a> and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
 </dl>
 
-# Coveralls & CircleCI
+# Configure your project for Coveralls & CircleCI
 
 [WIP]
 
