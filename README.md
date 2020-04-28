@@ -712,7 +712,7 @@ That push will trigger a [new build at Travis CI](#):
 
 ![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
 
-[ADD EXPANDABLE SECTION ON BUILD OUTPUT DETAILS]
+[ADD EXPANDABLE SECTION ON TRAVIS BUILD OUTPUT DETAILS]
 
 Which in turn triggers a [new build at Coveralls](#):
 
