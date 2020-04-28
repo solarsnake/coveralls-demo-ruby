@@ -48,7 +48,7 @@ This guide will walk you through the configuration process.
 
 ## How to use this guide
 
-Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to it.<sup>*</sup>
+Fork the [master branch](https://github.com/afinetooth/coveralls-demo-ruby/tree/master) of this project and make your changes to *your fork*.<sup>*</sup>
 
 <details>
    <summary>* <em>How do I do that?</em></summary>
