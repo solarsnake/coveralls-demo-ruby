@@ -721,7 +721,7 @@ Notice the output spanning from the command running our test suite (`bundle exec
 
 ![travis-new-build-100-percent-output.png](../media/media/travis-new-build-100-percent-output.png)
 
-The very specific output that pertains to sending our coverage report to Coveralls is as follows, and runs from the command (`ccc`) through (`nnn`):
+Now notice the very specific output that pertains to our coverage report being sent to Coveralls, which runs from the command (`[Coveralls] Submitting to http://coveralls.io/api/v1`) through (`Coverage report sent to Coveralls.`):
 
 ![travis-new-build-100-percent-output-zoomed.png](../media/media/travis-new-build-100-percent-output-zoomed.png)
 
