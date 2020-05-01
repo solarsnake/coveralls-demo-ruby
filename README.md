@@ -156,7 +156,45 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-[Add content here.]
+*If you haven't done so already, [fork this project](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#how-to-use-this-guide) and clone it down to your local machine so you're working with a local copy that belongs to you.*
+
+*The rest of these steps apply to* <strong>your *project, not this one</strong>.*
+
+---
+
+[Add more content here.]
+
+To add a new public repo to [CircleCI](http://circleci.com/), __[Log in](https://https://circleci.com/vcs-authorize/)__ at [https://https://circleci.com/vcs-authorize/](https://https://circleci.com/vcs-authorize/) with your GitHub login<sup>*</sup>:
+
+[CIRCLECI - LOGIN]
+
+If you belong to multiple GitHub Organizations, select the one that applies to your project:
+
+[CIRCLECI - CHOOSE ORG]
+
+Then you'll see the list of GitHub projects for your organization:
+
+[CIRCLECI - ORG PROJECTS]
+
+Click __Set Up Project__ next to your newly forked project:
+
+[CIRCLECI - SET UP PROJECT]
+
+Then you'll see the New Project Set Up page for `coveralls-demo-ruby`:
+
+[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY]
+
+Here you have the choice to let CircleCI walk you through setting up your project, or adding your on config file manually:
+
+[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - OPTIONS FOR HOW TO PROCEED]
+
+We're going to add our config file manually because it's actually simpler and quicker, so...
+
+Click __Add Manually__:
+
+[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - ADD CONFIG MANUALLY]
+
+
 
 ---
 
