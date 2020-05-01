@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+
 # coveralls-ruby-demo for CircleCI
 
 [Coveralls](https://coveralls.io/) demo project, using:
@@ -32,7 +34,11 @@ This project is configured to send test coverage results to [Coveralls](https://
 
 ---
 
-[Add content here.]
+Notice the Coveralls badge at the top of the page:
+
+[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=travis)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=travis)
+
+That tells us we're configured correctly and successfully receiving coverage reports back from [Coveralls](https://coveralls.io/).
 
 ---
 
