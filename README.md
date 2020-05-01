@@ -25,17 +25,35 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & CircleCI
 
-This project is configured to send test coverage results to Coveralls through CircleCI.*
+This project is configured to send test coverage results to Coveralls through CircleCI.<sup>*</sup>
 
-* How do we know it's working?
+<details>
+   <summary>* <em>How do we know it's working?</em></summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 This guide will walk you through the configuration process.
 
 ## How to use this guide
 
-Fork the master branch of this project and make your changes to your fork.*
+Fork the master branch of this project and make your changes to your fork.<sup>*</sup>
 
-* How do I do that?
+<details>
+   <summary>* <em>How do I do that?</em></summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 After forking the project, keep this window open and refer back to the code in this branch to verify the changes you've made. (Consider it your cheatsheet.)
 
@@ -48,27 +66,81 @@ After forking the project, keep this window open and refer back to the code in t
 
 ### 1. Add repo to CircleCI
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 ### 2. Add `.circle/config.yml` to repo
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 ### 3. Add repo to Coveralls
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 ### 4. Finish coveralls setup
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 # Get badged <img src="../media/media/coveralls-badge-80-percent.png" width="99px" height="20px">
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 # Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png" width="106px" height="20px">
 
-Do it.
+<details>
+   <summary>Do it. </summary>
+
+---
+
+<Add content here.>
+
+---
+
+</details>
 
 ## More
 
