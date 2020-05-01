@@ -55,7 +55,86 @@ Fork the [master branch of this project](https://github.com/afinetooth/coveralls
 
 ---
 
-[Add content here.]
+<details>
+   <summary><strong>1. Fork the project</strong></summary>
+
+---
+
+Click the __Fork__ button:
+
+![fork-this-project.png](../media/media/fork-this-project.png)
+
+GitHub will tell you it's working on your fork:
+
+![forking-this-project.png](../media/media/forking-this-project.png)
+
+When it's done, you'll see a new repo that looks just like the original, called `coveralls-demo-ruby`, only now you'll notice it belongs to you:
+
+![you-forked-this-project.png](../media/media/you-forked-this-project.png)
+
+---
+
+</details>
+
+<details>
+   <summary><strong>2. Clone the project</strong></summary>
+
+---
+
+
+Click the __Clone or download__ button, then click the __Clipboard icon__ to copy the URL:
+
+![clone-this-project.png](../media/media/clone-this-project.png)
+
+Now go to your terminal and enter the clone command:
+
+```
+git clone git@github.com:<your-github-username>/coveralls-demo-ruby.git
+```
+
+Your results should look something like this:
+
+```
+Cloning into 'coveralls-demo-ruby'...
+Enter passphrase for key '/Users/jameskessler/.ssh/id_rsa':
+remote: Enumerating objects: 66, done.
+remote: Counting objects: 100% (66/66), done.
+remote: Compressing objects: 100% (66/66), done.
+remote: Total 543 (delta 40), reused 0 (delta 0), pack-reused 477
+Receiving objects: 100% (543/543), 2.51 MiB | 3.05 MiB/s, done.
+Resolving deltas: 100% (335/335), done.
+```
+
+Great. Now you have a working copy of the project on your local machine.
+
+---
+
+</details>
+
+<details>
+   <summary><strong>3. Create a new working branch</strong></summary>
+
+---
+
+Change directories into the project directory:
+
+```
+cd coveralls-demo-ruby/
+```
+
+And create the new working branch:
+
+*(Call the new branch whatever you wish, for instance: `travis-ci`.)*
+
+```
+git checkout -b travis-ci
+```
+
+Great. Now you're in a working branch where you can make changes to your own copy of this repo.
+
+You're ready to continue with this guide.
+
+</details>
 
 ---
 
