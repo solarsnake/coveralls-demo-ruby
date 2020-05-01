@@ -25,9 +25,60 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & CircleCI
 
+This project is configured to send test coverage results to Coveralls through Travis CI.*
+
+* How do we know it's working?
+
+This guide will walk you through the configuration process.
+
+## How to use this guide
+Fork the master branch of this project and make your changes to your fork.*
+
+* How do I do that?
+
+After forking the project, keep this window open and refer back to the code in this branch to verify the changes you've made. (Consider it your cheatsheet.)
+
+## Config steps
+
+1. Add repo to Travis CI
+2. Add .travis.yml to repo
+3. Add repo to Coveralls
+4. Finish coveralls setup
+
+### 1. Add repo to Travis CI
+
+Do it.
+
+### 2. Add .travis.yml to repo
+
+Do it.
+
+### 3. Add repo to Coveralls
+
+Do it.
+
+### 4. Finish coveralls setup
+
+Do it.
+
+# Get badged 
+
+Do it.
+
+# Verify changes in test coverage via Coveralls 
+
+Do it.
+
+## More
+
+- [ ] Section: Set up PR Comments - PRs vs pushes, and how to read results.
+- [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
+
+---
+
 [WIP]
 
-### Setup Notes / Steps
+#### Setup Notes / Steps
 - [x] Add [`simplecov-lcov`](https://github.com/fortissimo1997/simplecov-lcov) gem and convert test coverage report into lcov format to use coveralls orb
 - [x] Add [coveralls orb](https://circleci.com/orbs/registry/orb/coveralls/coveralls)
 - [x] Configure orb's upload command with parameters: path_to_lcov & token
