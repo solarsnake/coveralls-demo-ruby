@@ -750,4 +750,4 @@ __Bam! Automated test coverage updates&mdash;from [Coveralls](https://coveralls.
 # More
 
 - [ ] Section: Set up PR Comments - PRs vs pushes, and how to read results.
-- [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
+- [ ] Section: Links to other, more complicated Travis CI scenarios (private repo, parallel builds, etc.)
