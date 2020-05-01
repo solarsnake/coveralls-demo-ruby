@@ -208,7 +208,27 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-[Add content here.]
+At the bottom of your Coveralls start page:
+
+![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
+
+You'll see a box like this instructing you to badge your repo:
+
+![coveralls-badge-your-repo.png](../media/media/coveralls-badge-your-repo.png)
+
+Click the __Embed button__ and choose the version of markup that applies for you:
+
+![coveralls-badge-your-repo-choose-embed-markup.png](../media/media/coveralls-badge-your-repo-choose-embed-markup.png)
+
+*(For a GitHub README, that's the __Markdown__ version.)*
+
+Then paste the markup into the top of your README, and...
+
+__Voilà__:
+
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png)
+
+__Your repo is badged!__
 
 ---
 
