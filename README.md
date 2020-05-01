@@ -712,10 +712,8 @@ That push will trigger a [new build at Travis CI](#):
 
 ![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
 
-[ADD EXPANDABLE SECTION ON TRAVIS BUILD OUTPUT DETAILS]
-
 <details>
-  <summary>What build output pertains to Coveralls there?</summary>
+  <summary><em>What build output pertains to Coveralls there?</em></summary>
 
 ---
 
