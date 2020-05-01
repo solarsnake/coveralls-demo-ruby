@@ -210,6 +210,8 @@ After forking the project, keep this window open and refer back to the code in t
 
 At the bottom of your Coveralls start page:
 
+__[CHANGE THIS IMAGE TO ONE FOR CIRCLE-CI BRANCH]__
+
 ![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
 
 You'll see a box like this instructing you to badge your repo:
