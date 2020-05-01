@@ -713,11 +713,11 @@ That push will trigger a [new build at Travis CI](#):
 ![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
 
 <details>
-  <summary><em>Build output pertaining to Coveralls:</em></summary>
+  <summary><em>Output pertaining to Coveralls:</em></summary>
 
 ---
 
-Note all the output spanning from the running of our test suite (`bundle exec rspec`) through the completion of that task (`exited ith zero`):
+Notice all the output spanning from the command running our test suite (`bundle exec rspec`) through the completion of that command (`bundle exec rspec exited ith zero`), after which we see the completion of the entire build (`your build exited with zero`):
 
 ![travis-new-build-100-percent-output.png](../media/media/travis-new-build-100-percent-output.png)
 
