@@ -387,7 +387,41 @@ Now, let's tell [CircleCI](https://app.circleci.com/) to start sending its test 
 
 ---
 
-[Add content here.]
+To add your repo to [Coveralls](https://coveralls.io/sign-in), go to [http://coveralls.io/sign-in](https://coveralls.io/sign-in) and __Sign In__ with GitHub:
+
+![coveralls-sign-in.png](../media/media/coveralls-sign-in.png)
+
+Upon first sign-in, you won't have any active repos, so go to [Add Repos](https://coveralls.io/repos/new) and find a list of your public repos:
+
+![coveralls-add-repo.png](../media/media/coveralls-add-repo.png)
+
+To add your repo, simply click the __Toggle control__ next to your __repo name__, switching it to __ON__:
+
+![coveralls-add-repo-turn-on.png](../media/media/coveralls-add-repo-turn-on.png)
+
+<details>
+   <summary><em>Wait, I don't see my repo!</em></summary>
+
+---
+
+In that case, click on the __Sync Repos button__ in the upper right:
+
+![coveralls-add-repo-sync-repos.png](../media/media/coveralls-add-repo-sync-repos.png)
+
+<details>
+   <summary><em>What about my private repos?</em></summary>
+
+---
+
+[Coveralls](https://coveralls.io/) is free to use for public repos. To add private repos, you'll need to [subscribe](http://coveralls.io/sign-up).
+
+</details>
+
+---
+
+</details>
+
+Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 ---
 
