@@ -449,7 +449,7 @@ That means our tests passed and therefore our build succeeded.
 
 </details>
 
-Now, let's tell Travis to start sending its test results to Coveralls.
+Now, let's tell Travis to start sending its test results to [Coveralls](http://coveralls.io).
 
 ---
 
