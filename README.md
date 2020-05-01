@@ -358,24 +358,23 @@ A successful build&mdash;albeit, without much going on.
 Notice those test results, which look the same as on our local machine:
 
 ```
-$ bundle exec rspec
-
+bundle exec rspec 
+ 
 ClassOne
   covered
     returns 'covered'
 
-Finished in 0.00176 seconds (files took 0.13071 seconds to load)
+Finished in 0.00127 seconds (files took 0.11459 seconds to load) 
 1 example, 0 failures
 
-Coverage report generated for RSpec to /home/travis/build/afinetooth/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
-The command "bundle exec rspec" exited with 0.
+Coverage report generated for RSpec to /home/circleci/project/coverage. 4 / 5 LOC (80.0%) covered. 
 ```
 
-That means our tests passed and therefore our build succeeded.
+That means our tests passed and, therefore, our build succeeded.
 
 </details>
 
-Now, let's tell CircleCI to start sending its test results to [Coveralls](http://coveralls.io).
+Now, let's tell [CircleCI](https://app.circleci.com/) to start sending its test results to [Coveralls](http://coveralls.io).
 
 ---
 
