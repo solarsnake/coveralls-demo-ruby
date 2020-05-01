@@ -300,7 +300,7 @@ workflows:
 ```
 
 <details>
-  <summary><em>Wait, what do those settings mean?</em></summary>
+  <summary><em>What do those settings mean?</em></summary>
 
 ---
 
@@ -314,7 +314,7 @@ Save the file and commit it:
 
 ```
 git add .
-git commit -m "Add .travis.yml."
+git commit -m "Add .circleci/config.yml."
 ```
 
 Then add the file to your repo by pushing it up to GitHub:
