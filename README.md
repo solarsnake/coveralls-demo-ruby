@@ -421,7 +421,7 @@ In that case, click on the __Sync Repos button__ in the upper right:
 
 </details>
 
-Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
+__Great! [Coveralls](https://coveralls.io/) is now tracking your repo.__
 
 ---
 
