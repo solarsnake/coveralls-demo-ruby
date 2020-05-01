@@ -243,7 +243,107 @@ __Your repo is badged!__
 
 ---
 
-[Add content here.]
+Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
+
+If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
+
+![coveralls-first-build-80-percent.png](../media/media/coveralls-first-build-80-percent.png)
+
+The badge on your repo reinforces that:
+
+![coveralls-badge-80-percent.png](../media/media/coveralls-badge-80-percent.png)
+
+Now let's validate that [Coveralls](https://coveralls.io/) is tracking *changes in test coverage* on our project.
+
+To do that, let's add a test that lifts coverage to 100%.
+
+Open the test file, `/spec/class_one_spec.rb`, and uncomment the second test in the file, so that this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  # describe "uncovered" do
+  #   it "returns 'uncovered'" do
+  #     expect(ClassOne.uncovered).to eql("uncovered")
+  #   end
+  # end
+end
+```
+
+Becomes this:
+
+```ruby
+require 'spec_helper'
+require 'class_one'
+
+describe ClassOne do
+
+  describe "covered" do
+    it "returns 'covered'" do
+      expect(ClassOne.covered).to eql("covered")
+    end
+  end
+
+  # Uncomment below to achieve 100% coverage
+  describe "uncovered" do
+    it "returns 'uncovered'" do
+      expect(ClassOne.uncovered).to eql("uncovered")
+    end
+  end
+end
+```
+
+Now, save the file, commit the change and push it to GitHub:
+
+```
+git commit -m "Add tests to make coverage 100%."
+git push
+```
+
+That push will trigger a [new build at Travis CI](#):
+
+![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
+
+<details>
+  <summary><em>Output pertaining to Coveralls:</em></summary>
+
+---
+
+Notice the output spanning from the command running our test suite (`bundle exec rspec`) through the completion of that command (`The command "bundle exec rspec" exited with zero.`), after which we see the completion of the entire build (`Done. Your build exited with zero.`):
+
+![travis-new-build-100-percent-output.png](../media/media/travis-new-build-100-percent-output.png)
+
+Now notice the very specific output that pertains to our coverage report being sent to Coveralls, which runs from the command (`[Coveralls] Submitting to http://coveralls.io/api/v1`) through (`Coverage report sent to Coveralls.`):
+
+![travis-new-build-100-percent-output-zoomed.png](../media/media/travis-new-build-100-percent-output-zoomed.png)
+
+---
+
+</details>
+
+Which in turn triggers a [new build at Coveralls](#):
+
+![coveralls-new-build-100-percent.png](../media/media/coveralls-new-build-100-percent.png)
+
+Which now reads 100%:
+
+![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png)
+
+Which is reinforced by your updated badge:
+
+![coveralls-badge-100-percent.png](../media/media/coveralls-badge-100-percent.png)
+
+__Bam! Automated test coverage updates&mdash;from [Coveralls](https://coveralls.io/).__
 
 ---
 
