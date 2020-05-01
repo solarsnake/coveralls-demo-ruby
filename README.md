@@ -717,7 +717,7 @@ That push will trigger a [new build at Travis CI](#):
 
 ---
 
-Notice all the output spanning from the command running our test suite (`bundle exec rspec`) through the completion of that command (`The command "bundle exec rspec" exited with zero.`), after which we see the completion of the entire build (`Done. Your build exited with zero.`):
+Notice the output spanning from the command running our test suite (`bundle exec rspec`) through the completion of that command (`The command "bundle exec rspec" exited with zero.`), after which we see the completion of the entire build (`Done. Your build exited with zero.`):
 
 ![travis-new-build-100-percent-output.png](../media/media/travis-new-build-100-percent-output.png)
 
