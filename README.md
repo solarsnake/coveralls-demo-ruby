@@ -210,7 +210,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 At the bottom of your Coveralls start page:
 
-__[CHANGE THIS IMAGE TO ONE FOR CIRCLE-CI BRANCH]__
+__[CHANGE THIS IMAGE TO COVERALLS > CIRCLE-CI BRANCH]__
 
 ![coveralls-first-coverage-report.png](../media/media/coveralls-first-coverage-report.png)
 
@@ -246,6 +246,8 @@ __Your repo is badged!__
 Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
 
 If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
+
+__[CHANGE THIS IMAGE TO COVERALLS > CIRCLE-CI BRANCH]__
 
 ![coveralls-first-build-80-percent.png](../media/media/coveralls-first-build-80-percent.png)
 
@@ -312,6 +314,8 @@ git push
 
 That push will trigger a [new build at Travis CI](#):
 
+__[CHANGE THIS IMAGE TO NEW BUILD AT CIRCLE-CI]__
+
 ![travis-new-build-100-percent.png](../media/media/travis-new-build-100-percent.png)
 
 <details>
@@ -321,9 +325,13 @@ That push will trigger a [new build at Travis CI](#):
 
 Notice the output spanning from the command running our test suite (`bundle exec rspec`) through the completion of that command (`The command "bundle exec rspec" exited with zero.`), after which we see the completion of the entire build (`Done. Your build exited with zero.`):
 
+__[CHANGE THIS IMAGE TO NEW BUILD DETAILS AT CIRCLE-CI]__
+
 ![travis-new-build-100-percent-output.png](../media/media/travis-new-build-100-percent-output.png)
 
 Now notice the very specific output that pertains to our coverage report being sent to Coveralls, which runs from the command (`[Coveralls] Submitting to http://coveralls.io/api/v1`) through (`Coverage report sent to Coveralls.`):
+
+__[CHANGE THIS IMAGE TO NEW BUILD DETAILS AT CIRCLE-CI]__
 
 ![travis-new-build-100-percent-output-zoomed.png](../media/media/travis-new-build-100-percent-output-zoomed.png)
 
@@ -333,9 +341,13 @@ Now notice the very specific output that pertains to our coverage report being s
 
 Which in turn triggers a [new build at Coveralls](#):
 
+__[CHANGE THIS IMAGE TO COVERALLS > CIRCLE-CI BRANCH]__
+
 ![coveralls-new-build-100-percent.png](../media/media/coveralls-new-build-100-percent.png)
 
 Which now reads 100%:
+
+__[CHANGE THIS IMAGE TO COVERALLS > CIRCLE-CI BRANCH]__
 
 ![coveralls-new-build-100-percent-zoomed.png](../media/media/coveralls-new-build-100-percent-zoomed.png)
 
