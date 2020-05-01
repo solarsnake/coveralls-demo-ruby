@@ -61,8 +61,8 @@ After forking the project, keep this window open and refer back to the code in t
 
 1. Add repo to CircleCI
 2. Add `.circle/config.yml` to repo
-3. Add repo to Coveralls
-4. Finish coveralls setup
+3. Add repo to [Coveralls](https://coveralls.io/)
+4. Finish [Coveralls](https://coveralls.io/) setup
 
 ### 1. Add repo to CircleCI
 
@@ -103,7 +103,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 </details>
 
-### 4. Finish coveralls setup
+### 4. Finish Coveralls setup
 
 <details>
    <summary>Do it. </summary>
