@@ -217,6 +217,8 @@ We'll add that file next, so that problem will soon be rectified.
 
 </details>
 
+__Good news, though! [CircleCI](http://circleci.com/) is now tracking your repo.__
+
 ---
 
 </details>
