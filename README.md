@@ -25,13 +25,14 @@ If you've gotten this far, we can assume:
 
 # Configure your project for Coveralls & CircleCI
 
-This project is configured to send test coverage results to Coveralls through Travis CI.*
+This project is configured to send test coverage results to Coveralls through CircleCI.*
 
 * How do we know it's working?
 
 This guide will walk you through the configuration process.
 
 ## How to use this guide
+
 Fork the master branch of this project and make your changes to your fork.*
 
 * How do I do that?
@@ -40,16 +41,16 @@ After forking the project, keep this window open and refer back to the code in t
 
 ## Config steps
 
-1. Add repo to Travis CI
-2. Add .travis.yml to repo
+1. Add repo to CircleCI
+2. Add `.circle/config.yml` to repo
 3. Add repo to Coveralls
 4. Finish coveralls setup
 
-### 1. Add repo to Travis CI
+### 1. Add repo to CircleCI
 
 Do it.
 
-### 2. Add .travis.yml to repo
+### 2. Add `.circle/config.yml` to repo
 
 Do it.
 
@@ -61,18 +62,18 @@ Do it.
 
 Do it.
 
-# Get badged 
+# Get badged <img src="../media/media/coveralls-badge-80-percent.png" width="99px" height="20px">
 
 Do it.
 
-# Verify changes in test coverage via Coveralls 
+# Verify changes in test coverage via Coveralls <img src="../media/media/coveralls-badge-100-percent.png" width="106px" height="20px">
 
 Do it.
 
 ## More
 
 - [ ] Section: Set up PR Comments - PRs vs pushes, and how to read results.
-- [ ] Section: Links to other, more complicated Travis CI scenarios (parallel builds, etc.)
+- [ ] Section: Links to other, more complicated CircleCI scenarios (parallel builds, etc.)
 
 ---
 
