@@ -145,7 +145,7 @@ After forking the project, keep this window open and refer back to the code in t
 ## Config steps
 
 1. Add repo to [CircleCI](https://circleci.com/)
-2. Add `.circle/config.yml` to repo
+2. Add `.circleci/config.yml` to repo
 3. Add repo to [Coveralls](https://coveralls.io/)
 4. Finish [Coveralls](https://coveralls.io/) setup
 
@@ -223,14 +223,159 @@ __Good news, though! [CircleCI](http://circleci.com/) is now tracking your repo.
 
 </details>
 
-### 2. Add `.circle/config.yml` to repo
+### 2. Add `.circleci/config.yml` to repo
 
 <details>
    <summary>Do it. </summary>
 
 ---
 
-[Add content here.]
+In your working branch (the one you created when you entered `git checkout -b circle-ci`), create a new, empty file called `.circleci/config.yml`.<sup>*</sup>
+
+<details>
+  <summary>* <em>Wait, what does that `.circleci/` part in `.circleci/config.yml` mean?</em></summary>
+
+---
+
+The `.circleci/` part is a folder (an invisible folder), so first just create a new folder and call it `.circleci`. For instance:
+
+```
+mkdir .circleci
+```
+
+Then open that folder and create the `config.yml` file inside it. For instance:
+
+```
+cd .circleci
+vi config.yml
+```
+
+That's if you want to create a new file in the `vi` editor, via the command line. In m ost cases, you can simply create a folder and file by the same names in your IDE. Your choice.
+
+Then end result should just be that you have a new folder, and a new file living in that folder, sitting in the root directory of your project:
+
+```
+.
+..
+.circleci/config.yml
+lib/
+spec/
+[...]
+```
+
+---
+
+</details>
+
+Now, paste the following configuration settings into your empty `.circleci/config.yml`:
+
+```
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:2.6.5-node
+    steps:
+      - checkout
+      - run:
+          name: Install Bundler
+          command: gem install bundler:2.1.4
+      - run:
+          name: Install dependencies with bundler
+          command: bundle install
+      - run:
+          name: Run tests
+          command: bundle exec rspec
+          
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build:
+        filters:
+          branches:
+            only:
+              - circle-ci
+```
+
+<details>
+  <summary><em>Wait, what do those settings mean?</em></summary>
+
+---
+
+__[EXPLAIN CONFIG SETTINGS]__
+
+---
+
+</details>
+
+Save the file and commit it:
+
+```
+git add .
+git commit -m "Add .travis.yml."
+```
+
+Then add the file to your repo by pushing it up to GitHub:
+
+```
+git push -u origin circle-ci
+```
+
+And guess what?
+
+__That's it! CircleCI is building your project in its remote CI environment.__
+
+<details>
+   <summary><em>Prove it!</em></summary>
+
+---
+
+CircleCI started building your project the moment you pushed that last commit:
+
+```
+git push -u origin circle-ci
+```
+
+To prove that to yourself, just visit [CircleCI](https://app.circleci.com/) to see your first build.
+
+For us, that meant going here:<br />
+[https://app.circleci.com/pipelines/github/coverallsapp/coveralls-demo-ruby](https://app.circleci.com/pipelines/github/coverallsapp/coveralls-demo-ruby)
+
+Your URL will be different, but should follow this format:
+
+```
+https://app.circleci.com/pipelines/github/<your-github-username>/<your-github-repo>
+```
+
+Your first build should look something like this:
+
+__[CIRCLECI - FIRST SUCCESSFUL BUILD]__
+
+A successful build&mdash;albeit, without much going on.
+
+Notice those test results, which look the same as on our local machine:
+
+```
+$ bundle exec rspec
+
+ClassOne
+  covered
+    returns 'covered'
+
+Finished in 0.00176 seconds (files took 0.13071 seconds to load)
+1 example, 0 failures
+
+Coverage report generated for RSpec to /home/travis/build/afinetooth/coveralls-demo-ruby/coverage. 4 / 5 LOC (80.0%) covered.
+The command "bundle exec rspec" exited with 0.
+```
+
+That means our tests passed and therefore our build succeeded.
+
+</details>
+
+Now, let's tell CircleCI to start sending its test results to Coveralls.
 
 ---
 
