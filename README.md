@@ -502,7 +502,7 @@ Great! [Coveralls](https://coveralls.io/) is now tracking your repo.
 
 </details>
 
-### 4. Finish [Coveralls](https://coveralls.io/) setup
+### 4. Finish Coveralls setup
 
 <details>
    <summary>Do it.</summary>
