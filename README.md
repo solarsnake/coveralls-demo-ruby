@@ -32,7 +32,7 @@ This project is configured to send test coverage results to Coveralls through Ci
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -49,7 +49,7 @@ Fork the master branch of this project and make your changes to your fork.<sup>*
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -71,7 +71,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -84,7 +84,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -97,7 +97,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -110,7 +110,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -123,7 +123,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
@@ -136,7 +136,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-<Add content here.>
+[Add content here.]
 
 ---
 
