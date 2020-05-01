@@ -162,8 +162,6 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-[Add more content here.]
-
 To add a new public repo to [CircleCI](http://circleci.com/), __[Log in](https://https://circleci.com/vcs-authorize/)__ at [https://https://circleci.com/vcs-authorize/](https://https://circleci.com/vcs-authorize/) with your GitHub login<sup>*</sup>:
 
 [CIRCLECI - LOGIN]
@@ -200,20 +198,20 @@ You'll receive a prompt asking if you're already added a `./circle/config.yml` f
 
 You haven't so let's go do that now.
 
-Just leave that window alone. We'll come back to it.
+Just leave that window alone.<sup>*</sup> We'll come back to it.
 
 <details>
-  <summary>Oops, what if I clicked __Start Build__?</summary>
+  <summary>* <em>Oops, what if I clicked __Start Build__?</em></summary>
   
 ---
 
-No worries, all that happened was that CircleCI tried to run your first build...
+No worries, CircleCI will just try to run your first build...
 
 [CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - FIRST BUILD BROKEN]
 
-... and couldn't, because it couldn't find a `./circle/config.yml` file in your repo.
+... and fail, because it couldn't find a `./circle/config.yml` file in your repo.
 
-We'll add that next, so the problem is soon to be rectified.
+We'll add that file next, so that problem will soon be rectified.
 
 ---
 
