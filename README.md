@@ -194,7 +194,30 @@ Click __Add Manually__:
 
 [CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - ADD CONFIG MANUALLY]
 
+You'll receive a prompt asking if you're already added a `./circle/config.yml` file to your repo:
 
+[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - READY TO GO PROMPT]
+
+You haven't so let's go do that now.
+
+Just leave that window alone. We'll come back to it.
+
+<details>
+  <summary>Oops, what if I clicked __Start Build__?</summary>
+  
+---
+
+No worries, all that happened was that CircleCI tried to run your first build...
+
+[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - FIRST BUILD BROKEN]
+
+... and couldn't, because it couldn't find a `./circle/config.yml` file in your repo.
+
+We'll add that next, so the problem is soon to be rectified.
+
+---
+
+</details>
 
 ---
 
