@@ -23,9 +23,9 @@ If you've gotten this far, we can assume:
   <dd>If not, head back to the <a href="https://github.com/afinetooth/coveralls-demo-ruby">master README</a> and <a href="https://github.com/afinetooth/coveralls-demo-ruby#which-ci-service-will-you-use">choose a different CI / branch</a>.</dd>
 </dl>
 
-# Configure your project for Coveralls & CircleCI
+# Configure your project for [Coveralls](https://coveralls.io/) & [CircleCI](https://circleci.com/)
 
-This project is configured to send test coverage results to Coveralls through CircleCI.<sup>*</sup>
+This project is configured to send test coverage results to [Coveralls](https://coveralls.io/) through [CircleCI](https://circleci.com/).<sup>*</sup>
 
 <details>
    <summary>* <em>How do we know it's working?</em></summary>
@@ -59,7 +59,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ## Config steps
 
-1. Add repo to CircleCI
+1. Add repo to [CircleCI](https://circleci.com/)
 2. Add `.circle/config.yml` to repo
 3. Add repo to [Coveralls](https://coveralls.io/)
 4. Finish [Coveralls](https://coveralls.io/) setup
