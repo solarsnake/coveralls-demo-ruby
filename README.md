@@ -265,7 +265,7 @@ spec/
 
 Now, paste the following configuration settings into your empty `.circleci/config.yml`:
 
-```
+```ruby
 version: 2.1
 
 jobs:
@@ -353,7 +353,7 @@ A successful build&mdash;albeit, without much going on.
 
 Notice those test results, which look the same as on our local machine:
 
-```
+```ruby
 bundle exec rspec 
  
 ClassOne
