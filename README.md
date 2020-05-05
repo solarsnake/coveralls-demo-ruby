@@ -164,37 +164,36 @@ After forking the project, keep this window open and refer back to the code in t
 
 To add a new public repo to [CircleCI](http://circleci.com/), __[Log in](https://https://circleci.com/vcs-authorize/)__ at [https://https://circleci.com/vcs-authorize/](https://https://circleci.com/vcs-authorize/) with your GitHub login<sup>*</sup>:
 
-[CIRCLECI - LOGIN]
+![circleci-login.png](../media/media/circleci-login.png)
 
 If you belong to multiple GitHub Organizations, select the one that applies to your project:
 
-[CIRCLECI - CHOOSE ORG]
+![circleci-choose-org.png](../media/media/circleci-choose-org.png)
 
 Then you'll see the list of GitHub projects for your organization:
 
-[CIRCLECI - ORG PROJECTS]
+![circleci-org-projects.png](../media/media/circleci-org-projects.png)
 
 Click __Set Up Project__ next to your newly forked project:
 
-[CIRCLECI - SET UP PROJECT]
+![circleci-setup-project-coveralls-demo-ruby.png](../media/media/circleci-setup-project-coveralls-demo-ruby.png)
 
 Then you'll see the New Project Set Up page for `coveralls-demo-ruby`:
 
-[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY]
+![circleci-project-ready-prompt.png](../media/media/circleci-project-ready-prompt.png)
 
 Here you have the choice to let CircleCI walk you through setting up your project, or adding your on config file manually:
-
-[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - OPTIONS FOR HOW TO PROCEED]
 
 We're going to add our config file manually because it's actually simpler and quicker, so...
 
 Click __Add Manually__:
 
-[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - ADD CONFIG MANUALLY]
+![circleci-start-project-options.png](../media/media/circleci-start-project-options.png)
 
 You'll receive a prompt asking if you're already added a `./circle/config.yml` file to your repo:
 
 [CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - READY TO GO PROMPT]
+![circleci-start-project-add-config-manually.png](../media/media/circleci-start-project-add-config-manually.png)
 
 You haven't so let's go do that now.
 
@@ -207,7 +206,7 @@ Just leave that window alone.<sup>*</sup> We'll come back to it.
 
 No worries, CircleCI will just try to run your first build...
 
-[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - FIRST BUILD BROKEN]
+![circleci-oops-first-build-broken.png](../media/media/circleci-oops-first-build-broken.png)
 
 ... and fail, because it couldn't find a `./circle/config.yml` file in your repo.
 
@@ -351,7 +350,7 @@ https://app.circleci.com/pipelines/github/<your-github-username>/<your-github-re
 
 Your first build should look something like this:
 
-__[CIRCLECI - FIRST SUCCESSFUL BUILD]__
+![circleci-first-build-success.png](../media/media/circleci-first-build-success.png)
 
 A successful build&mdash;albeit, without much going on.
 
