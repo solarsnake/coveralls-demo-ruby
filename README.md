@@ -178,7 +178,7 @@ Click __Set Up Project__ next to your newly forked project:
 
 ![circleci-setup-project-coveralls-demo-ruby.png](../media/media/circleci-setup-project-coveralls-demo-ruby.png)
 
-Then you'll see the New Project Set Up page for `coveralls-demo-ruby`:
+Then you'll see the __New Project Set Up__ page for `coveralls-demo-ruby`:
 
 ![circleci-project-ready-prompt.png](../media/media/circleci-project-ready-prompt.png)
 
