@@ -192,7 +192,6 @@ Click __Add Manually__:
 
 You'll receive a prompt asking if you're already added a `./circle/config.yml` file to your repo:
 
-[CIRCLECI - SET UP PROJECT COVERALLS-DEMO-RUBY - READY TO GO PROMPT]
 ![circleci-start-project-add-config-manually.png](../media/media/circleci-start-project-add-config-manually.png)
 
 You haven't so let's go do that now.
