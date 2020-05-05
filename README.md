@@ -192,12 +192,12 @@ You'll receive a prompt asking if you're already added a `./circle/config.yml` f
 
 ![circleci-start-project-add-config-manually.png](../media/media/circleci-start-project-add-config-manually.png)
 
-You haven't so let's go do that now.
+You haven't, so let's go do that now.
 
 Just leave that window alone.<sup>*</sup> We'll come back to it.
 
 <details>
-  <summary>* <em>Oops, what if I clicked __Start Build__?</em></summary>
+  <summary>* <em>Oops, what if I clicked <strong>Start Building</strong>?</em></summary>
   
 ---
 
