@@ -246,7 +246,7 @@ cd .circleci
 vi config.yml
 ```
 
-That's if you want to create a new file in the `vi` editor, via the command line. In m ost cases, you can simply create a folder and file by the same names in your IDE. Your choice.
+That's if you want to create a new file in the `vi` editor, via the command line. In most cases, you can simply create a folder and file by the same names in your IDE. Your choice.
 
 Then end result should just be that you have a new folder, and a new file living in that folder, sitting in the root directory of your project:
 
