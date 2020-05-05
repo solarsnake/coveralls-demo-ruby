@@ -162,7 +162,7 @@ After forking the project, keep this window open and refer back to the code in t
 
 ---
 
-To add a new public repo to [CircleCI](http://circleci.com/), __[Log in](https://circleci.com/vcs-authorize/)__ at [https://https://circleci.com/vcs-authorize/](https://circleci.com/vcs-authorize/) with your GitHub login<sup>*</sup>:
+To add a new public repo to [CircleCI](http://circleci.com/), __[Log in](https://circleci.com/vcs-authorize/)__ at [https://circleci.com/vcs-authorize/](https://circleci.com/vcs-authorize/) with your GitHub login<sup>*</sup>:
 
 ![circleci-login.png](../media/media/circleci-login.png)
 
