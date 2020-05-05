@@ -182,7 +182,7 @@ Then you'll see the __New Project Set Up__ page for `coveralls-demo-ruby`:
 
 ![circleci-project-ready-prompt.png](../media/media/circleci-project-ready-prompt.png)
 
-Here you have the choice to let CircleCI walk you through setting up your project, or adding your own config file manually. We're going to add our config file manually because it's actually simpler and quicker, so...
+Here you have the choice to let CircleCI walk you through setting up your project, or add your own config file manually. We're going to add our config file manually because in this context it's actually simpler, and quicker, so...
 
 Click __Add Manually__:
 
