@@ -229,7 +229,7 @@ __Good news, though! [CircleCI](http://circleci.com/) is now tracking your repo.
 In your working branch (the one you created when you entered `git checkout -b circle-ci`), create a new, empty file called `.circleci/config.yml`.<sup>*</sup>
 
 <details>
-  <summary>* <em>Wait, what does that `.circleci/` part in `.circleci/config.yml` mean?</em></summary>
+  <summary>* <em>Wait, what does that `.circleci/` part mean?</em></summary>
 
 ---
 
