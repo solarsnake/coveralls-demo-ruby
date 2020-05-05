@@ -480,7 +480,7 @@ __Your repo is badged!__
 
 Since you understand [how test coverage works in this project](https://github.com/afinetooth/coveralls-demo-ruby#1-understand-test-coverage-in-this-project), let's verify those same results through the [Coveralls](https://coveralls.io/) service.
 
-If you've already [configured your project to use Coveralls & Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/blob/travis/README.md#config-steps), then [Travis CI](https://travis-ci.org/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
+If you've already [configured your project to use Coveralls & CircleCI](https://github.com/afinetooth/coveralls-demo-ruby/blob/circle/README.md#config-steps), then [CircleCI](https://circleci.com/) has already pushed your first build to [Coveralls](https://coveralls.io/), and you've noted that coverage stands at 80%:
 
 __[CHANGE THIS IMAGE TO COVERALLS > CIRCLE-CI BRANCH]__
 
@@ -547,7 +547,7 @@ git commit -m "Add tests to make coverage 100%."
 git push
 ```
 
-That push will trigger a [new build at Travis CI](#):
+That push will trigger a [new build at CircleCI](#):
 
 __[CHANGE THIS IMAGE TO NEW BUILD AT CIRCLE-CI]__
 
