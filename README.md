@@ -188,7 +188,7 @@ Click __Add Manually__:
 
 ![circleci-start-project-options.png](../media/media/circleci-start-project-options.png)
 
-You'll receive a prompt asking if you're already added a `./circle/config.yml` file to your repo:
+You'll receive a prompt asking if you've already added a `./circle/config.yml` file to your repo:
 
 ![circleci-start-project-add-config-manually.png](../media/media/circleci-start-project-add-config-manually.png)
 
