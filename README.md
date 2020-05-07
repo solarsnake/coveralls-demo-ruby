@@ -15,7 +15,9 @@ bundle exec rspec
 
 ## About Coveralls
 
-[Coveralls](http://coveralls.io) is a web service that sends code coverage reports to a shared workspace so you and your team can track your projects' code coverage over time. [Coveralls](http://coveralls.io) is language- and CI-agnostic, but it lets you control whether your builds pass or fail based on code coverage metrics that you set.
+[Coveralls](http://coveralls.io) is a web service that sends code coverage reports to a shared workspace so you and your team can track your project's code coverage over time. [Coveralls](http://coveralls.io) can also post PR comments and pass / fail checks to help you control your development workflow. 
+
+[Coveralls](http://coveralls.io) is language-, SCM- and CI-agnostic, but for this project we're using Ruby and GitHub, with various CI Services depending on the branch you choose.
 
 ## How It Works
 
