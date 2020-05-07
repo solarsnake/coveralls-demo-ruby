@@ -33,9 +33,7 @@ Here's how it works:
 4. [Coveralls](http://coveralls.io) updates your account with new coverage results.
 5. (Optional) [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
 
-```
-<how it works diagram>
-```
+![How It Works - Simple case](../media/media/how-it-works-simple.png)
 
 We'll set up this project to work exactly like the above diagram, with these four (4) steps:
 
