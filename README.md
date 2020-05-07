@@ -21,7 +21,7 @@ bundle exec rspec
 
 ## How It Works
 
-Before your project gets to [Coveralls](http://coveralls.io), it must already be using a __code coverage library__ to generate coverage results. In this project, we're using ([Simplecov](https://github.com/colszowka/simplecov):
+Before your project gets to [Coveralls](http://coveralls.io), it must already be using a __code coverage library__ to generate coverage results. In this project, we're using [Simplecov](https://github.com/colszowka/simplecov):
 
 ```
 <codebase - basic requirements>
