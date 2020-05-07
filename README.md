@@ -23,7 +23,7 @@ bundle exec rspec
 
 Before your project gets to [Coveralls](http://coveralls.io), it must already be using a __code coverage library__ to generate coverage results. In this project, we're using the [Ruby](https://www.ruby-lang.org/)-based [Simplecov](https://github.com/colszowka/simplecov):
 
-![How It Works - Basic Project Requirements](../media/media/codebase.png)
+![How It Works - Basic Project Requirements](../media/media/project.png)
 
 Here's how it works:
 
