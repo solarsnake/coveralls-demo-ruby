@@ -32,8 +32,8 @@ Here's how it works:
 1. You commit changes to your repo at your SCM ([GitHub](http://github.com)).
 2. Your CI service builds your project, runs your test, and generates your code coverage report.
 3. Your CI posts those results to [Coveralls](http://coveralls.io).
-4. [Coveralls](http://coveralls.io) updates your account with new coverage results; and
-5. (Optionally) [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
+4. [Coveralls](http://coveralls.io) updates your account with new coverage results.
+5. (Optional) [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
 
 ```
 <how it works diagram>
