@@ -33,7 +33,16 @@ __Here's how it works:__
 4. [Coveralls](http://coveralls.io) updates your project with new coverage results.
 5. (Optional) [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
 
-(*__Step 6__: You decide whether to merge and deploy the new changes based on coverage stats.*)
+<details>
+  <summary><em>What then?</em></summary>
+
+---
+
+There's an implicit *__Step 6__* here, which you then deciding whether to merge, and deploy, the new changes based on coverage. This can be manual or automated, based on settings you configure at [Coveralls](http://coveralls.io). 
+
+---
+
+</details>
 
 ![How It Works - Simple case](../media/media/how-it-works-simple.png)
 
