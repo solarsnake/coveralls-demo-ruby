@@ -25,7 +25,7 @@ Before your project gets to [Coveralls](http://coveralls.io), it must already be
 
 ![How It Works - Basic Project Requirements](../media/media/project.png)
 
-Here's how it works:
+__Here's how it works:__
 
 1. You commit changes to your repo at your SCM ([GitHub](http://github.com)).
 2. Your CI service builds your project, runs your test, and generates your code coverage report.
