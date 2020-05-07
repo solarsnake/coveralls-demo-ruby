@@ -38,7 +38,7 @@ __Here's how it works:__
 
 ---
 
-There's an implicit *__Step 6__* here, which you then deciding whether to merge, and deploy, the new changes based on coverage. This can be manual or automated, based on settings you configure at [Coveralls](http://coveralls.io). 
+There's an implicit *__Step 6__* here, which is you deciding whether to merge, and deploy, the new changes based on coverage. This can be manual or automated, based on settings you configure at [Coveralls](http://coveralls.io). 
 
 ---
 
