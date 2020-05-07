@@ -29,11 +29,11 @@ Before your project gets to [Coveralls](http://coveralls.io), it must already be
 
 Here's how it works:
 
-1. You commit changes to your repo at your SCM (Github.com);
-2. Your CI service builds your project, runs your test, and generates your code coverage report; then
-3. Your CI posts those results to [Coveralls](http://coveralls.io); and
-4. [Coveralls](http://coveralls.io) updates your account with new coverage results; and, if configured to do so, 
-5. [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
+1. You commit changes to your repo at your SCM ([GitHub](http://github.com)).
+2. Your CI service builds your project, runs your test, and generates your code coverage report.
+3. Your CI posts those results to [Coveralls](http://coveralls.io).
+4. [Coveralls](http://coveralls.io) updates your account with new coverage results; and
+5. (Optionally) [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
 
 ```
 <how it works diagram>
