@@ -19,13 +19,25 @@ bundle exec rspec
 
 ## How It Works
 
-Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results ([Simplecov](https://github.com/colszowka/simplecov), in this project). Your CI service will run your tests, and your code coverage report, then post those results to [Coveralls](http://coveralls.io).
+Before your project gets to [Coveralls](http://coveralls.io), it must already be using a code coverage library to generate coverage results ([Simplecov](https://github.com/colszowka/simplecov), in this project): 
+
+```
+<codebase - basic requirements>
+```
+
+Here's how it works:
+
+1. You commit changes to your repo at your SCM (Github.com);
+2. Your CI service builds your project, runs your test, and generates your code coverage report; then
+3. Your CI posts those results to [Coveralls](http://coveralls.io); and
+4. [Coveralls](http://coveralls.io) updates your account with new coverage results; and, if configured to do so, 
+5. [Coveralls](http://coveralls.io) posts PR comments and pass/fail checks to control your development workflow.
 
 ```
 <how it works diagram>
 ```
 
-We'll set up this project to do exactly that, with these four (4) steps:
+We'll set up this project to work exactly like the above diagram, with these four (4) steps:
 
 ## Get Started
 
