@@ -236,7 +236,7 @@ Since your CI Service will be sending code coverage results to [Coveralls](http:
 Follow the branch for your CI service and we'll pick up the conversation there:
 
 1. [Travis CI](https://github.com/afinetooth/coveralls-demo-ruby/tree/travis)
-2. Circle CI
+2. [Circle CI](https://github.com/afinetooth/coveralls-demo-ruby/tree/circle)
 3. ...
 
 <details>
