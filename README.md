@@ -198,7 +198,7 @@ Just leave that window alone.<sup>*</sup> We'll come back to it.
 
 <details>
   <summary>* <em>Oops, what if I clicked <strong>Start Building</strong>?</em></summary>
-  
+
 ---
 
 No worries, CircleCI will just try to run your first build...
@@ -283,7 +283,7 @@ jobs:
       - run:
           name: Run tests
           command: bundle exec rspec
-          
+
 workflows:
   version: 2.1
   build_and_test:
@@ -354,16 +354,16 @@ A successful build&mdash;albeit, without much going on.
 Notice those test results, which look the same as on our local machine:
 
 ```ruby
-bundle exec rspec 
- 
+bundle exec rspec
+
 ClassOne
   covered
     returns 'covered'
 
-Finished in 0.00127 seconds (files took 0.11459 seconds to load) 
+Finished in 0.00127 seconds (files took 0.11459 seconds to load)
 1 example, 0 failures
 
-Coverage report generated for RSpec to /home/circleci/project/coverage. 4 / 5 LOC (80.0%) covered. 
+Coverage report generated for RSpec to /home/circleci/project/coverage. 4 / 5 LOC (80.0%) covered.
 ```
 
 That means our tests passed and, therefore, our build succeeded.
