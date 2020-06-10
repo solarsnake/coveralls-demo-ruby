@@ -268,21 +268,20 @@ Now, paste the following configuration settings into your empty `.circleci/confi
 ```ruby
 version: 2.1
 
+orbs:
+  ruby: circleci/ruby@1.0
+  coveralls: coveralls/coveralls@1.0.4
+
 jobs:
   build:
     docker:
       - image: cimg/ruby:2.6.5-node
     steps:
       - checkout
-      - run:
-          name: Install Bundler
-          command: gem install bundler:2.1.4
-      - run:
-          name: Install dependencies with bundler
-          command: bundle install
-      - run:
-          name: Run tests
-          command: bundle exec rspec
+      - ruby/install-deps
+      - ruby/rspec-test
+      - coveralls/upload:
+          path_to_lcov: ./coverage/lcov/project.lcov
 
 workflows:
   version: 2.1
