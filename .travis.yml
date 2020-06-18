@@ -9,7 +9,7 @@ branches:
   - master
 
 script:
-  - bundle exec rspec
+  - COVERALLS_NOISY=true bundle exec rspec
 
 notifications:
   email: false
