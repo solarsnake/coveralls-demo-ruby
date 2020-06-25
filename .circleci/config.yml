@@ -11,13 +11,24 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
+
   test:
+    docker:
+      - image: cimg/ruby:2.6.5-node
     steps:
       - ruby/rspec-test
-  cover:
+
+  upload_to_coveralls:
+    docker:
+      - image: cimg/ruby:2.6.5-node
     steps:
       - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
+
+  upload_to_undercover:
+    docker:
+      - image: cimg/ruby:2.6.5-node
+    steps:
       - ruby -e "$(curl -s https://undercover-ci.com/uploader.rb)" -- \
                 --repo afinetooth/coveralls-demo-ruby \
                 --commit $CIRCLE_SHA1 \
@@ -28,8 +39,21 @@ workflows:
   build_test_and_cover:
     jobs:
       - build:
+        filters:
+          branches:
+            only:
+              - circle
       - test:
-      - cover:
+        filters:
+          branches:
+            only:
+              - circle
+      - upload_to_coveralls:
+        filters:
+          branches:
+            only:
+              - circle
+      - upload_to_undercover:
         filters:
           branches:
             only:
