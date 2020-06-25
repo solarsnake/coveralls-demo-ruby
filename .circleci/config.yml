@@ -14,7 +14,12 @@ jobs:
       - ruby/rspec-test
       - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
-          
+      - undercover/upload:
+          ruby -e "$(curl -s https://undercover-ci.com/uploader.rb)" -- \
+                --repo afinetooth/coveralls-demo-ruby \
+                --commit $CIRCLE_SHA1 \
+                --lcov coverage/lcov/coveralls-demo-ruby.lcov
+
 workflows:
   version: 2.1
   build_and_test:
