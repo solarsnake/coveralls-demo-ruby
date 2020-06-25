@@ -11,7 +11,11 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps
+  test:
+    steps:
       - ruby/rspec-test
+  cover:
+    steps:
       - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
       - ruby -e "$(curl -s https://undercover-ci.com/uploader.rb)" -- \
@@ -21,9 +25,11 @@ jobs:
 
 workflows:
   version: 2.1
-  build_and_test:
+  build_test_and_cover:
     jobs:
       - build:
+      - test:
+      - cover:
         filters:
           branches:
             only:
