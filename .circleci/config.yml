@@ -7,37 +7,20 @@ orbs:
 jobs:
   build:
     docker:
-      -
-        image: "cimg/ruby:2.6.5-node"
+      - image: cimg/ruby:2.6.5-node
     steps:
       - checkout
       - ruby/install-deps
-  test:
-    docker:
-      -
-        image: "cimg/ruby:2.6.5-node"
-    steps:
       - ruby/rspec-test
-  upload_to_coveralls:
-    docker:
-      -
-        image: "cimg/ruby:2.6.5-node"
-    steps:
-      -
-        coveralls/upload:
+      - coveralls/upload:
           path_to_lcov: ./coverage/lcov/project.lcov
-  upload_to_undercover:
-    docker:
-      -
-        image: "cimg/ruby:2.6.5-node"
-    run:
-      - "ruby -e \"$(curl -s https://undercover-ci.com/uploader.rb)\" -- \\ --repo afinetooth/coveralls-demo-ruby \\ --commit $CIRCLE_SHA1 \\ --lcov coverage/lcov/coveralls-demo-ruby.lcov"
 
 workflows:
   version: 2.1
-  build_test_and_cover:
+  build_and_test:
     jobs:
-      - build
-      - test
-      - upload_to_coveralls
-      - upload_to_undercover
+      - build:
+        filters:
+          branches:
+            only:
+              - circle
