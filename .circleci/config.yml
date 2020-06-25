@@ -39,23 +39,7 @@ workflows:
   version: 2.1
   build_test_and_cover:
     jobs:
-      - build:
-        filters:
-          branches:
-            only:
-              - circle
-      - test:
-        filters:
-          branches:
-            only:
-              - circle
-      - upload_to_coveralls:
-        filters:
-          branches:
-            only:
-              - circle
-      - upload_to_undercover:
-        filters:
-          branches:
-            only:
-              - circle
+      - build
+      - test
+      - upload_to_coveralls
+      - upload_to_undercover
