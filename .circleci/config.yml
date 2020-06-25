@@ -28,9 +28,8 @@ jobs:
   upload_to_undercover:
     docker:
       - image: cimg/ruby:2.6.5-node
-    steps:
-      - run:
-        - ruby -e "$(curl -s https://undercover-ci.com/uploader.rb)" -- \
+    run:
+      - ruby -e "$(curl -s https://undercover-ci.com/uploader.rb)" -- \
                 --repo afinetooth/coveralls-demo-ruby \
                 --commit $CIRCLE_SHA1 \
                 --lcov coverage/lcov/coveralls-demo-ruby.lcov
