@@ -13,7 +13,7 @@ jobs:
       - ruby/install-deps
       - ruby/rspec-test
       - coveralls/upload:
-        path_to_lcov: ./coverage/lcov/project.lcov
+          path_to_lcov: ./coverage/lcov/project.lcov
     parallelism: 4
 
 workflows:
