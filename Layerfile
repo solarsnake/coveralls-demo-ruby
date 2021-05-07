@@ -1,0 +1,29 @@
+#Use an Ubuntu 18.04 base for our staging server
+FROM vm/ubuntu:18.04
+
+# To note: Layerfiles create entire VMs, *not* containers!
+
+# Install ruby
+RUN git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+ENV PATH=$HOME/.rbenv/bin:$PATH
+RUN echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
+RUN git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+RUN echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+
+RUN rbenv install 2.7.1
+RUN rbenv global 2.7.1
+ENV PATH=$HOME/.rbenv/versions/2.7.1/bin:$PATH
+RUN echo Using ruby version: `ruby -v`
+
+# This line copies the repository to /root in the runner
+COPY . .
+RUN ls
+
+# Install bundler and let bundler install dependencies
+RUN gem install bundler
+RUN bundle install
+
+# Run rspec tests - This will send coverage to coveralls because we're using the coveralls-ruby integration for Ruby projects
+# coveralls-ruby hooks into your call to rspec and sends coverage to https://coveralls.io/api/v1.jobs on your behalf
+RUN bundle exec rspec
