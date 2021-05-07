@@ -24,6 +24,15 @@ RUN ls
 RUN gem install bundler
 RUN bundle install
 
-# Run rspec tests - This will send coverage to coveralls because we're using the coveralls-ruby integration for Ruby projects
+# Set up environment variables for Coveralls
+ENV CI_NAME=layerci \
+   CI_BUILD_NUMBER=$LAYERCI_JOB_ID \
+   CI_BUILD_URL="https://layerci.com/$LAYERCI_ORG_NAME/commits?query=repo%3A$LAYERCI_REPO_NAME+id%3A$LAYERCI_JOB_ID" \
+   CI_BRANCH="$LAYERCI_BRANCH" \
+   CI_PULL_REQUEST="$LAYERCI_PULL_REQUEST"
+
+SECRET ENV COVERALLS_REPO_TOKEN
+
+# Run rspec tests - This command also sends coverage to Coveralls because we're using the coveralls-ruby integration for Ruby projects
 # coveralls-ruby hooks into your call to rspec and sends coverage to https://coveralls.io/api/v1.jobs on your behalf
 RUN bundle exec rspec
