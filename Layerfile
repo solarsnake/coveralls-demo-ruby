@@ -4,13 +4,10 @@ FROM vm/ubuntu:18.04
 # To note: Layerfiles create entire VMs, *not* containers!
 
 # install rails dependencies
-RUN curl -fSsL https://deb.nodesource.com/setup_12.x | bash && \
-    curl -fSsL https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && \
+RUN apt-get update && \
     apt-get install git-core zlib1g-dev build-essential libssl-dev \
     libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev \
-    libcurl4-openssl-dev software-properties-common libffi-dev nodejs yarn
+    libcurl4-openssl-dev software-properties-common libffi-dev
 
 # Install ruby
 RUN git clone https://github.com/rbenv/rbenv.git ~/.rbenv
