@@ -1,12 +1,6 @@
 language: ruby
 rvm:
-- 2.6.3
-
-branches:
-  only:
-  - travis
-  except:
-  - master
+- 2.6.6
 
 script:
   - bundle exec rspec
