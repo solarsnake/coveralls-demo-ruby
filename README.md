@@ -1,4 +1,4 @@
-# coveralls-ruby-demo
+[![Coverage Status](https://coveralls.io/repos/github/afinetooth/coveralls-demo-ruby/badge.svg?branch=master)](https://coveralls.io/github/afinetooth/coveralls-demo-ruby?branch=master)
 
 [Coveralls](https://coveralls.io/) demo project, using:
 
@@ -10,7 +10,6 @@
 
 ```
 bundle install
-bundle exec rspec
 ```
 
 ## About Coveralls
