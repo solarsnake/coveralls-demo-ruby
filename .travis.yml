@@ -7,3 +7,8 @@ script:
 
 notifications:
   email: false
+
+env:
+  global:
+     - COVERALLS_REPO_TOKEN=x8iQGDtnVHd8n53pZo5mPY98al8AS2iLC
+     - COVERALLS_ENDPOINT=https://ec2-3-137-187-77.us-east-2.compute.amazonaws.com
