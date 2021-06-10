@@ -54,7 +54,7 @@ We'll set up this project to work exactly like the above diagram, with these fou
 3. Add tests and see coverage change
 4. Configure this project to use [Coveralls](http://coveralls.io)
 
-## 1. Understand test coverage in this project
+## 1. Understand the test coverage in this project
 
 <details>
   <summary>Do it.</summary>
